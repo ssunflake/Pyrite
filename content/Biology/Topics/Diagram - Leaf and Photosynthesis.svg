@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Leaf Structure and Photosynthesis — IGCSE Biology</text>
+
+  <!-- ══════ LEAF CROSS SECTION ══════ -->
+  <text x="340" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#a6e3a1">Leaf Cross-Section</text>
+
+  <!-- Upper epidermis -->
+  <rect x="60" y="72" width="560" height="22" rx="3" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="645" y="87" font-size="10" fill="#f9e2af">Upper epidermis</text>
+  <text x="645" y="99" font-size="9" fill="#a6adc8">(transparent, waxy cuticle)</text>
+
+  <!-- Palisade mesophyll -->
+  <rect x="60" y="94" width="560" height="75" rx="0" fill="#a6e3a1" fill-opacity="0.08" stroke="#a6e3a1" stroke-width="1"/>
+  <!-- Palisade cells (tall rectangles packed with chloroplasts) -->
+  <rect x="65" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <circle cx="84" cy="108" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="74" cy="120" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="93" cy="125" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="79" cy="137" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="92" cy="148" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+
+  <rect x="108" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <circle cx="127" cy="110" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="115" cy="125" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="135" cy="138" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="120" cy="150" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+
+  <rect x="151" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <circle cx="170" cy="108" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="158" cy="122" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="175" cy="135" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="162" cy="148" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+
+  <rect x="194" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <circle cx="213" cy="112" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="200" cy="128" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="218" cy="142" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+
+  <rect x="237" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <circle cx="256" cy="108" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="244" cy="122" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="260" cy="140" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="248" cy="153" r="5" fill="#a6e3a1" fill-opacity="0.7"/>
+
+  <rect x="280" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <rect x="323" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <rect x="366" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <rect x="409" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <rect x="452" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <rect x="495" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <rect x="538" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+  <rect x="581" y="96" width="38" height="70" rx="2" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1"/>
+
+  <text x="645" y="120" font-size="10" fill="#a6e3a1">Palisade mesophyll</text>
+  <text x="645" y="133" font-size="9" fill="#a6adc8">(packed with chloroplasts;</text>
+  <text x="645" y="145" font-size="9" fill="#a6adc8">max photosynthesis)</text>
+
+  <!-- Spongy mesophyll (irregular cells with air spaces) -->
+  <rect x="60" y="169" width="560" height="80" rx="0" fill="#89b4fa" fill-opacity="0.04" stroke="#89b4fa" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Irregular spongy cells -->
+  <ellipse cx="90" cy="195" rx="20" ry="14" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+  <ellipse cx="145" cy="208" rx="22" ry="12" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+  <ellipse cx="195" cy="193" rx="18" ry="15" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+  <ellipse cx="250" cy="210" rx="20" ry="13" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+  <ellipse cx="310" cy="195" rx="22" ry="14" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+  <ellipse cx="370" cy="208" rx="18" ry="12" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+  <ellipse cx="420" cy="192" rx="20" ry="15" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+  <ellipse cx="480" cy="207" rx="22" ry="12" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+  <ellipse cx="540" cy="193" rx="18" ry="14" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+  <ellipse cx="600" cy="206" rx="16" ry="13" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1"/>
+
+  <text x="645" y="195" font-size="10" fill="#89b4fa">Spongy mesophyll</text>
+  <text x="645" y="208" font-size="9" fill="#a6adc8">(air spaces for gas</text>
+  <text x="645" y="220" font-size="9" fill="#a6adc8">diffusion)</text>
+
+  <!-- Vascular bundle (xylem + phloem) -->
+  <ellipse cx="350" cy="215" rx="30" ry="20" fill="#fab387" fill-opacity="0.3" stroke="#fab387" stroke-width="2"/>
+  <text x="350" y="218" text-anchor="middle" font-size="9" fill="#fab387">vascular</text>
+  <text x="350" y="229" text-anchor="middle" font-size="9" fill="#fab387">bundle</text>
+  <line x1="350" y1="235" x2="350" y2="248" stroke="#fab387" stroke-width="1"/>
+  <text x="350" y="260" text-anchor="middle" font-size="9" fill="#fab387">xylem + phloem</text>
+
+  <!-- Lower epidermis + stomata -->
+  <rect x="60" y="249" width="560" height="22" rx="3" fill="#f9e2af" fill-opacity="0.2" stroke="#f9e2af" stroke-width="1.5"/>
+  <!-- Stomata openings -->
+  <ellipse cx="130" cy="260" rx="8" ry="4" fill="#1e1e2e" stroke="#a6adc8" stroke-width="1"/>
+  <ellipse cx="260" cy="260" rx="8" ry="4" fill="#1e1e2e" stroke="#a6adc8" stroke-width="1"/>
+  <ellipse cx="400" cy="260" rx="8" ry="4" fill="#1e1e2e" stroke="#a6adc8" stroke-width="1"/>
+  <ellipse cx="530" cy="260" rx="8" ry="4" fill="#1e1e2e" stroke="#a6adc8" stroke-width="1"/>
+  <text x="645" y="258" font-size="10" fill="#f9e2af">Lower epidermis</text>
+  <text x="645" y="271" font-size="9" fill="#a6adc8">(stomata + guard cells)</text>
+
+  <!-- Gas arrows through stomata -->
+  <defs>
+    <marker id="aG" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><polygon points="0,0 6,2.5 0,5" fill="#a6e3a1"/></marker>
+    <marker id="aR" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><polygon points="0,0 6,2.5 0,5" fill="#f38ba8"/></marker>
+    <marker id="aB" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><polygon points="0,0 6,2.5 0,5" fill="#89b4fa"/></marker>
+  </defs>
+  <!-- CO2 in -->
+  <line x1="130" y1="295" x2="130" y2="273" stroke="#a6e3a1" stroke-width="2" marker-end="url(#aG)"/>
+  <text x="105" y="308" font-size="9" fill="#a6e3a1">CO₂ in</text>
+  <!-- O2 out -->
+  <line x1="260" y1="273" x2="260" y2="295" stroke="#f38ba8" stroke-width="2" marker-end="url(#aR)"/>
+  <text x="240" y="308" font-size="9" fill="#f38ba8">O₂ out</text>
+  <!-- H2O out -->
+  <line x1="400" y1="273" x2="400" y2="295" stroke="#89b4fa" stroke-width="2" marker-end="url(#aB)"/>
+  <text x="375" y="308" font-size="9" fill="#89b4fa">H₂O out</text>
+  <text x="372" y="319" font-size="9" fill="#89b4fa">(transpiration)</text>
+
+  <!-- Light arrows coming in -->
+  <line x1="100" y1="30" x2="100" y2="68" stroke="#f9e2af" stroke-width="2" marker-end="url(#aG)" stroke-dasharray="4,2"/>
+  <line x1="160" y1="30" x2="160" y2="68" stroke="#f9e2af" stroke-width="2" marker-end="url(#aG)" stroke-dasharray="4,2"/>
+  <line x1="220" y1="30" x2="220" y2="68" stroke="#f9e2af" stroke-width="2" marker-end="url(#aG)" stroke-dasharray="4,2"/>
+  <text x="175" y="28" text-anchor="middle" font-size="10" fill="#f9e2af">☀ Light energy</text>
+
+  <!-- ══════ PHOTOSYNTHESIS EQUATION BOX ══════ -->
+  <rect x="60" y="335" width="565" height="130" rx="8" fill="#181825"/>
+  <text x="342" y="356" text-anchor="middle" font-size="13" font-weight="bold" fill="#cdd6f4">Photosynthesis</text>
+  <text x="342" y="380" text-anchor="middle" font-size="14" fill="#a6e3a1">6CO₂  +  6H₂O  →  C₆H₁₂O₆  +  6O₂</text>
+  <text x="342" y="398" text-anchor="middle" font-size="11" fill="#a6adc8">carbon dioxide  +  water  →  glucose  +  oxygen</text>
+  <text x="342" y="415" text-anchor="middle" font-size="10" fill="#f9e2af">Requires: light energy + chlorophyll</text>
+
+  <!-- Limiting factors mini graph -->
+  <text x="342" y="437" text-anchor="middle" font-size="10" fill="#a6adc8">Limiting factors: light intensity | CO₂ concentration | temperature</text>
+  <text x="342" y="454" text-anchor="middle" font-size="10" fill="#cba6f7">Uses of glucose: respiration | starch (storage) | cellulose (cell walls) | protein synthesis | fats</text>
+</svg>

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Atomic Structure and Bonding — IGCSE Chemistry</text>
+
+  <!-- ══ ATOM DIAGRAM (SODIUM) ══ -->
+  <text x="130" y="58" text-anchor="middle" font-size="13" font-weight="bold" fill="#f9e2af">Sodium Atom — ²³₁₁Na (2,8,1)</text>
+
+  <!-- Nucleus -->
+  <circle cx="130" cy="200" r="28" fill="#f38ba8" fill-opacity="0.4" stroke="#f38ba8" stroke-width="2"/>
+  <text x="130" y="197" text-anchor="middle" font-size="10" fill="#cdd6f4" font-weight="bold">11p</text>
+  <text x="130" y="210" text-anchor="middle" font-size="10" fill="#cdd6f4">12n</text>
+
+  <!-- Shell 1 (2e) -->
+  <circle cx="130" cy="200" r="55" fill="none" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="130" cy="145" r="7" fill="#89b4fa"/>
+  <circle cx="130" cy="255" r="7" fill="#89b4fa"/>
+  <text x="90" y="148" text-anchor="middle" font-size="9" fill="#f9e2af">e⁻</text>
+  <text x="90" y="258" text-anchor="middle" font-size="9" fill="#f9e2af">e⁻</text>
+  <text x="60" y="155" text-anchor="middle" font-size="9" fill="#f9e2af">Shell 1</text>
+  <text x="60" y="167" text-anchor="middle" font-size="9" fill="#a6adc8">(2 electrons)</text>
+
+  <!-- Shell 2 (8e) -->
+  <circle cx="130" cy="200" r="95" fill="none" stroke="#a6e3a1" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="130" cy="105" r="7" fill="#89b4fa"/>
+  <circle cx="195" cy="135" r="7" fill="#89b4fa"/>
+  <circle cx="220" cy="200" r="7" fill="#89b4fa"/>
+  <circle cx="195" cy="265" r="7" fill="#89b4fa"/>
+  <circle cx="130" cy="295" r="7" fill="#89b4fa"/>
+  <circle cx="65" cy="265" r="7" fill="#89b4fa"/>
+  <circle cx="40" cy="200" r="7" fill="#89b4fa"/>
+  <circle cx="65" cy="135" r="7" fill="#89b4fa"/>
+  <text x="230" y="115" text-anchor="start" font-size="9" fill="#a6e3a1">Shell 2 (8e)</text>
+
+  <!-- Shell 3 (1e) -->
+  <circle cx="130" cy="200" r="135" fill="none" stroke="#cba6f7" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="130" cy="65" r="7" fill="#89b4fa" stroke="#f9e2af" stroke-width="2"/>
+  <text x="150" y="65" font-size="10" fill="#cba6f7">1 outer e⁻</text>
+  <text x="150" y="78" font-size="9" fill="#a6adc8">(valence e⁻)</text>
+  <text x="240" y="80" text-anchor="start" font-size="9" fill="#cba6f7">Shell 3 (1e)</text>
+
+  <!-- Labels -->
+  <text x="130" y="345" text-anchor="middle" font-size="10" fill="#a6adc8">Config: 2,8,1 | Period 3, Group 1</text>
+
+  <!-- ══ COVALENT BONDING (H2O) ══ -->
+  <text x="430" y="58" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">Covalent Bond — H₂O</text>
+  <rect x="310" y="68" width="240" height="195" rx="8" fill="#181825"/>
+
+  <!-- Oxygen circle (big) -->
+  <circle cx="430" cy="185" r="55" fill="#f38ba8" fill-opacity="0.15" stroke="#f38ba8" stroke-width="2"/>
+  <text x="430" y="188" text-anchor="middle" font-size="11" fill="#f38ba8">O</text>
+
+  <!-- Lone pairs on O -->
+  <text x="430" y="138" text-anchor="middle" font-size="16" fill="#f38ba8">∶</text>
+  <text x="490" y="175" text-anchor="middle" font-size="16" fill="#f38ba8">∶</text>
+
+  <!-- H left -->
+  <circle cx="335" cy="205" r="30" fill="#89b4fa" fill-opacity="0.15" stroke="#89b4fa" stroke-width="2"/>
+  <text x="335" y="209" text-anchor="middle" font-size="11" fill="#89b4fa">H</text>
+
+  <!-- H right -->
+  <circle cx="525" cy="205" r="30" fill="#89b4fa" fill-opacity="0.15" stroke="#89b4fa" stroke-width="2"/>
+  <text x="525" y="209" text-anchor="middle" font-size="11" fill="#89b4fa">H</text>
+
+  <!-- Shared electrons (bond) -->
+  <circle cx="373" cy="200" r="6" fill="#f9e2af"/>
+  <circle cx="362" cy="200" r="6" fill="#89b4fa"/>
+  <circle cx="487" cy="200" r="6" fill="#f9e2af"/>
+  <circle cx="498" cy="200" r="6" fill="#89b4fa"/>
+
+  <text x="355" y="248" text-anchor="middle" font-size="9" fill="#f9e2af">shared pair</text>
+  <text x="510" y="248" text-anchor="middle" font-size="9" fill="#f9e2af">shared pair</text>
+  <text x="430" y="258" text-anchor="middle" font-size="10" fill="#cdd6f4">Each shared pair = 1 covalent bond</text>
+
+  <!-- ══ IONIC BONDING (NaCl) ══ -->
+  <text x="430" y="295" text-anchor="middle" font-size="13" font-weight="bold" fill="#a6e3a1">Ionic Bond — NaCl</text>
+  <rect x="310" y="305" width="240" height="155" rx="8" fill="#181825"/>
+
+  <!-- Na atom -->
+  <circle cx="360" cy="375" r="35" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="360" y="370" text-anchor="middle" font-size="11" fill="#a6e3a1">Na</text>
+  <text x="360" y="384" text-anchor="middle" font-size="9" fill="#a6adc8">2,8,1</text>
+  <circle cx="360" cy="340" r="6" fill="#89b4fa" stroke="#f9e2af" stroke-width="1.5"/>
+
+  <!-- Arrow: e⁻ transfer -->
+  <defs><marker id="arrTr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#f9e2af"/></marker></defs>
+  <line x1="385" y1="358" x2="415" y2="358" stroke="#f9e2af" stroke-width="2" marker-end="url(#arrTr)"/>
+  <text x="400" y="350" text-anchor="middle" font-size="10" fill="#f9e2af">e⁻</text>
+
+  <!-- Cl atom -->
+  <circle cx="470" cy="375" r="40" fill="#cba6f7" fill-opacity="0.15" stroke="#cba6f7" stroke-width="2"/>
+  <text x="470" y="370" text-anchor="middle" font-size="11" fill="#cba6f7">Cl</text>
+  <text x="470" y="384" text-anchor="middle" font-size="9" fill="#a6adc8">2,8,7</text>
+
+  <!-- Resulting ions -->
+  <text x="340" y="428" text-anchor="middle" font-size="11" fill="#a6e3a1">Na⁺</text>
+  <text x="340" y="443" text-anchor="middle" font-size="9" fill="#a6adc8">(2,8)</text>
+  <text x="370" y="436" text-anchor="middle" font-size="13" fill="#cdd6f4">+</text>
+  <text x="400" y="428" text-anchor="middle" font-size="11" fill="#cba6f7">Cl⁻</text>
+  <text x="400" y="443" text-anchor="middle" font-size="9" fill="#a6adc8">(2,8,8)</text>
+  <text x="435" y="435" text-anchor="middle" font-size="11" fill="#f9e2af">→ electrostatic</text>
+  <text x="435" y="448" text-anchor="middle" font-size="11" fill="#f9e2af">attraction</text>
+
+  <!-- ══ METALLIC BONDING ══ -->
+  <text x="760" y="58" text-anchor="middle" font-size="13" font-weight="bold" fill="#fab387">Metallic Bonding</text>
+  <rect x="580" y="68" width="360" height="240" rx="8" fill="#181825"/>
+
+  <!-- Metal ion lattice -->
+  <circle cx="635" cy="120" r="18" fill="#fab387" fill-opacity="0.5" stroke="#fab387" stroke-width="1.5"/>
+  <text x="635" y="124" text-anchor="middle" font-size="9" fill="#1e1e2e">M⁺</text>
+  <circle cx="700" cy="120" r="18" fill="#fab387" fill-opacity="0.5" stroke="#fab387" stroke-width="1.5"/>
+  <text x="700" y="124" text-anchor="middle" font-size="9" fill="#1e1e2e">M⁺</text>
+  <circle cx="765" cy="120" r="18" fill="#fab387" fill-opacity="0.5" stroke="#fab387" stroke-width="1.5"/>
+  <text x="765" y="124" text-anchor="middle" font-size="9" fill="#1e1e2e">M⁺</text>
+  <circle cx="830" cy="120" r="18" fill="#fab387" fill-opacity="0.5" stroke="#fab387" stroke-width="1.5"/>
+  <text x="830" y="124" text-anchor="middle" font-size="9" fill="#1e1e2e">M⁺</text>
+
+  <circle cx="635" cy="185" r="18" fill="#fab387" fill-opacity="0.5" stroke="#fab387" stroke-width="1.5"/>
+  <text x="635" y="189" text-anchor="middle" font-size="9" fill="#1e1e2e">M⁺</text>
+  <circle cx="700" cy="185" r="18" fill="#fab387" fill-opacity="0.5" stroke="#fab387" stroke-width="1.5"/>
+  <text x="700" y="189" text-anchor="middle" font-size="9" fill="#1e1e2e">M⁺</text>
+  <circle cx="765" cy="185" r="18" fill="#fab387" fill-opacity="0.5" stroke="#fab387" stroke-width="1.5"/>
+  <text x="765" y="189" text-anchor="middle" font-size="9" fill="#1e1e2e">M⁺</text>
+  <circle cx="830" cy="185" r="18" fill="#fab387" fill-opacity="0.5" stroke="#fab387" stroke-width="1.5"/>
+  <text x="830" y="189" text-anchor="middle" font-size="9" fill="#1e1e2e">M⁺</text>
+
+  <!-- Delocalised electrons -->
+  <circle cx="650" cy="155" r="5" fill="#89b4fa"/>
+  <circle cx="718" cy="148" r="5" fill="#89b4fa"/>
+  <circle cx="782" cy="155" r="5" fill="#89b4fa"/>
+  <circle cx="845" cy="150" r="5" fill="#89b4fa"/>
+  <circle cx="660" cy="220" r="5" fill="#89b4fa"/>
+  <circle cx="730" cy="215" r="5" fill="#89b4fa"/>
+  <circle cx="800" cy="220" r="5" fill="#89b4fa"/>
+
+  <text x="760" y="240" text-anchor="middle" font-size="10" fill="#89b4fa">Sea of delocalised electrons (e⁻)</text>
+  <text x="760" y="255" text-anchor="middle" font-size="10" fill="#fab387">M⁺ ion lattice — regular structure</text>
+  <text x="760" y="272" text-anchor="middle" font-size="10" fill="#cdd6f4">Electrostatic attraction between M⁺ and e⁻</text>
+  <text x="760" y="290" text-anchor="middle" font-size="9" fill="#a6adc8">= metallic bond</text>
+
+  <!-- Properties resulting -->
+  <rect x="580" y="320" width="360" height="140" rx="8" fill="#313244"/>
+  <text x="760" y="340" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Metallic Bond → Properties</text>
+  <text x="590" y="358" font-size="10" fill="#89b4fa">✓ Conducts electricity</text>
+  <text x="590" y="372" font-size="9" fill="#a6adc8">  Delocalised e⁻ move freely and carry charge</text>
+  <text x="590" y="390" font-size="10" fill="#89b4fa">✓ Malleable / ductile</text>
+  <text x="590" y="404" font-size="9" fill="#a6adc8">  Ion layers slide over each other (bond not broken)</text>
+  <text x="590" y="422" font-size="10" fill="#89b4fa">✓ High melting point</text>
+  <text x="590" y="436" font-size="9" fill="#a6adc8">  Strong attraction between ions and e⁻</text>
+  <text x="590" y="452" font-size="10" fill="#89b4fa">✓ Shiny (lustrous)</text>
+</svg>

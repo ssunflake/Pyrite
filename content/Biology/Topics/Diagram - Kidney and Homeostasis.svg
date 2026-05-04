@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Kidney Nephron and Homeostasis — IGCSE Biology</text>
+
+  <!-- ══════ NEPHRON DIAGRAM ══════ -->
+  <text x="270" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">The Nephron</text>
+
+  <!-- Glomerulus (knot of capillaries) -->
+  <circle cx="160" cy="110" r="35" fill="#f38ba8" fill-opacity="0.2" stroke="#f38ba8" stroke-width="2.5"/>
+  <text x="160" y="108" text-anchor="middle" font-size="10" fill="#f38ba8">Glomerulus</text>
+  <text x="160" y="120" text-anchor="middle" font-size="9" fill="#a6adc8">(capillary knot)</text>
+
+  <!-- Bowman's capsule -->
+  <circle cx="160" cy="110" r="50" fill="none" stroke="#f9e2af" stroke-width="2"/>
+  <text x="95" y="72" text-anchor="end" font-size="10" fill="#f9e2af">Bowman's</text>
+  <text x="95" y="84" text-anchor="end" font-size="10" fill="#f9e2af">capsule</text>
+
+  <!-- STAGE 1: Ultrafiltration label -->
+  <rect x="20" y="130" width="160" height="50" rx="5" fill="#313244"/>
+  <text x="100" y="148" text-anchor="middle" font-size="10" font-weight="bold" fill="#f38ba8">① Ultrafiltration</text>
+  <text x="100" y="162" text-anchor="middle" font-size="9" fill="#a6adc8">High pressure → glucose,</text>
+  <text x="100" y="174" text-anchor="middle" font-size="9" fill="#a6adc8">urea, water → capsule</text>
+
+  <!-- Proximal convoluted tubule -->
+  <path d="M195,110 C220,95 250,90 270,100 C295,112 300,135 285,150 C270,165 245,165 230,155 C215,145 215,125 230,120"
+        fill="none" stroke="#a6e3a1" stroke-width="3"/>
+  <text x="265" y="85" text-anchor="middle" font-size="10" fill="#a6e3a1">Proximal convoluted</text>
+  <text x="265" y="97" text-anchor="middle" font-size="10" fill="#a6e3a1">tubule (PCT)</text>
+
+  <!-- STAGE 2 label -->
+  <rect x="310" y="80" width="160" height="62" rx="5" fill="#313244"/>
+  <text x="390" y="98" text-anchor="middle" font-size="10" font-weight="bold" fill="#a6e3a1">② Selective Reabsorption</text>
+  <text x="390" y="112" text-anchor="middle" font-size="9" fill="#a6adc8">ALL glucose reabsorbed</text>
+  <text x="390" y="125" text-anchor="middle" font-size="9" fill="#a6adc8">ALL amino acids reabsorbed</text>
+  <text x="390" y="138" text-anchor="middle" font-size="9" fill="#a6adc8">Water + ions reabsorbed</text>
+
+  <!-- Loop of Henle (U-shape going down) -->
+  <path d="M228,155 C228,175 230,200 235,220 C240,240 248,260 255,280 C258,295 258,320 255,335"
+        fill="none" stroke="#89b4fa" stroke-width="2.5"/>
+  <!-- Bottom of loop -->
+  <path d="M255,335 C257,345 263,350 270,348 C277,346 280,338 275,330"
+        fill="none" stroke="#89b4fa" stroke-width="2.5"/>
+  <!-- Up limb -->
+  <path d="M275,330 C278,315 280,295 280,275 C280,255 278,235 275,215 C272,195 270,175 270,160"
+        fill="none" stroke="#89b4fa" stroke-width="2.5"/>
+  <text x="220" y="260" text-anchor="end" font-size="10" fill="#89b4fa">Loop of</text>
+  <text x="220" y="272" text-anchor="end" font-size="10" fill="#89b4fa">Henle</text>
+  <text x="220" y="285" text-anchor="end" font-size="9" fill="#a6adc8">(conc. gradient</text>
+  <text x="220" y="297" text-anchor="end" font-size="9" fill="#a6adc8">in medulla)</text>
+
+  <!-- Distal convoluted tubule -->
+  <path d="M270,160 C295,148 320,148 340,158 C360,168 365,188 350,200 C335,212 310,212 295,200"
+        fill="none" stroke="#cba6f7" stroke-width="2.5"/>
+  <text x="330" y="145" text-anchor="middle" font-size="10" fill="#cba6f7">DCT</text>
+
+  <!-- Collecting duct -->
+  <line x1="295" y1="200" x2="295" y2="350" stroke="#fab387" stroke-width="3"/>
+  <text x="310" y="280" font-size="10" fill="#fab387">Collecting</text>
+  <text x="310" y="293" font-size="10" fill="#fab387">duct</text>
+
+  <!-- STAGE 3: ADH -->
+  <rect x="330" y="280" width="175" height="62" rx="5" fill="#313244"/>
+  <text x="417" y="298" text-anchor="middle" font-size="10" font-weight="bold" fill="#fab387">③ ADH control</text>
+  <text x="417" y="312" text-anchor="middle" font-size="9" fill="#a6adc8">More ADH → more water</text>
+  <text x="417" y="325" text-anchor="middle" font-size="9" fill="#a6adc8">reabsorbed → conc. urine</text>
+  <text x="417" y="338" text-anchor="middle" font-size="9" fill="#a6adc8">Less ADH → dilute urine</text>
+
+  <!-- Arrow to renal pelvis -->
+  <line x1="295" y1="350" x2="295" y2="380" stroke="#fab387" stroke-width="2.5"/>
+  <text x="295" y="395" text-anchor="middle" font-size="10" fill="#a6adc8">→ ureter → bladder → urine</text>
+
+  <!-- Blood supply arrows -->
+  <!-- Afferent arteriole -->
+  <line x1="100" y1="110" x2="123" y2="110" stroke="#f38ba8" stroke-width="2"/>
+  <polygon points="121,106 130,110 121,114" fill="#f38ba8"/>
+  <text x="65" y="107" text-anchor="middle" font-size="9" fill="#f38ba8">afferent</text>
+  <text x="65" y="118" text-anchor="middle" font-size="9" fill="#f38ba8">arteriole</text>
+  <!-- Efferent arteriole -->
+  <line x1="130" y1="80" x2="110" y2="68" stroke="#89b4fa" stroke-width="2"/>
+  <polygon points="112,70 103,65 108,74" fill="#89b4fa"/>
+  <text x="65" y="67" text-anchor="middle" font-size="9" fill="#89b4fa">efferent</text>
+  <text x="65" y="78" text-anchor="middle" font-size="9" fill="#89b4fa">arteriole</text>
+  <text x="65" y="89" text-anchor="middle" font-size="8" fill="#a6adc8">(narrower → high P)</text>
+
+  <!-- ══════ HOMEOSTASIS - ADH / Blood glucose ══════ -->
+  <text x="700" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#cdd6f4">Negative Feedback</text>
+
+  <!-- Blood glucose regulation -->
+  <text x="700" y="78" text-anchor="middle" font-size="11" font-weight="bold" fill="#f9e2af">Blood Glucose Regulation</text>
+
+  <!-- Central: blood glucose -->
+  <rect x="620" y="88" width="160" height="45" rx="6" fill="#f9e2af" fill-opacity="0.1" stroke="#f9e2af" stroke-width="2"/>
+  <text x="700" y="108" text-anchor="middle" font-size="11" fill="#f9e2af">Blood Glucose</text>
+  <text x="700" y="123" text-anchor="middle" font-size="10" fill="#a6adc8">Normal: ~5 mmol/L</text>
+
+  <!-- Too HIGH -->
+  <rect x="520" y="165" width="140" height="70" rx="6" fill="#f38ba8" fill-opacity="0.12" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="590" y="183" text-anchor="middle" font-size="10" font-weight="bold" fill="#f38ba8">TOO HIGH ↑</text>
+  <text x="590" y="198" text-anchor="middle" font-size="9" fill="#a6adc8">(after eating)</text>
+  <text x="590" y="212" text-anchor="middle" font-size="10" fill="#f9e2af">INSULIN released</text>
+  <text x="590" y="225" text-anchor="middle" font-size="9" fill="#a6adc8">from β cells, pancreas</text>
+
+  <!-- Arrow: BG high → insulin -->
+  <line x1="640" y1="133" x2="605" y2="163" stroke="#f38ba8" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Too LOW -->
+  <rect x="740" y="165" width="140" height="70" rx="6" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="810" y="183" text-anchor="middle" font-size="10" font-weight="bold" fill="#a6e3a1">TOO LOW ↓</text>
+  <text x="810" y="198" text-anchor="middle" font-size="9" fill="#a6adc8">(between meals)</text>
+  <text x="810" y="212" text-anchor="middle" font-size="10" fill="#f9e2af">GLUCAGON released</text>
+  <text x="810" y="225" text-anchor="middle" font-size="9" fill="#a6adc8">from α cells, pancreas</text>
+
+  <!-- Arrow: BG low → glucagon -->
+  <line x1="760" y1="133" x2="795" y2="163" stroke="#a6e3a1" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Effects boxes -->
+  <!-- Insulin effect -->
+  <rect x="505" y="255" width="165" height="75" rx="6" fill="#313244"/>
+  <text x="587" y="272" text-anchor="middle" font-size="10" font-weight="bold" fill="#f38ba8">Insulin action:</text>
+  <text x="587" y="288" text-anchor="middle" font-size="9" fill="#a6adc8">Glucose → glycogen</text>
+  <text x="587" y="301" text-anchor="middle" font-size="9" fill="#a6adc8">(glycogenesis in liver)</text>
+  <text x="587" y="314" text-anchor="middle" font-size="9" fill="#a6adc8">Cells take up more glucose</text>
+  <line x1="590" y1="235" x2="590" y2="253" stroke="#f38ba8" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Glucagon effect -->
+  <rect x="730" y="255" width="165" height="75" rx="6" fill="#313244"/>
+  <text x="812" y="272" text-anchor="middle" font-size="10" font-weight="bold" fill="#a6e3a1">Glucagon action:</text>
+  <text x="812" y="288" text-anchor="middle" font-size="9" fill="#a6adc8">Glycogen → glucose</text>
+  <text x="812" y="301" text-anchor="middle" font-size="9" fill="#a6adc8">(glycogenolysis in liver)</text>
+  <text x="812" y="314" text-anchor="middle" font-size="9" fill="#a6adc8">Released into blood</text>
+  <line x1="810" y1="235" x2="810" y2="253" stroke="#a6e3a1" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Return arrows to BG normal -->
+  <line x1="590" y1="330" x2="645" y2="133" stroke="#f38ba8" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="810" y1="330" x2="755" y2="133" stroke="#a6e3a1" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="700" y="355" text-anchor="middle" font-size="10" fill="#a6adc8">→ Blood glucose returns to normal (negative feedback)</text>
+
+  <!-- Temperature control -->
+  <rect x="490" y="375" width="430" height="88" rx="8" fill="#181825"/>
+  <text x="705" y="393" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Temperature Regulation (Hypothalamus controls)</text>
+  <text x="600" y="413" text-anchor="middle" font-size="10" font-weight="bold" fill="#f38ba8">Too hot →</text>
+  <text x="600" y="428" text-anchor="middle" font-size="9" fill="#a6adc8">vasodilation, sweating,</text>
+  <text x="600" y="441" text-anchor="middle" font-size="9" fill="#a6adc8">hairs lie flat</text>
+  <line x1="680" y1="395" x2="680" y2="460" stroke="#313244" stroke-width="1"/>
+  <text x="810" y="413" text-anchor="middle" font-size="10" font-weight="bold" fill="#89b4fa">Too cold →</text>
+  <text x="810" y="428" text-anchor="middle" font-size="9" fill="#a6adc8">vasoconstriction, shivering,</text>
+  <text x="810" y="441" text-anchor="middle" font-size="9" fill="#a6adc8">hairs erect, increased metabolism</text>
+</svg>

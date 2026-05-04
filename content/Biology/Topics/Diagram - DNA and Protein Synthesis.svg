@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">DNA and Protein Synthesis — IGCSE Biology</text>
+
+  <!-- ══════ DNA DOUBLE HELIX ══════ -->
+  <text x="170" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">DNA Structure</text>
+
+  <!-- Left sugar-phosphate backbone -->
+  <path d="M80,80 C60,100 60,130 80,150 C100,170 100,200 80,220 C60,240 60,270 80,290 C100,310 100,340 80,360 C60,380 60,410 80,430"
+        fill="none" stroke="#89b4fa" stroke-width="4"/>
+  <!-- Right sugar-phosphate backbone -->
+  <path d="M200,80 C220,100 220,130 200,150 C180,170 180,200 200,220 C220,240 220,270 200,290 C180,310 180,340 200,360 C220,380 220,410 200,430"
+        fill="none" stroke="#89b4fa" stroke-width="4"/>
+
+  <!-- Base pairs (rungs of ladder) -->
+  <!-- A-T -->
+  <rect x="93" y="108" width="22" height="12" rx="3" fill="#f38ba8"/>
+  <text x="104" y="118" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">A</text>
+  <rect x="122" y="108" width="22" height="12" rx="3" fill="#fab387"/>
+  <text x="133" y="118" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">T</text>
+  <text x="118" y="108" text-anchor="middle" font-size="9" fill="#f9e2af">|</text>
+
+  <rect x="93" y="133" width="22" height="12" rx="3" fill="#a6e3a1"/>
+  <text x="104" y="143" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">G</text>
+  <rect x="122" y="133" width="22" height="12" rx="3" fill="#89b4fa"/>
+  <text x="133" y="143" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">C</text>
+  <text x="118" y="133" text-anchor="middle" font-size="9" fill="#f9e2af">|</text>
+
+  <rect x="88" y="160" width="22" height="12" rx="3" fill="#fab387"/>
+  <text x="99" y="170" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">T</text>
+  <rect x="127" y="160" width="22" height="12" rx="3" fill="#f38ba8"/>
+  <text x="138" y="170" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">A</text>
+  <text x="118" y="160" text-anchor="middle" font-size="9" fill="#f9e2af">|</text>
+
+  <rect x="84" y="188" width="22" height="12" rx="3" fill="#89b4fa"/>
+  <text x="95" y="198" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">C</text>
+  <rect x="132" y="188" width="22" height="12" rx="3" fill="#a6e3a1"/>
+  <text x="143" y="198" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">G</text>
+  <text x="118" y="188" text-anchor="middle" font-size="9" fill="#f9e2af">|</text>
+
+  <rect x="83" y="217" width="22" height="12" rx="3" fill="#f38ba8"/>
+  <text x="94" y="227" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">A</text>
+  <rect x="133" y="217" width="22" height="12" rx="3" fill="#fab387"/>
+  <text x="144" y="227" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">T</text>
+  <text x="118" y="217" text-anchor="middle" font-size="9" fill="#f9e2af">|</text>
+
+  <rect x="84" y="247" width="22" height="12" rx="3" fill="#a6e3a1"/>
+  <text x="95" y="257" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">G</text>
+  <rect x="132" y="247" width="22" height="12" rx="3" fill="#89b4fa"/>
+  <text x="143" y="257" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">C</text>
+  <text x="118" y="247" text-anchor="middle" font-size="9" fill="#f9e2af">|</text>
+
+  <rect x="88" y="277" width="22" height="12" rx="3" fill="#fab387"/>
+  <text x="99" y="287" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">T</text>
+  <rect x="127" y="277" width="22" height="12" rx="3" fill="#f38ba8"/>
+  <text x="138" y="287" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">A</text>
+  <text x="118" y="277" text-anchor="middle" font-size="9" fill="#f9e2af">|</text>
+
+  <rect x="93" y="308" width="22" height="12" rx="3" fill="#89b4fa"/>
+  <text x="104" y="318" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">C</text>
+  <rect x="122" y="308" width="22" height="12" rx="3" fill="#a6e3a1"/>
+  <text x="133" y="318" text-anchor="middle" font-size="9" fill="#1e1e2e" font-weight="bold">G</text>
+  <text x="118" y="308" text-anchor="middle" font-size="9" fill="#f9e2af">|</text>
+
+  <!-- Labels -->
+  <text x="38" y="255" text-anchor="middle" font-size="10" fill="#89b4fa">sugar-</text>
+  <text x="38" y="267" text-anchor="middle" font-size="10" fill="#89b4fa">phosphate</text>
+  <text x="38" y="279" text-anchor="middle" font-size="10" fill="#89b4fa">backbone</text>
+
+  <!-- Base key -->
+  <rect x="55" y="355" width="10" height="10" fill="#f38ba8" rx="2"/>
+  <text x="70" y="364" font-size="10" fill="#f38ba8">A (Adenine)</text>
+  <rect x="55" y="372" width="10" height="10" fill="#fab387" rx="2"/>
+  <text x="70" y="381" font-size="10" fill="#fab387">T (Thymine)</text>
+  <rect x="55" y="389" width="10" height="10" fill="#a6e3a1" rx="2"/>
+  <text x="70" y="398" font-size="10" fill="#a6e3a1">G (Guanine)</text>
+  <rect x="55" y="406" width="10" height="10" fill="#89b4fa" rx="2"/>
+  <text x="70" y="415" font-size="10" fill="#89b4fa">C (Cytosine)</text>
+  <text x="140" y="370" text-anchor="middle" font-size="10" fill="#f9e2af">A–T</text>
+  <text x="140" y="383" text-anchor="middle" font-size="9" fill="#a6adc8">hydrogen bonds</text>
+  <text x="140" y="398" text-anchor="middle" font-size="10" fill="#f9e2af">G–C</text>
+  <text x="140" y="411" text-anchor="middle" font-size="9" fill="#a6adc8">3 hydrogen bonds</text>
+
+  <!-- ══════ PROTEIN SYNTHESIS ══════ -->
+  <text x="590" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#cdd6f4">Protein Synthesis</text>
+
+  <!-- STEP 1: Transcription -->
+  <rect x="240" y="68" width="210" height="160" rx="8" fill="#181825"/>
+  <text x="345" y="87" text-anchor="middle" font-size="11" font-weight="bold" fill="#f9e2af">① Transcription</text>
+  <text x="345" y="103" text-anchor="middle" font-size="10" fill="#a6adc8">(in NUCLEUS)</text>
+
+  <!-- DNA unzipping -->
+  <line x1="275" y1="118" x2="275" y2="200" stroke="#89b4fa" stroke-width="2.5"/>
+  <line x1="300" y1="118" x2="300" y2="200" stroke="#89b4fa" stroke-width="2.5" stroke-dasharray="4,3"/>
+  <text x="285" y="215" text-anchor="middle" font-size="9" fill="#89b4fa">DNA unwinds</text>
+
+  <!-- mRNA forming -->
+  <line x1="340" y1="115" x2="340" y2="200" stroke="#f38ba8" stroke-width="3"/>
+  <text x="380" y="130" font-size="10" fill="#f38ba8">mRNA</text>
+  <text x="380" y="143" font-size="9" fill="#a6adc8">synthesised</text>
+
+  <!-- Base on mRNA -->
+  <text x="360" y="165" font-size="10" fill="#a6adc8">RNA pol.</text>
+  <text x="360" y="178" font-size="9" fill="#a6adc8">adds bases:</text>
+  <text x="360" y="191" font-size="9" fill="#cba6f7">A→U T→A</text>
+  <text x="360" y="203" font-size="9" fill="#cba6f7">G→C C→G</text>
+
+  <!-- Arrow to step 2 -->
+  <defs>
+    <marker id="arrW2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#cdd6f4"/></marker>
+  </defs>
+  <line x1="345" y1="228" x2="345" y2="248" stroke="#cdd6f4" stroke-width="2" marker-end="url(#arrW2)"/>
+  <text x="370" y="240" font-size="10" fill="#a6adc8">mRNA leaves nucleus</text>
+
+  <!-- STEP 2: Translation -->
+  <rect x="240" y="255" width="210" height="190" rx="8" fill="#181825"/>
+  <text x="345" y="274" text-anchor="middle" font-size="11" font-weight="bold" fill="#a6e3a1">② Translation</text>
+  <text x="345" y="290" text-anchor="middle" font-size="10" fill="#a6adc8">(at RIBOSOME)</text>
+
+  <!-- Ribosome -->
+  <ellipse cx="345" cy="345" rx="55" ry="28" fill="#313244" stroke="#fab387" stroke-width="2"/>
+  <text x="345" y="349" text-anchor="middle" font-size="10" fill="#fab387">ribosome</text>
+
+  <!-- mRNA thread -->
+  <line x1="260" y1="345" x2="430" y2="345" stroke="#f38ba8" stroke-width="2.5"/>
+  <!-- Codons on mRNA -->
+  <text x="278" y="360" text-anchor="middle" font-size="9" fill="#f38ba8">AUG</text>
+  <text x="302" y="360" text-anchor="middle" font-size="9" fill="#f38ba8">CCU</text>
+  <text x="345" y="365" text-anchor="middle" font-size="9" fill="#a6adc8">codons</text>
+
+  <!-- tRNA arriving -->
+  <path d="M345,310 L335,325 L355,325 Z" fill="#cba6f7" fill-opacity="0.4" stroke="#cba6f7" stroke-width="1.5"/>
+  <text x="345" y="322" text-anchor="middle" font-size="8" fill="#1e1e2e">tRNA</text>
+  <text x="390" y="315" font-size="9" fill="#cba6f7">tRNA carries</text>
+  <text x="390" y="328" font-size="9" fill="#cba6f7">amino acid</text>
+  <text x="390" y="341" font-size="9" fill="#a6adc8">anticodon pairs</text>
+  <text x="390" y="354" font-size="9" fill="#a6adc8">with codon</text>
+
+  <!-- Growing polypeptide -->
+  <line x1="270" y1="380" x2="430" y2="380" stroke="#a6e3a1" stroke-width="2" stroke-dasharray="3,2"/>
+  <circle cx="280" cy="380" r="7" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="298" cy="380" r="7" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="316" cy="380" r="7" fill="#a6e3a1" fill-opacity="0.7"/>
+  <text x="350" y="402" text-anchor="middle" font-size="9" fill="#a6e3a1">growing polypeptide chain</text>
+  <text x="350" y="415" text-anchor="middle" font-size="9" fill="#a6adc8">(amino acids joined by</text>
+  <text x="350" y="427" text-anchor="middle" font-size="9" fill="#a6adc8">peptide bonds)</text>
+
+  <!-- SUMMARY RIGHT BOX -->
+  <rect x="490" y="68" width="440" height="400" rx="8" fill="#181825"/>
+  <text x="710" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Summary</text>
+
+  <!-- DNA info -->
+  <text x="510" y="112" font-size="11" font-weight="bold" fill="#89b4fa">DNA Structure:</text>
+  <text x="510" y="128" font-size="10" fill="#a6adc8">• Double helix</text>
+  <text x="510" y="142" font-size="10" fill="#a6adc8">• Two antiparallel sugar-phosphate strands</text>
+  <text x="510" y="156" font-size="10" fill="#a6adc8">• Bases held by hydrogen bonds</text>
+  <text x="510" y="170" font-size="10" fill="#f38ba8">• A pairs with T (2 H-bonds)</text>
+  <text x="510" y="184" font-size="10" fill="#a6e3a1">• G pairs with C (3 H-bonds)</text>
+
+  <line x1="500" y1="195" x2="920" y2="195" stroke="#313244" stroke-width="1"/>
+
+  <!-- Genetic code -->
+  <text x="510" y="215" font-size="11" font-weight="bold" fill="#f9e2af">The Genetic Code:</text>
+  <text x="510" y="231" font-size="10" fill="#a6adc8">• 3 bases = 1 codon = 1 amino acid</text>
+  <text x="510" y="245" font-size="10" fill="#a6adc8">• 64 possible codons, 20 amino acids</text>
+  <text x="510" y="259" font-size="10" fill="#a6adc8">• Code is degenerate (multiple codons → same AA)</text>
+  <text x="510" y="273" font-size="10" fill="#a6adc8">• Code is universal (same in all organisms)</text>
+
+  <line x1="500" y1="285" x2="920" y2="285" stroke="#313244" stroke-width="1"/>
+
+  <!-- Transcription vs translation -->
+  <text x="510" y="305" font-size="11" font-weight="bold" fill="#cdd6f4">Transcription vs Translation:</text>
+  <text x="510" y="322" font-size="10" fill="#f9e2af">Transcription (nucleus):</text>
+  <text x="510" y="336" font-size="10" fill="#a6adc8">  DNA → mRNA using RNA polymerase</text>
+  <text x="510" y="350" font-size="10" fill="#a6adc8">  T on DNA → U on mRNA</text>
+  <text x="510" y="368" font-size="10" fill="#a6e3a1">Translation (ribosome):</text>
+  <text x="510" y="382" font-size="10" fill="#a6adc8">  mRNA read in codons (3 bases at a time)</text>
+  <text x="510" y="396" font-size="10" fill="#a6adc8">  tRNA brings specific amino acids</text>
+  <text x="510" y="410" font-size="10" fill="#a6adc8">  Amino acids joined by peptide bonds</text>
+  <text x="510" y="424" font-size="10" fill="#cba6f7">  Polypeptide folds into functional protein</text>
+
+  <!-- RNA vs DNA -->
+  <line x1="500" y1="435" x2="920" y2="435" stroke="#313244" stroke-width="1"/>
+  <text x="710" y="453" text-anchor="middle" font-size="9" fill="#a6adc8">RNA: single-stranded | ribose sugar | Uracil (U) instead of Thymine (T)</text>
+  <text x="710" y="465" text-anchor="middle" font-size="9" fill="#a6adc8">mRNA = messenger RNA | tRNA = transfer RNA | rRNA = ribosomal RNA</text>
+</svg>

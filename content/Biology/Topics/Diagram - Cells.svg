@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Cell Structure — IGCSE Biology</text>
+
+  <!-- ═══ ANIMAL CELL ═══ -->
+  <text x="230" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#89b4fa">Animal Cell</text>
+  <!-- Cell membrane (irregular shape) -->
+  <ellipse cx="230" cy="270" rx="185" ry="165" fill="#313244" stroke="#89b4fa" stroke-width="2.5"/>
+  <text x="55" y="155" font-size="10" fill="#89b4fa">cell membrane</text>
+  <line x1="105" y1="157" x2="140" y2="175" stroke="#89b4fa" stroke-width="1"/>
+
+  <!-- Nucleus -->
+  <ellipse cx="200" cy="250" rx="52" ry="42" fill="#45475a" stroke="#f9e2af" stroke-width="2"/>
+  <ellipse cx="200" cy="250" rx="28" ry="22" fill="#313244" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="200" y="254" text-anchor="middle" font-size="11" fill="#f9e2af">nucleus</text>
+  <text x="155" y="215" font-size="10" fill="#f9e2af">nuclear</text>
+  <text x="155" y="226" font-size="10" fill="#f9e2af">envelope</text>
+  <line x1="173" y1="222" x2="185" y2="235" stroke="#f9e2af" stroke-width="1"/>
+
+  <!-- Cytoplasm label -->
+  <text x="330" y="240" font-size="10" fill="#a6adc8">cytoplasm</text>
+
+  <!-- Mitochondria (x2) -->
+  <ellipse cx="300" cy="290" rx="28" ry="14" fill="#f38ba8" fill-opacity="0.3" stroke="#f38ba8" stroke-width="1.5"/>
+  <path d="M278,290 Q292,282 306,290 Q292,298 278,290" fill="#f38ba8" fill-opacity="0.2" stroke="#f38ba8" stroke-width="1"/>
+  <text x="310" y="315" font-size="10" fill="#f38ba8">mitochondrion</text>
+  <line x1="305" y1="300" x2="315" y2="308" stroke="#f38ba8" stroke-width="1"/>
+
+  <ellipse cx="145" cy="330" rx="25" ry="12" fill="#f38ba8" fill-opacity="0.3" stroke="#f38ba8" stroke-width="1.5"/>
+
+  <!-- Ribosomes (dots) -->
+  <circle cx="260" cy="230" r="4" fill="#a6e3a1"/>
+  <circle cx="275" cy="215" r="4" fill="#a6e3a1"/>
+  <circle cx="290" cy="240" r="4" fill="#a6e3a1"/>
+  <circle cx="160" cy="310" r="4" fill="#a6e3a1"/>
+  <text x="295" y="205" font-size="10" fill="#a6e3a1">ribosomes</text>
+  <line x1="290" y1="208" x2="285" y2="215" stroke="#a6e3a1" stroke-width="1"/>
+
+  <!-- Small vacuole -->
+  <ellipse cx="270" cy="175" rx="18" ry="12" fill="none" stroke="#cba6f7" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="295" y="168" font-size="10" fill="#cba6f7">vacuole (small)</text>
+
+  <!-- ═══ PLANT CELL ═══ -->
+  <text x="710" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#a6e3a1">Plant Cell</text>
+  <!-- Cell wall -->
+  <rect x="520" y="95" width="380" height="350" rx="8" fill="none" stroke="#a6e3a1" stroke-width="4"/>
+  <text x="520" y="90" font-size="10" fill="#a6e3a1">cell wall (cellulose)</text>
+  <!-- Cell membrane -->
+  <rect x="527" y="102" width="366" height="336" rx="6" fill="#313244" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="527" y="118" font-size="10" fill="#89b4fa">cell membrane</text>
+
+  <!-- Large central vacuole -->
+  <rect x="580" y="145" width="260" height="210" rx="30" fill="#89b4fa" fill-opacity="0.12" stroke="#89b4fa" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="710" y="248" text-anchor="middle" font-size="12" fill="#89b4fa">central vacuole</text>
+  <text x="710" y="263" text-anchor="middle" font-size="10" fill="#a6adc8">(cell sap)</text>
+
+  <!-- Nucleus -->
+  <ellipse cx="590" cy="200" rx="45" ry="38" fill="#45475a" stroke="#f9e2af" stroke-width="2"/>
+  <ellipse cx="590" cy="200" rx="24" ry="20" fill="#313244" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="590" y="204" text-anchor="middle" font-size="10" fill="#f9e2af">nucleus</text>
+
+  <!-- Chloroplasts -->
+  <ellipse cx="840" cy="170" rx="28" ry="14" fill="#a6e3a1" fill-opacity="0.4" stroke="#a6e3a1" stroke-width="1.5"/>
+  <line x1="818" y1="170" x2="862" y2="170" stroke="#a6e3a1" stroke-width="1" stroke-dasharray="2,2"/>
+  <ellipse cx="840" cy="210" rx="28" ry="14" fill="#a6e3a1" fill-opacity="0.4" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="878" y="185" font-size="10" fill="#a6e3a1">chloroplasts</text>
+  <text x="878" y="197" font-size="10" fill="#a6adc8">(contain chlorophyll)</text>
+
+  <!-- Mitochondria -->
+  <ellipse cx="840" cy="340" rx="26" ry="13" fill="#f38ba8" fill-opacity="0.3" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="878" y="344" font-size="10" fill="#f38ba8">mitochondrion</text>
+
+  <!-- Ribosomes -->
+  <circle cx="555" cy="310" r="4" fill="#a6e3a1"/>
+  <circle cx="568" cy="325" r="4" fill="#a6e3a1"/>
+
+  <!-- Comparison box -->
+  <rect x="30" y="428" width="900" height="44" rx="6" fill="#181825"/>
+  <text x="480" y="445" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Plant cell has EXTRA: cell wall (cellulose) | large permanent vacuole | chloroplasts | regular rectangular shape</text>
+  <text x="480" y="461" text-anchor="middle" font-size="11" fill="#a6adc8">Both have: cell membrane | nucleus | cytoplasm | mitochondria | ribosomes</text>
+</svg>

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="900" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="450" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#cdd6f4">Wave Properties — IGCSE Physics</text>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- TOP: Transverse Wave -->
+  <!-- ══════════════════════════════════ -->
+  <text x="450" y="62" text-anchor="middle" font-size="14" font-weight="bold" fill="#89b4fa">Transverse Wave</text>
+  <text x="450" y="78" text-anchor="middle" font-size="11" fill="#a6adc8">(particles vibrate perpendicular to direction of travel — e.g. light, water waves)</text>
+
+  <!-- Centre line -->
+  <line x1="50" y1="170" x2="850" y2="170" stroke="#45475a" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- Wave shape: two full cycles -->
+  <path d="M50,170 C90,170 110,100 150,100 C190,100 210,170 250,170 C290,170 310,240 350,240 C390,240 410,170 450,170 C490,170 510,100 550,100 C590,100 610,170 650,170 C690,170 710,240 750,240 C790,240 810,170 850,170"
+        stroke="#89b4fa" stroke-width="3" fill="none"/>
+
+  <!-- Direction arrow -->
+  <defs>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#89b4fa"/>
+    </marker>
+    <marker id="arrowYellow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#f9e2af"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#a6e3a1"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#f38ba8"/>
+    </marker>
+  </defs>
+  <line x1="50" y1="260" x2="200" y2="260" stroke="#89b4fa" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <text x="125" y="275" text-anchor="middle" font-size="12" fill="#89b4fa">direction of travel</text>
+
+  <!-- Amplitude label -->
+  <line x1="150" y1="100" x2="150" y2="170" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="144" y1="100" x2="156" y2="100" stroke="#f9e2af" stroke-width="1.5"/>
+  <line x1="144" y1="170" x2="156" y2="170" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="130" y="140" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">A</text>
+  <text x="75" y="140" text-anchor="middle" font-size="11" fill="#f9e2af">(amplitude)</text>
+
+  <!-- Amplitude bottom half -->
+  <line x1="350" y1="170" x2="350" y2="240" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="344" y1="240" x2="356" y2="240" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="372" y="210" text-anchor="start" font-size="12" fill="#f9e2af" font-weight="bold">A</text>
+
+  <!-- Wavelength label -->
+  <line x1="150" y1="290" x2="550" y2="290" stroke="#a6e3a1" stroke-width="1.5"/>
+  <line x1="150" y1="284" x2="150" y2="296" stroke="#a6e3a1" stroke-width="1.5"/>
+  <line x1="550" y1="284" x2="550" y2="296" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="350" y="308" text-anchor="middle" font-size="12" fill="#a6e3a1" font-weight="bold">λ (wavelength) — crest to crest</text>
+
+  <!-- Crest / trough labels -->
+  <text x="150" y="92" text-anchor="middle" font-size="11" fill="#cba6f7">crest</text>
+  <text x="350" y="255" text-anchor="middle" font-size="11" fill="#cba6f7">trough</text>
+
+  <!-- ══════════════════════════════════ -->
+  <!-- BOTTOM: Longitudinal Wave -->
+  <!-- ══════════════════════════════════ -->
+  <text x="450" y="335" text-anchor="middle" font-size="14" font-weight="bold" fill="#f38ba8">Longitudinal Wave</text>
+  <text x="450" y="351" text-anchor="middle" font-size="11" fill="#a6adc8">(particles vibrate parallel to direction of travel — e.g. sound)</text>
+
+  <!-- Particles in compression/rarefaction pattern -->
+  <!-- Compression 1 -->
+  <rect x="55" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="70" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="85" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="100" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="115" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+
+  <!-- Rarefaction 1 -->
+  <rect x="140" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="175" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="210" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+
+  <!-- Compression 2 -->
+  <rect x="240" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="255" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="270" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="285" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="300" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+
+  <!-- Rarefaction 2 -->
+  <rect x="325" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="360" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="395" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+
+  <!-- Compression 3 -->
+  <rect x="425" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="440" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="455" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="470" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="485" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+
+  <!-- Rarefaction 3 -->
+  <rect x="510" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="545" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="580" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+
+  <!-- Compression 4 -->
+  <rect x="610" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="625" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="640" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="655" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="670" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+
+  <!-- Rarefaction 4 -->
+  <rect x="695" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="730" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="765" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="800" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+  <rect x="835" y="368" width="8" height="50" fill="#f38ba8" rx="2"/>
+
+  <!-- Labels: compression / rarefaction -->
+  <text x="87" y="360" text-anchor="middle" font-size="11" fill="#f38ba8">compression</text>
+  <text x="87" y="430" text-anchor="middle" font-size="10" fill="#cba6f7">(high pressure)</text>
+
+  <text x="210" y="360" text-anchor="middle" font-size="11" fill="#a6e3a1">rarefaction</text>
+  <text x="210" y="430" text-anchor="middle" font-size="10" fill="#cba6f7">(low pressure)</text>
+
+  <!-- Direction arrow -->
+  <line x1="50" y1="450" x2="220" y2="450" stroke="#f38ba8" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="135" y="465" text-anchor="middle" font-size="12" fill="#f38ba8">direction of travel</text>
+
+  <!-- Wavelength on longitudinal -->
+  <line x1="55" y1="432" x2="240" y2="432" stroke="#a6e3a1" stroke-width="1.5"/>
+  <line x1="55" y1="427" x2="55" y2="437" stroke="#a6e3a1" stroke-width="1.5"/>
+  <line x1="240" y1="427" x2="240" y2="437" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="148" y="444" text-anchor="middle" font-size="11" fill="#a6e3a1">λ</text>
+
+  <!-- Formula box -->
+  <rect x="640" y="355" width="245" height="110" rx="8" fill="#313244"/>
+  <text x="762" y="375" text-anchor="middle" font-size="13" font-weight="bold" fill="#cdd6f4">Key Formulas</text>
+  <text x="762" y="397" text-anchor="middle" font-size="13" fill="#f9e2af">v = fλ</text>
+  <text x="762" y="418" text-anchor="middle" font-size="12" fill="#a6adc8">wave speed = frequency × wavelength</text>
+  <text x="762" y="440" text-anchor="middle" font-size="13" fill="#f9e2af">T = 1/f</text>
+  <text x="762" y="458" text-anchor="middle" font-size="12" fill="#a6adc8">period = 1 / frequency</text>
+
+</svg>

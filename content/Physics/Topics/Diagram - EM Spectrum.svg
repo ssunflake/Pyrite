@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" font-family="Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="920" height="340" fill="#1e1e2e" rx="12"/>
+  <text x="460" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">The Electromagnetic Spectrum — IGCSE Physics</text>
+
+  <!-- Spectrum band colours + labels -->
+  <!-- Radio -->
+  <rect x="20" y="50" width="115" height="60" rx="6" fill="#313244"/>
+  <text x="77" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">Radio</text>
+  <text x="77" y="88" text-anchor="middle" font-size="10" fill="#a6adc8">~1m – 10km</text>
+  <text x="77" y="101" text-anchor="middle" font-size="10" fill="#a6adc8">lowest f</text>
+
+  <!-- Microwave -->
+  <rect x="140" y="50" width="115" height="60" rx="6" fill="#2a2a3e"/>
+  <text x="197" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#cba6f7">Microwave</text>
+  <text x="197" y="88" text-anchor="middle" font-size="10" fill="#a6adc8">1mm – 1m</text>
+  <text x="197" y="101" text-anchor="middle" font-size="10" fill="#a6adc8">radar, Wi-Fi</text>
+
+  <!-- Infrared -->
+  <rect x="260" y="50" width="115" height="60" rx="6" fill="#3a2a1e"/>
+  <text x="317" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#fab387">Infrared</text>
+  <text x="317" y="88" text-anchor="middle" font-size="10" fill="#a6adc8">700nm – 1mm</text>
+  <text x="317" y="101" text-anchor="middle" font-size="10" fill="#a6adc8">remote controls</text>
+
+  <!-- Visible -->
+  <defs>
+    <linearGradient id="visibleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f38ba8"/>
+      <stop offset="20%" stop-color="#fab387"/>
+      <stop offset="40%" stop-color="#f9e2af"/>
+      <stop offset="60%" stop-color="#a6e3a1"/>
+      <stop offset="80%" stop-color="#89b4fa"/>
+      <stop offset="100%" stop-color="#cba6f7"/>
+    </linearGradient>
+  </defs>
+  <rect x="380" y="50" width="115" height="60" rx="6" fill="url(#visibleGrad)"/>
+  <text x="437" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e1e2e">Visible</text>
+  <text x="437" y="88" text-anchor="middle" font-size="10" fill="#1e1e2e">400–700nm</text>
+  <text x="437" y="101" text-anchor="middle" font-size="10" fill="#1e1e2e">R O Y G B I V</text>
+
+  <!-- UV -->
+  <rect x="500" y="50" width="115" height="60" rx="6" fill="#2a1e3a"/>
+  <text x="557" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#cba6f7">Ultraviolet</text>
+  <text x="557" y="88" text-anchor="middle" font-size="10" fill="#a6adc8">10 – 400nm</text>
+  <text x="557" y="101" text-anchor="middle" font-size="10" fill="#a6adc8">sterilisation</text>
+
+  <!-- X-ray -->
+  <rect x="620" y="50" width="115" height="60" rx="6" fill="#1e2a3a"/>
+  <text x="677" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#89dceb">X-rays</text>
+  <text x="677" y="88" text-anchor="middle" font-size="10" fill="#a6adc8">0.01–10nm</text>
+  <text x="677" y="101" text-anchor="middle" font-size="10" fill="#a6adc8">medical imaging</text>
+
+  <!-- Gamma -->
+  <rect x="740" y="50" width="155" height="60" rx="6" fill="#2a1e1e"/>
+  <text x="817" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#f38ba8">Gamma rays</text>
+  <text x="817" y="88" text-anchor="middle" font-size="10" fill="#a6adc8">&lt; 0.01nm</text>
+  <text x="817" y="101" text-anchor="middle" font-size="10" fill="#a6adc8">highest f, most energy</text>
+
+  <!-- Arrows: wavelength and frequency -->
+  <defs>
+    <marker id="arrL" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto">
+      <polygon points="8,0 0,3 8,6" fill="#a6e3a1"/>
+    </marker>
+    <marker id="arrR" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#f38ba8"/>
+    </marker>
+  </defs>
+
+  <!-- Wavelength arrow (right to left = decreasing) -->
+  <line x1="880" y1="140" x2="40" y2="140" stroke="#a6e3a1" stroke-width="2" marker-start="url(#arrL)"/>
+  <text x="460" y="132" text-anchor="middle" font-size="12" fill="#a6e3a1">wavelength decreasing →</text>
+  <text x="50" y="132" text-anchor="start" font-size="11" fill="#a6e3a1">longest λ</text>
+  <text x="860" y="132" text-anchor="end" font-size="11" fill="#a6e3a1">shortest λ</text>
+  <text x="460" y="155" text-anchor="middle" font-size="11" fill="#a6adc8">← longer wavelength</text>
+
+  <!-- Frequency arrow (left to right = increasing) -->
+  <line x1="40" y1="175" x2="880" y2="175" stroke="#f38ba8" stroke-width="2" marker-end="url(#arrR)"/>
+  <text x="460" y="168" text-anchor="middle" font-size="12" fill="#f38ba8">← frequency increasing</text>
+  <text x="50" y="192" text-anchor="start" font-size="11" fill="#f38ba8">lowest f</text>
+  <text x="860" y="192" text-anchor="end" font-size="11" fill="#f38ba8">highest f</text>
+  <text x="460" y="192" text-anchor="middle" font-size="11" fill="#a6adc8">frequency increasing →</text>
+
+  <!-- Properties table -->
+  <rect x="20" y="210" width="880" height="115" rx="8" fill="#181825"/>
+
+  <!-- Header row -->
+  <rect x="20" y="210" width="880" height="28" rx="8" fill="#313244"/>
+  <text x="77" y="229" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Wave</text>
+  <text x="230" y="229" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Key Use</text>
+  <text x="450" y="229" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Hazard</text>
+  <text x="700" y="229" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Ionising?</text>
+  <text x="840" y="229" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Speed (vacuum)</text>
+
+  <!-- Row lines -->
+  <line x1="20" y1="238" x2="900" y2="238" stroke="#45475a" stroke-width="1"/>
+  <line x1="150" y1="210" x2="150" y2="325" stroke="#45475a" stroke-width="1"/>
+  <line x1="330" y1="210" x2="330" y2="325" stroke="#45475a" stroke-width="1"/>
+  <line x1="570" y1="210" x2="570" y2="325" stroke="#45475a" stroke-width="1"/>
+  <line x1="760" y1="210" x2="760" y2="325" stroke="#45475a" stroke-width="1"/>
+
+  <!-- Data rows -->
+  <text x="77" y="255" text-anchor="middle" font-size="11" fill="#89b4fa">Radio / Microwave</text>
+  <text x="240" y="255" text-anchor="middle" font-size="11" fill="#a6adc8">TV, radar, cooking, WiFi</text>
+  <text x="450" y="255" text-anchor="middle" font-size="11" fill="#a6e3a1">None / tissue heating</text>
+  <text x="700" y="255" text-anchor="middle" font-size="11" fill="#a6e3a1">No</text>
+  <text x="840" y="255" text-anchor="middle" font-size="11" fill="#f9e2af">3 × 10⁸ m/s</text>
+
+  <line x1="20" y1="264" x2="900" y2="264" stroke="#313244" stroke-width="1"/>
+  <text x="77" y="279" text-anchor="middle" font-size="11" fill="#fab387">Infrared</text>
+  <text x="240" y="279" text-anchor="middle" font-size="11" fill="#a6adc8">Thermal imaging, remotes</text>
+  <text x="450" y="279" text-anchor="middle" font-size="11" fill="#fab387">Burns skin</text>
+  <text x="700" y="279" text-anchor="middle" font-size="11" fill="#a6e3a1">No</text>
+  <text x="840" y="279" text-anchor="middle" font-size="11" fill="#f9e2af">3 × 10⁸ m/s</text>
+
+  <line x1="20" y1="288" x2="900" y2="288" stroke="#313244" stroke-width="1"/>
+  <text x="77" y="303" text-anchor="middle" font-size="11" fill="#cba6f7">UV / X-ray / Gamma</text>
+  <text x="240" y="303" text-anchor="middle" font-size="11" fill="#a6adc8">Sterilise, imaging, cancer Rx</text>
+  <text x="450" y="303" text-anchor="middle" font-size="11" fill="#f38ba8">Skin cancer, cell damage</text>
+  <text x="700" y="303" text-anchor="middle" font-size="11" fill="#f38ba8">Yes ⚠️</text>
+  <text x="840" y="303" text-anchor="middle" font-size="11" fill="#f9e2af">3 × 10⁸ m/s</text>
+
+  <text x="460" y="322" text-anchor="middle" font-size="11" fill="#a6adc8">All EM waves travel at c = 3 × 10⁸ m/s in a vacuum and are transverse waves.</text>
+
+</svg>

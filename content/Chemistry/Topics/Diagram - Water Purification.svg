@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" font-family="Arial, sans-serif">
+  <rect width="960" height="460" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Water Purification — IGCSE Chemistry</text>
+
+  <!-- ══ FLOW DIAGRAM ══ -->
+
+  <!-- Step 1: Sedimentation / Screening -->
+  <rect x="20" y="55" width="155" height="100" rx="8" fill="#89b4fa" fill-opacity="0.15" stroke="#89b4fa" stroke-width="2"/>
+  <text x="97" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#89b4fa">① Screening</text>
+  <text x="97" y="93" text-anchor="middle" font-size="10" fill="#a6adc8">Metal grille/mesh</text>
+  <text x="97" y="107" text-anchor="middle" font-size="10" fill="#a6adc8">removes large</text>
+  <text x="97" y="121" text-anchor="middle" font-size="10" fill="#a6adc8">debris (sticks,</text>
+  <text x="97" y="135" text-anchor="middle" font-size="10" fill="#a6adc8">leaves, fish)</text>
+
+  <!-- Arrow -->
+  <line x1="175" y1="105" x2="200" y2="105" stroke="#a6adc8" stroke-width="2.5"/>
+  <polygon points="198,100 210,105 198,110" fill="#a6adc8"/>
+
+  <!-- Step 2: Coagulation / Sedimentation -->
+  <rect x="210" y="55" width="155" height="100" rx="8" fill="#f9e2af" fill-opacity="0.15" stroke="#f9e2af" stroke-width="2"/>
+  <text x="287" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#f9e2af">② Coagulation &amp;</text>
+  <text x="287" y="89" text-anchor="middle" font-size="11" font-weight="bold" fill="#f9e2af">Sedimentation</text>
+  <text x="287" y="107" text-anchor="middle" font-size="10" fill="#a6adc8">Al₂(SO₄)₃ added</text>
+  <text x="287" y="121" text-anchor="middle" font-size="10" fill="#a6adc8">Fine particles clump</text>
+  <text x="287" y="135" text-anchor="middle" font-size="10" fill="#a6adc8">(flocculate) and sink</text>
+
+  <!-- Arrow -->
+  <line x1="365" y1="105" x2="390" y2="105" stroke="#a6adc8" stroke-width="2.5"/>
+  <polygon points="388,100 400,105 388,110" fill="#a6adc8"/>
+
+  <!-- Step 3: Filtration -->
+  <rect x="400" y="55" width="155" height="100" rx="8" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="477" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#a6e3a1">③ Filtration</text>
+  <text x="477" y="95" text-anchor="middle" font-size="10" fill="#a6adc8">Water passed</text>
+  <text x="477" y="109" text-anchor="middle" font-size="10" fill="#a6adc8">through layers of</text>
+  <text x="477" y="123" text-anchor="middle" font-size="10" fill="#a6adc8">sand and gravel</text>
+  <text x="477" y="137" text-anchor="middle" font-size="10" fill="#a6adc8">→ removes small</text>
+  <text x="477" y="149" text-anchor="middle" font-size="10" fill="#a6adc8">suspended particles</text>
+
+  <!-- Arrow -->
+  <line x1="555" y1="105" x2="580" y2="105" stroke="#a6adc8" stroke-width="2.5"/>
+  <polygon points="578,100 590,105 578,110" fill="#a6adc8"/>
+
+  <!-- Step 4: Chlorination -->
+  <rect x="590" y="55" width="155" height="100" rx="8" fill="#f38ba8" fill-opacity="0.15" stroke="#f38ba8" stroke-width="2"/>
+  <text x="667" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#f38ba8">④ Chlorination</text>
+  <text x="667" y="95" text-anchor="middle" font-size="10" fill="#a6adc8">Cl₂ gas dissolved</text>
+  <text x="667" y="109" text-anchor="middle" font-size="10" fill="#a6adc8">Kills bacteria and</text>
+  <text x="667" y="123" text-anchor="middle" font-size="10" fill="#a6adc8">other pathogens</text>
+  <text x="667" y="137" text-anchor="middle" font-size="10" fill="#f38ba8">Cl₂ + H₂O →</text>
+  <text x="667" y="150" text-anchor="middle" font-size="10" fill="#f38ba8">HCl + HClO</text>
+
+  <!-- Arrow -->
+  <line x1="745" y1="105" x2="770" y2="105" stroke="#a6adc8" stroke-width="2.5"/>
+  <polygon points="768,100 780,105 768,110" fill="#a6adc8"/>
+
+  <!-- Step 5: Tap water output -->
+  <rect x="780" y="55" width="155" height="100" rx="8" fill="#cba6f7" fill-opacity="0.15" stroke="#cba6f7" stroke-width="2"/>
+  <text x="857" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#cba6f7">✅ Safe Drinking</text>
+  <text x="857" y="93" text-anchor="middle" font-size="11" font-weight="bold" fill="#cba6f7">Water</text>
+  <text x="857" y="113" text-anchor="middle" font-size="10" fill="#a6adc8">Treated + stored</text>
+  <text x="857" y="127" text-anchor="middle" font-size="10" fill="#a6adc8">in reservoirs</text>
+  <text x="857" y="141" text-anchor="middle" font-size="10" fill="#a6adc8">then distributed</text>
+
+  <!-- ══ FILTRATION DETAIL ══ -->
+  <text x="200" y="195" text-anchor="middle" font-size="12" font-weight="bold" fill="#a6e3a1">Sand Filter (Detail)</text>
+  <rect x="30" y="205" width="340" height="230" rx="8" fill="#181825"/>
+
+  <!-- Water in -->
+  <rect x="40" y="215" width="320" height="30" rx="4" fill="#89b4fa" fill-opacity="0.25"/>
+  <text x="200" y="235" text-anchor="middle" font-size="11" fill="#89b4fa">Murky water IN ↓</text>
+
+  <!-- Layers -->
+  <!-- Fine sand -->
+  <rect x="40" y="248" width="320" height="35" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1"/>
+  <text x="200" y="270" text-anchor="middle" font-size="11" fill="#f9e2af">Fine sand — removes very small particles</text>
+  <!-- Coarse sand -->
+  <rect x="40" y="283" width="320" height="35" fill="#fab387" fill-opacity="0.3" stroke="#fab387" stroke-width="1"/>
+  <text x="200" y="305" text-anchor="middle" font-size="11" fill="#fab387">Coarse sand — removes medium particles</text>
+  <!-- Gravel -->
+  <rect x="40" y="318" width="320" height="35" fill="#a6e3a1" fill-opacity="0.25" stroke="#a6e3a1" stroke-width="1"/>
+  <text x="200" y="340" text-anchor="middle" font-size="11" fill="#a6e3a1">Gravel — removes large particles; supports layers</text>
+  <!-- Perforated base -->
+  <rect x="40" y="353" width="320" height="20" fill="#6c7086" fill-opacity="0.5"/>
+  <text x="200" y="367" text-anchor="middle" font-size="10" fill="#cdd6f4">Perforated base</text>
+
+  <!-- Arrows -->
+  <line x1="200" y1="373" x2="200" y2="415" stroke="#89b4fa" stroke-width="2.5"/>
+  <polygon points="195,413 205,413 200,425" fill="#89b4fa"/>
+  <text x="200" y="430" text-anchor="middle" font-size="11" fill="#89b4fa">Cleaner water OUT ↓</text>
+
+  <!-- ══ HARD WATER / DISTILLATION BOX ══ -->
+  <text x="660" y="195" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Hard Water and Purity</text>
+  <rect x="400" y="205" width="540" height="230" rx="8" fill="#181825"/>
+
+  <!-- Hard water types -->
+  <text x="540" y="225" text-anchor="middle" font-size="11" font-weight="bold" fill="#f9e2af">Hard Water</text>
+  <text x="540" y="243" text-anchor="middle" font-size="10" fill="#a6adc8">Contains dissolved Ca²⁺ and/or Mg²⁺ ions</text>
+  <text x="540" y="258" text-anchor="middle" font-size="10" fill="#a6adc8">Forms scum with soap; limescale in pipes/kettles</text>
+
+  <!-- Two types table -->
+  <rect x="410" y="268" width="250" height="80" rx="6" fill="#313244"/>
+  <text x="535" y="284" text-anchor="middle" font-size="10" font-weight="bold" fill="#fab387">Temporary hardness</text>
+  <text x="535" y="298" text-anchor="middle" font-size="9" fill="#a6adc8">Contains Ca(HCO₃)₂</text>
+  <text x="535" y="311" text-anchor="middle" font-size="9" fill="#a6adc8">Removed by: boiling</text>
+  <text x="535" y="324" text-anchor="middle" font-size="9" fill="#a6e3a1">Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂</text>
+  <text x="535" y="340" text-anchor="middle" font-size="9" fill="#a6adc8">Or add Na₂CO₃ (washing soda)</text>
+
+  <rect x="670" y="268" width="260" height="80" rx="6" fill="#313244"/>
+  <text x="800" y="284" text-anchor="middle" font-size="10" font-weight="bold" fill="#89b4fa">Permanent hardness</text>
+  <text x="800" y="298" text-anchor="middle" font-size="9" fill="#a6adc8">Contains CaSO₄, MgSO₄</text>
+  <text x="800" y="311" text-anchor="middle" font-size="9" fill="#f38ba8">NOT removed by boiling</text>
+  <text x="800" y="324" text-anchor="middle" font-size="9" fill="#a6adc8">Removed by: ion exchange resin</text>
+  <text x="800" y="337" text-anchor="middle" font-size="9" fill="#a6adc8">Ca²⁺/Mg²⁺ replaced with Na⁺/H⁺</text>
+
+  <!-- Purity test box -->
+  <rect x="410" y="360" width="520" height="65" rx="6" fill="#313244"/>
+  <text x="670" y="378" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Testing Water Purity</text>
+  <text x="670" y="396" text-anchor="middle" font-size="10" fill="#a6adc8">Pure water: m.p. = 0°C (sharp) | b.p. = 100°C (sharp) at 1 atm</text>
+  <text x="670" y="412" text-anchor="middle" font-size="10" fill="#f38ba8">Impure water: m.p. below 0°C | b.p. above 100°C; range not sharp</text>
+  <text x="670" y="428" text-anchor="middle" font-size="10" fill="#a6adc8">Distilled water (from distillation) = pure | Deionised water = pure</text>
+</svg>

@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Reflex Arc and The Eye — IGCSE Biology</text>
+
+  <!-- ══════ REFLEX ARC ══════ -->
+  <text x="250" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">The Reflex Arc</text>
+
+  <!-- Pathway boxes -->
+  <!-- Stimulus -->
+  <rect x="20" y="75" width="80" height="45" rx="6" fill="#f38ba8" fill-opacity="0.2" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="60" y="96" text-anchor="middle" font-size="11" fill="#f38ba8">Stimulus</text>
+  <text x="60" y="110" text-anchor="middle" font-size="9" fill="#a6adc8">(e.g. heat)</text>
+
+  <!-- Receptor -->
+  <rect x="120" y="75" width="80" height="45" rx="6" fill="#fab387" fill-opacity="0.2" stroke="#fab387" stroke-width="1.5"/>
+  <text x="160" y="96" text-anchor="middle" font-size="11" fill="#fab387">Receptor</text>
+  <text x="160" y="110" text-anchor="middle" font-size="9" fill="#a6adc8">(skin)</text>
+
+  <!-- Sensory neurone -->
+  <rect x="220" y="75" width="90" height="45" rx="6" fill="#f9e2af" fill-opacity="0.2" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="265" y="93" text-anchor="middle" font-size="10" fill="#f9e2af">Sensory</text>
+  <text x="265" y="106" text-anchor="middle" font-size="10" fill="#f9e2af">Neurone</text>
+  <text x="265" y="118" text-anchor="middle" font-size="9" fill="#a6adc8">(to CNS)</text>
+
+  <!-- Spinal cord relay -->
+  <rect x="330" y="75" width="80" height="45" rx="6" fill="#cba6f7" fill-opacity="0.2" stroke="#cba6f7" stroke-width="1.5"/>
+  <text x="370" y="93" text-anchor="middle" font-size="10" fill="#cba6f7">Relay</text>
+  <text x="370" y="106" text-anchor="middle" font-size="10" fill="#cba6f7">Neurone</text>
+  <text x="370" y="118" text-anchor="middle" font-size="9" fill="#a6adc8">(spinal cord)</text>
+
+  <!-- Motor neurone -->
+  <rect x="430" y="75" width="90" height="45" rx="6" fill="#a6e3a1" fill-opacity="0.2" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="475" y="93" text-anchor="middle" font-size="10" fill="#a6e3a1">Motor</text>
+  <text x="475" y="106" text-anchor="middle" font-size="10" fill="#a6e3a1">Neurone</text>
+  <text x="475" y="118" text-anchor="middle" font-size="9" fill="#a6adc8">(from CNS)</text>
+
+  <!-- Effector -->
+  <rect x="540" y="75" width="80" height="45" rx="6" fill="#89b4fa" fill-opacity="0.2" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="580" y="96" text-anchor="middle" font-size="11" fill="#89b4fa">Effector</text>
+  <text x="580" y="110" text-anchor="middle" font-size="9" fill="#a6adc8">(muscle)</text>
+
+  <!-- Response -->
+  <rect x="640" y="75" width="80" height="45" rx="6" fill="#f38ba8" fill-opacity="0.2" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="680" y="96" text-anchor="middle" font-size="11" fill="#f38ba8">Response</text>
+  <text x="680" y="110" text-anchor="middle" font-size="9" fill="#a6adc8">(withdrawal)</text>
+
+  <!-- Arrows between boxes -->
+  <defs>
+    <marker id="arr" markerWidth="7" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0,0 7,3 0,6" fill="#89b4fa"/></marker>
+  </defs>
+  <line x1="100" y1="97" x2="118" y2="97" stroke="#89b4fa" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="200" y1="97" x2="218" y2="97" stroke="#89b4fa" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="310" y1="97" x2="328" y2="97" stroke="#89b4fa" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="410" y1="97" x2="428" y2="97" stroke="#89b4fa" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="520" y1="97" x2="538" y2="97" stroke="#89b4fa" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="620" y1="97" x2="638" y2="97" stroke="#89b4fa" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Brain NOT involved arrow (bypasses) -->
+  <path d="M265,120 C265,145 370,145 370,145 C370,145 475,145 475,120" fill="none" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="370" y="158" text-anchor="middle" font-size="10" fill="#f9e2af">impulse via spinal cord — brain NOT involved</text>
+  <text x="370" y="170" text-anchor="middle" font-size="9" fill="#a6adc8">→ fast, automatic, protective</text>
+
+  <!-- Synapse diagram -->
+  <text x="250" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#cba6f7">Synapse</text>
+  <rect x="30" y="210" width="440" height="145" rx="8" fill="#181825"/>
+
+  <!-- Pre-synaptic -->
+  <rect x="45" y="235" width="100" height="80" rx="8" fill="#313244" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="95" y="280" text-anchor="middle" font-size="10" fill="#f9e2af">Pre-synaptic</text>
+  <text x="95" y="293" text-anchor="middle" font-size="10" fill="#f9e2af">neurone</text>
+
+  <!-- Vesicles -->
+  <circle cx="148" cy="255" r="6" fill="#cba6f7" fill-opacity="0.6"/>
+  <circle cx="160" cy="265" r="6" fill="#cba6f7" fill-opacity="0.6"/>
+  <circle cx="150" cy="278" r="6" fill="#cba6f7" fill-opacity="0.6"/>
+  <text x="148" y="305" text-anchor="middle" font-size="9" fill="#cba6f7">vesicles</text>
+
+  <!-- Synaptic cleft -->
+  <line x1="175" y1="228" x2="175" y2="322" stroke="#45475a" stroke-width="1.5"/>
+  <line x1="195" y1="228" x2="195" y2="322" stroke="#45475a" stroke-width="1.5"/>
+  <text x="185" y="346" text-anchor="middle" font-size="9" fill="#a6adc8">cleft</text>
+
+  <!-- Neurotransmitter dots crossing -->
+  <circle cx="182" cy="248" r="5" fill="#cba6f7"/>
+  <circle cx="185" cy="265" r="5" fill="#cba6f7"/>
+  <circle cx="183" cy="280" r="5" fill="#cba6f7"/>
+  <circle cx="185" cy="298" r="5" fill="#cba6f7"/>
+
+  <!-- Post-synaptic -->
+  <rect x="198" y="235" width="100" height="80" rx="8" fill="#313244" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="248" y="272" text-anchor="middle" font-size="10" fill="#a6e3a1">Post-synaptic</text>
+  <text x="248" y="285" text-anchor="middle" font-size="10" fill="#a6e3a1">neurone</text>
+  <!-- Receptors -->
+  <rect x="198" y="248" width="12" height="8" rx="2" fill="#a6e3a1" fill-opacity="0.5"/>
+  <rect x="198" y="262" width="12" height="8" rx="2" fill="#a6e3a1" fill-opacity="0.5"/>
+  <rect x="198" y="276" width="12" height="8" rx="2" fill="#a6e3a1" fill-opacity="0.5"/>
+  <rect x="198" y="290" width="12" height="8" rx="2" fill="#a6e3a1" fill-opacity="0.5"/>
+
+  <!-- Steps -->
+  <text x="330" y="245" font-size="10" fill="#a6adc8">1. Impulse arrives</text>
+  <text x="330" y="260" font-size="10" fill="#a6adc8">2. Vesicles release</text>
+  <text x="330" y="275" font-size="10" fill="#cba6f7">   neurotransmitter</text>
+  <text x="330" y="290" font-size="10" fill="#a6adc8">3. Diffuses across cleft</text>
+  <text x="330" y="305" font-size="10" fill="#a6adc8">4. Binds receptors</text>
+  <text x="330" y="320" font-size="10" fill="#a6adc8">5. New impulse generated</text>
+  <text x="330" y="342" font-size="9" fill="#a6adc8">One-direction transmission only</text>
+
+  <!-- ══════ THE EYE ══════ -->
+  <text x="780" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#f9e2af">The Eye</text>
+
+  <!-- Eye outline (roughly circular cross-section) -->
+  <circle cx="780" cy="240" r="145" fill="#313244" stroke="#a6adc8" stroke-width="2"/>
+
+  <!-- Sclera (outer white layer, already the background) -->
+  <!-- Cornea (front transparent) -->
+  <path d="M643,240 C643,215 658,200 675,200 C692,200 707,215 707,240 C707,265 692,280 675,280 C658,280 643,265 643,240Z"
+        fill="#89b4fa" fill-opacity="0.25" stroke="#89b4fa" stroke-width="2"/>
+  <text x="620" y="243" text-anchor="end" font-size="10" fill="#89b4fa">Cornea</text>
+  <text x="620" y="256" text-anchor="end" font-size="9" fill="#a6adc8">(main refraction)</text>
+
+  <!-- Iris (coloured ring) -->
+  <circle cx="720" cy="240" r="38" fill="#45475a" stroke="#cba6f7" stroke-width="2"/>
+  <!-- Pupil -->
+  <circle cx="720" cy="240" r="18" fill="#1e1e2e"/>
+  <text x="720" y="243" text-anchor="middle" font-size="9" fill="#a6adc8">pupil</text>
+  <text x="670" y="196" text-anchor="middle" font-size="9" fill="#cba6f7">iris</text>
+
+  <!-- Lens (biconvex) -->
+  <ellipse cx="740" cy="240" rx="12" ry="32" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="740" y="284" text-anchor="middle" font-size="9" fill="#f9e2af">lens</text>
+
+  <!-- Suspensory ligaments -->
+  <line x1="752" y1="215" x2="780" y2="205" stroke="#a6e3a1" stroke-width="1.5"/>
+  <line x1="752" y1="265" x2="780" y2="275" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="810" y="200" font-size="9" fill="#a6e3a1">suspensory</text>
+  <text x="810" y="212" font-size="9" fill="#a6e3a1">ligaments</text>
+
+  <!-- Ciliary muscle (ring) -->
+  <circle cx="780" cy="240" r="48" fill="none" stroke="#fab387" stroke-width="3" stroke-dasharray="4,4"/>
+  <text x="810" y="242" font-size="9" fill="#fab387">ciliary</text>
+  <text x="810" y="254" font-size="9" fill="#fab387">muscle</text>
+
+  <!-- Retina -->
+  <circle cx="780" cy="240" r="140" fill="none" stroke="#f38ba8" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <!-- Just the back half visible -->
+  <text x="915" y="200" text-anchor="start" font-size="9" fill="#f38ba8">retina</text>
+  <text x="915" y="212" text-anchor="start" font-size="9" fill="#a6adc8">(rods + cones)</text>
+
+  <!-- Fovea -->
+  <circle cx="920" cy="240" r="8" fill="#f9e2af" fill-opacity="0.5" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="935" y="243" font-size="9" fill="#f9e2af">fovea</text>
+
+  <!-- Blind spot -->
+  <circle cx="915" cy="270" r="6" fill="#45475a" stroke="#a6adc8" stroke-width="1.5"/>
+  <text x="935" y="273" font-size="9" fill="#a6adc8">blind spot</text>
+
+  <!-- Optic nerve -->
+  <line x1="924" y1="255" x2="960" y2="255" stroke="#a6adc8" stroke-width="3"/>
+  <text x="958" y="268" text-anchor="end" font-size="9" fill="#a6adc8">optic nerve</text>
+
+  <!-- Vitreous humour label -->
+  <text x="780" y="240" text-anchor="middle" font-size="10" fill="#a6adc8" fill-opacity="0.5">vitreous</text>
+  <text x="780" y="253" text-anchor="middle" font-size="10" fill="#a6adc8" fill-opacity="0.5">humour</text>
+
+  <!-- Accommodation table -->
+  <rect x="488" y="375" width="450" height="95" rx="8" fill="#181825"/>
+  <text x="713" y="393" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Accommodation (Focusing)</text>
+  <text x="580" y="413" text-anchor="middle" font-size="10" font-weight="bold" fill="#f9e2af">Near object</text>
+  <text x="850" y="413" text-anchor="middle" font-size="10" font-weight="bold" fill="#89b4fa">Distant object</text>
+  <line x1="713" y1="400" x2="713" y2="465" stroke="#313244" stroke-width="1"/>
+  <text x="580" y="430" text-anchor="middle" font-size="10" fill="#a6adc8">Ciliary muscles contract</text>
+  <text x="850" y="430" text-anchor="middle" font-size="10" fill="#a6adc8">Ciliary muscles relax</text>
+  <text x="580" y="445" text-anchor="middle" font-size="10" fill="#a6adc8">Ligaments relax → lens FAT</text>
+  <text x="850" y="445" text-anchor="middle" font-size="10" fill="#a6adc8">Ligaments taut → lens THIN</text>
+  <text x="580" y="460" text-anchor="middle" font-size="10" fill="#f9e2af">More refraction</text>
+  <text x="850" y="460" text-anchor="middle" font-size="10" fill="#89b4fa">Less refraction</text>
+</svg>

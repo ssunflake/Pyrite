@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Carbon and Nitrogen Cycles — IGCSE Biology</text>
+
+  <!-- ══════ CARBON CYCLE ══════ -->
+  <text x="240" y="56" text-anchor="middle" font-size="14" font-weight="bold" fill="#a6e3a1">The Carbon Cycle</text>
+
+  <!-- Atmosphere CO2 box -->
+  <rect x="130" y="65" width="220" height="45" rx="8" fill="#89b4fa" fill-opacity="0.15" stroke="#89b4fa" stroke-width="2"/>
+  <text x="240" y="85" text-anchor="middle" font-size="13" fill="#89b4fa">CO₂ in Atmosphere</text>
+  <text x="240" y="100" text-anchor="middle" font-size="10" fill="#a6adc8">0.04% of air</text>
+
+  <!-- Green plants box -->
+  <rect x="30" y="170" width="150" height="45" rx="6" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="105" y="190" text-anchor="middle" font-size="11" fill="#a6e3a1">Green Plants</text>
+  <text x="105" y="205" text-anchor="middle" font-size="9" fill="#a6adc8">(organic compounds)</text>
+
+  <!-- Animals box -->
+  <rect x="300" y="170" width="140" height="45" rx="6" fill="#fab387" fill-opacity="0.15" stroke="#fab387" stroke-width="1.5"/>
+  <text x="370" y="190" text-anchor="middle" font-size="11" fill="#fab387">Animals</text>
+  <text x="370" y="205" text-anchor="middle" font-size="9" fill="#a6adc8">(organic compounds)</text>
+
+  <!-- Dead matter / soil box -->
+  <rect x="140" y="300" width="170" height="45" rx="6" fill="#f9e2af" fill-opacity="0.12" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="225" y="320" text-anchor="middle" font-size="11" fill="#f9e2af">Dead organic matter</text>
+  <text x="225" y="335" text-anchor="middle" font-size="9" fill="#a6adc8">+ decomposers</text>
+
+  <!-- Fossil fuels -->
+  <rect x="80" y="400" width="160" height="45" rx="6" fill="#45475a" stroke="#6c7086" stroke-width="1.5"/>
+  <text x="160" y="420" text-anchor="middle" font-size="11" fill="#a6adc8">Fossil Fuels</text>
+  <text x="160" y="435" text-anchor="middle" font-size="9" fill="#a6adc8">(coal, oil, gas)</text>
+
+  <!-- Arrows with labels -->
+  <defs>
+    <marker id="aGr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#a6e3a1"/></marker>
+    <marker id="aYel" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#f9e2af"/></marker>
+    <marker id="aBlue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#89b4fa"/></marker>
+    <marker id="aOr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#fab387"/></marker>
+    <marker id="aRd" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#f38ba8"/></marker>
+  </defs>
+
+  <!-- Photosynthesis: CO2 → plants -->
+  <line x1="160" y1="90" x2="100" y2="168" stroke="#a6e3a1" stroke-width="2" marker-end="url(#aGr)"/>
+  <text x="100" y="135" text-anchor="end" font-size="10" fill="#a6e3a1">photosynthesis</text>
+
+  <!-- Plant respiration: plants → CO2 -->
+  <line x1="120" y1="168" x2="175" y2="110" stroke="#89b4fa" stroke-width="2" marker-end="url(#aBlue)"/>
+  <text x="120" y="156" text-anchor="end" font-size="10" fill="#89b4fa">respiration</text>
+
+  <!-- Feeding: plants → animals -->
+  <line x1="180" y1="193" x2="298" y2="193" stroke="#fab387" stroke-width="2" marker-end="url(#aOr)"/>
+  <text x="239" y="187" text-anchor="middle" font-size="10" fill="#fab387">feeding</text>
+
+  <!-- Animal respiration: animals → CO2 -->
+  <line x1="380" y1="168" x2="305" y2="110" stroke="#89b4fa" stroke-width="2" marker-end="url(#aBlue)"/>
+  <text x="365" y="145" text-anchor="start" font-size="10" fill="#89b4fa">respiration</text>
+
+  <!-- Death: plants + animals → dead matter -->
+  <line x1="105" y1="215" x2="175" y2="298" stroke="#f9e2af" stroke-width="2" marker-end="url(#aYel)"/>
+  <text x="105" y="258" text-anchor="end" font-size="10" fill="#f9e2af">death/</text>
+  <text x="105" y="270" text-anchor="end" font-size="10" fill="#f9e2af">excretion</text>
+  <line x1="360" y1="215" x2="285" y2="298" stroke="#f9e2af" stroke-width="2" marker-end="url(#aYel)"/>
+
+  <!-- Decomposition: dead matter → CO2 -->
+  <line x1="210" y1="300" x2="195" y2="112" stroke="#a6adc8" stroke-width="2" marker-end="url(#aBlue)"/>
+  <text x="195" y="210" text-anchor="end" font-size="10" fill="#a6adc8">decomposition</text>
+
+  <!-- Fossilisation: dead matter → fossil fuels (slow) -->
+  <line x1="215" y1="345" x2="185" y2="398" stroke="#6c7086" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#aYel)"/>
+  <text x="170" y="380" text-anchor="end" font-size="9" fill="#6c7086">fossilisation</text>
+  <text x="170" y="391" text-anchor="end" font-size="9" fill="#6c7086">(millions of yrs)</text>
+
+  <!-- Combustion: fossil fuels → CO2 -->
+  <line x1="160" y1="400" x2="195" y2="112" stroke="#f38ba8" stroke-width="2.5" marker-end="url(#aRd)"/>
+  <text x="50" y="280" text-anchor="middle" font-size="10" fill="#f38ba8">combustion</text>
+  <text x="50" y="293" font-size="9" fill="#a6adc8">(burning</text>
+  <text x="50" y="305" font-size="9" fill="#a6adc8">fossil fuels)</text>
+
+  <!-- ══════ NITROGEN CYCLE ══════ -->
+  <text x="720" y="56" text-anchor="middle" font-size="14" font-weight="bold" fill="#cba6f7">The Nitrogen Cycle</text>
+
+  <!-- Atmosphere N2 -->
+  <rect x="600" y="65" width="240" height="45" rx="8" fill="#cba6f7" fill-opacity="0.12" stroke="#cba6f7" stroke-width="2"/>
+  <text x="720" y="85" text-anchor="middle" font-size="13" fill="#cba6f7">N₂ in Atmosphere (78%)</text>
+  <text x="720" y="100" text-anchor="middle" font-size="10" fill="#a6adc8">unusable by most organisms</text>
+
+  <!-- Nitrates in soil -->
+  <rect x="605" y="215" width="180" height="45" rx="6" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="695" y="235" text-anchor="middle" font-size="11" fill="#a6e3a1">Nitrates in soil</text>
+  <text x="695" y="250" text-anchor="middle" font-size="9" fill="#a6adc8">(NO₃⁻)</text>
+
+  <!-- Plants -->
+  <rect x="530" y="300" width="140" height="45" rx="6" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="600" y="320" text-anchor="middle" font-size="11" fill="#a6e3a1">Plants</text>
+  <text x="600" y="335" text-anchor="middle" font-size="9" fill="#a6adc8">(proteins/DNA)</text>
+
+  <!-- Animals -->
+  <rect x="770" y="300" width="140" height="45" rx="6" fill="#fab387" fill-opacity="0.15" stroke="#fab387" stroke-width="1.5"/>
+  <text x="840" y="320" text-anchor="middle" font-size="11" fill="#fab387">Animals</text>
+  <text x="840" y="335" text-anchor="middle" font-size="9" fill="#a6adc8">(proteins/DNA)</text>
+
+  <!-- Ammonium in soil -->
+  <rect x="640" y="400" width="160" height="45" rx="6" fill="#f9e2af" fill-opacity="0.12" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="720" y="420" text-anchor="middle" font-size="11" fill="#f9e2af">Ammonium (NH₄⁺)</text>
+  <text x="720" y="435" text-anchor="middle" font-size="9" fill="#a6adc8">in soil</text>
+
+  <!-- N fixation: atmosphere → nitrates (Rhizobium) -->
+  <line x1="695" y1="110" x2="695" y2="213" stroke="#cba6f7" stroke-width="2.5" marker-end="url(#aBlue)"/>
+  <text x="700" y="168" font-size="10" fill="#cba6f7">nitrogen fixation</text>
+  <text x="700" y="181" font-size="9" fill="#a6adc8">(Rhizobium/lightning)</text>
+
+  <!-- Denitrification: nitrates → N2 -->
+  <line x1="640" y1="215" x2="650" y2="112" stroke="#f38ba8" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#aRd)"/>
+  <text x="590" y="165" text-anchor="end" font-size="10" fill="#f38ba8">denitrification</text>
+  <text x="590" y="177" text-anchor="end" font-size="9" fill="#a6adc8">(Pseudomonas)</text>
+
+  <!-- Nitrates → plants (absorption) -->
+  <line x1="655" y1="260" x2="600" y2="298" stroke="#a6e3a1" stroke-width="2" marker-end="url(#aGr)"/>
+  <text x="595" y="282" text-anchor="end" font-size="10" fill="#a6e3a1">absorption</text>
+  <text x="595" y="294" text-anchor="end" font-size="9" fill="#a6adc8">(active transport)</text>
+
+  <!-- Plants → animals (feeding) -->
+  <line x1="670" y1="323" x2="768" y2="323" stroke="#fab387" stroke-width="2" marker-end="url(#aOr)"/>
+  <text x="718" y="317" text-anchor="middle" font-size="10" fill="#fab387">feeding</text>
+
+  <!-- Death/excretion → ammonium -->
+  <line x1="585" y1="345" x2="680" y2="398" stroke="#f9e2af" stroke-width="2" marker-end="url(#aYel)"/>
+  <line x1="840" y1="345" x2="765" y2="398" stroke="#f9e2af" stroke-width="2" marker-end="url(#aYel)"/>
+  <text x="720" y="388" text-anchor="middle" font-size="9" fill="#f9e2af">death/excretion</text>
+  <text x="720" y="400" text-anchor="middle" font-size="9" fill="#f9e2af">→ decomposers</text>
+
+  <!-- Ammonium → nitrates (nitrification) -->
+  <line x1="720" y1="400" x2="720" y2="262" stroke="#a6e3a1" stroke-width="2" marker-end="url(#aGr)"/>
+  <text x="760" y="350" font-size="10" fill="#a6e3a1">nitrification</text>
+  <text x="760" y="363" font-size="9" fill="#a6adc8">(Nitrosomonas/</text>
+  <text x="760" y="375" font-size="9" fill="#a6adc8">Nitrobacter)</text>
+</svg>

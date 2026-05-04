@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Transport in Plants — IGCSE Biology</text>
+
+  <!-- ══════ PLANT DIAGRAM ══════ -->
+  <text x="220" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#a6e3a1">Transpiration Stream</text>
+
+  <!-- Soil -->
+  <rect x="80" y="400" width="280" height="60" rx="4" fill="#45475a" fill-opacity="0.4"/>
+  <text x="220" y="435" text-anchor="middle" font-size="11" fill="#a6adc8">Soil water</text>
+
+  <!-- Root -->
+  <rect x="185" y="340" width="70" height="70" rx="4" fill="#fab387" fill-opacity="0.12" stroke="#fab387" stroke-width="1.5"/>
+  <text x="220" y="380" text-anchor="middle" font-size="10" fill="#fab387">Root</text>
+  <!-- Root hair cell -->
+  <path d="M185,375 C165,370 148,362 140,358 C130,354 128,358 138,362 C148,366 163,372 183,378" fill="none" stroke="#fab387" stroke-width="2"/>
+  <text x="115" y="357" text-anchor="end" font-size="9" fill="#fab387">root hair</text>
+  <text x="115" y="368" text-anchor="end" font-size="9" fill="#fab387">cell</text>
+  <text x="115" y="380" text-anchor="end" font-size="9" fill="#a6adc8">(active transport</text>
+  <text x="115" y="391" text-anchor="end" font-size="9" fill="#a6adc8">of minerals)</text>
+
+  <!-- Stem (rectangle) -->
+  <rect x="198" y="170" width="44" height="172" rx="3" fill="#313244" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="220" y="255" text-anchor="middle" font-size="10" fill="#a6adc8">stem</text>
+
+  <!-- Xylem in stem (left side, blue) -->
+  <rect x="200" y="172" width="16" height="168" rx="2" fill="#89b4fa" fill-opacity="0.2" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="178" y="260" text-anchor="end" font-size="10" fill="#89b4fa">xylem</text>
+  <!-- Water dots going up -->
+  <circle cx="208" cy="310" r="4" fill="#89b4fa" fill-opacity="0.7"/>
+  <circle cx="208" cy="290" r="4" fill="#89b4fa" fill-opacity="0.7"/>
+  <circle cx="208" cy="270" r="4" fill="#89b4fa" fill-opacity="0.7"/>
+  <circle cx="208" cy="250" r="4" fill="#89b4fa" fill-opacity="0.7"/>
+  <circle cx="208" cy="230" r="4" fill="#89b4fa" fill-opacity="0.7"/>
+  <circle cx="208" cy="210" r="4" fill="#89b4fa" fill-opacity="0.7"/>
+  <circle cx="208" cy="190" r="4" fill="#89b4fa" fill-opacity="0.7"/>
+  <!-- Up arrow -->
+  <defs>
+    <marker id="aUp" markerWidth="7" markerHeight="6" refX="3.5" refY="6" orient="auto"><polygon points="0,6 3.5,0 7,6" fill="#89b4fa"/></marker>
+    <marker id="aDn" markerWidth="7" markerHeight="6" refX="3.5" refY="0" orient="auto"><polygon points="0,0 3.5,6 7,0" fill="#a6e3a1"/></marker>
+    <marker id="aRt" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#89b4fa"/></marker>
+    <marker id="aRtG" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#a6e3a1"/></marker>
+  </defs>
+
+  <!-- Phloem in stem (right side, green) -->
+  <rect x="224" y="172" width="16" height="168" rx="2" fill="#a6e3a1" fill-opacity="0.2" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="262" y="260" font-size="10" fill="#a6e3a1">phloem</text>
+  <!-- Sugar dots going down -->
+  <circle cx="232" cy="188" r="4" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="232" cy="208" r="4" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="232" cy="228" r="4" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="232" cy="248" r="4" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="232" cy="268" r="4" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="232" cy="288" r="4" fill="#a6e3a1" fill-opacity="0.7"/>
+  <circle cx="232" cy="308" r="4" fill="#a6e3a1" fill-opacity="0.7"/>
+
+  <!-- Leaf -->
+  <ellipse cx="220" cy="145" rx="50" ry="25" fill="#a6e3a1" fill-opacity="0.2" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="220" y="148" text-anchor="middle" font-size="10" fill="#a6e3a1">leaf</text>
+  <!-- Stomata -->
+  <ellipse cx="185" cy="170" rx="6" ry="3" fill="#1e1e2e" stroke="#a6adc8" stroke-width="1"/>
+  <!-- Water vapour out -->
+  <defs><marker id="aRtB" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><polygon points="0,0 6,2.5 0,5" fill="#89b4fa"/></marker></defs>
+  <line x1="180" y1="170" x2="155" y2="165" stroke="#89b4fa" stroke-width="1.5" marker-end="url(#aRtB)"/>
+  <text x="145" y="160" text-anchor="end" font-size="9" fill="#89b4fa">H₂O vapour out</text>
+  <text x="145" y="172" text-anchor="end" font-size="9" fill="#89b4fa">(transpiration)</text>
+
+  <!-- Big upward arrow: water -->
+  <line x1="155" y1="400" x2="200" y2="340" stroke="#89b4fa" stroke-width="2" marker-end="url(#aRt)"/>
+  <text x="130" y="380" text-anchor="end" font-size="10" fill="#89b4fa">osmosis</text>
+  <text x="130" y="393" text-anchor="end" font-size="10" fill="#89b4fa">into root</text>
+
+  <!-- Translocation arrow -->
+  <line x1="280" y1="145" x2="310" y2="145" stroke="#a6e3a1" stroke-width="2" marker-end="url(#aRtG)"/>
+  <text x="315" y="145" font-size="9" fill="#a6e3a1">sucrose to sink</text>
+
+  <!-- ══════ XYLEM vs PHLOEM TABLE ══════ -->
+  <text x="640" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#cdd6f4">Xylem vs Phloem</text>
+  <rect x="430" y="65" width="500" height="245" rx="8" fill="#181825"/>
+
+  <!-- Header row -->
+  <rect x="435" y="70" width="490" height="25" rx="4" fill="#313244"/>
+  <text x="530" y="86" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Feature</text>
+  <text x="665" y="86" text-anchor="middle" font-size="11" font-weight="bold" fill="#89b4fa">Xylem</text>
+  <text x="820" y="86" text-anchor="middle" font-size="11" font-weight="bold" fill="#a6e3a1">Phloem</text>
+
+  <line x1="440" y1="95" x2="920" y2="95" stroke="#313244" stroke-width="1"/>
+  <text x="530" y="112" text-anchor="middle" font-size="10" fill="#a6adc8">Substance carried</text>
+  <text x="665" y="112" text-anchor="middle" font-size="10" fill="#89b4fa">Water + mineral ions</text>
+  <text x="820" y="112" text-anchor="middle" font-size="10" fill="#a6e3a1">Sucrose + amino acids</text>
+
+  <line x1="440" y1="120" x2="920" y2="120" stroke="#313244" stroke-width="1"/>
+  <text x="530" y="137" text-anchor="middle" font-size="10" fill="#a6adc8">Direction</text>
+  <text x="665" y="137" text-anchor="middle" font-size="10" fill="#89b4fa">Upward only</text>
+  <text x="820" y="137" text-anchor="middle" font-size="10" fill="#a6e3a1">Both directions</text>
+
+  <line x1="440" y1="145" x2="920" y2="145" stroke="#313244" stroke-width="1"/>
+  <text x="530" y="162" text-anchor="middle" font-size="10" fill="#a6adc8">Cells alive?</text>
+  <text x="665" y="162" text-anchor="middle" font-size="10" fill="#89b4fa">Dead (no cytoplasm)</text>
+  <text x="820" y="162" text-anchor="middle" font-size="10" fill="#a6e3a1">Living</text>
+
+  <line x1="440" y1="170" x2="920" y2="170" stroke="#313244" stroke-width="1"/>
+  <text x="530" y="187" text-anchor="middle" font-size="10" fill="#a6adc8">Cell walls</text>
+  <text x="665" y="187" text-anchor="middle" font-size="10" fill="#89b4fa">Thick + lignified</text>
+  <text x="820" y="187" text-anchor="middle" font-size="10" fill="#a6e3a1">Thin, sieve plates</text>
+
+  <line x1="440" y1="195" x2="920" y2="195" stroke="#313244" stroke-width="1"/>
+  <text x="530" y="212" text-anchor="middle" font-size="10" fill="#a6adc8">Energy needed?</text>
+  <text x="665" y="212" text-anchor="middle" font-size="10" fill="#89b4fa">No (passive)</text>
+  <text x="820" y="212" text-anchor="middle" font-size="10" fill="#a6e3a1">Yes (active loading)</text>
+
+  <line x1="440" y1="220" x2="920" y2="220" stroke="#313244" stroke-width="1"/>
+  <text x="530" y="237" text-anchor="middle" font-size="10" fill="#a6adc8">Mechanism</text>
+  <text x="665" y="237" text-anchor="middle" font-size="10" fill="#89b4fa">Cohesion-tension</text>
+  <text x="820" y="237" text-anchor="middle" font-size="10" fill="#a6e3a1">Mass flow / pressure</text>
+
+  <line x1="440" y1="245" x2="920" y2="245" stroke="#313244" stroke-width="1"/>
+  <text x="530" y="262" text-anchor="middle" font-size="10" fill="#a6adc8">Companion cells?</text>
+  <text x="665" y="262" text-anchor="middle" font-size="10" fill="#89b4fa">No</text>
+  <text x="820" y="262" text-anchor="middle" font-size="10" fill="#a6e3a1">Yes</text>
+
+  <!-- Transpiration factors -->
+  <rect x="430" y="325" width="500" height="140" rx="8" fill="#181825"/>
+  <text x="680" y="345" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Factors Affecting Transpiration Rate</text>
+
+  <text x="450" y="365" font-size="11" fill="#f9e2af">↑ Light intensity</text>
+  <text x="450" y="380" font-size="10" fill="#a6adc8">Stomata open wider → more water lost</text>
+  <text x="450" y="400" font-size="11" fill="#f38ba8">↑ Temperature</text>
+  <text x="450" y="415" font-size="10" fill="#a6adc8">More kinetic energy → faster evaporation</text>
+  <text x="450" y="435" font-size="11" fill="#89b4fa">↑ Wind speed</text>
+  <text x="450" y="450" font-size="10" fill="#a6adc8">Removes water vapour → steeper gradient</text>
+
+  <text x="700" y="365" font-size="11" fill="#a6e3a1">↑ Humidity</text>
+  <text x="700" y="380" font-size="10" fill="#a6adc8">Reduces gradient → less diffusion</text>
+  <text x="700" y="400" font-size="11" fill="#cba6f7">Measured with</text>
+  <text x="700" y="415" font-size="11" fill="#cba6f7">potometer</text>
+  <text x="700" y="435" font-size="10" fill="#a6adc8">(measures rate of</text>
+  <text x="700" y="450" font-size="10" fill="#a6adc8">water uptake)</text>
+
+  <!-- Cohesion-tension label -->
+  <rect x="430" y="290" width="500" height="28" rx="4" fill="#313244"/>
+  <text x="680" y="307" text-anchor="middle" font-size="10" fill="#cdd6f4">Cohesion-tension theory: water molecules cohere (stick together) → continuous column pulled up by evaporation</text>
+</svg>

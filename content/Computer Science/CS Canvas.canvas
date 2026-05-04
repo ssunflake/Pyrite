@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"92100cfa0e807bd0","x":422,"y":-37,"width":250,"height":60,"type":"text","text":""},
+		{"id":"idx","type":"file","file":"Computer Science/00. CS Index.md","x":0,"y":0,"width":240,"height":70,"color":"5"},
+		{"id":"s1","type":"text","text":"🔢 Data & Transmission","x":-700,"y":-300,"width":200,"height":45,"color":"1"},
+		{"id":"n01","type":"file","file":"Computer Science/Topics/01. Data Representation.md","x":-820,"y":-220,"width":240,"height":50},
+		{"id":"n02","type":"file","file":"Computer Science/Topics/02. Data Transmission.md","x":-820,"y":-155,"width":240,"height":50},
+		{"id":"s2","type":"text","text":"🖥️ Hardware & Software","x":-350,"y":-300,"width":200,"height":45,"color":"6"},
+		{"id":"n03","type":"file","file":"Computer Science/Topics/03. Hardware.md","x":-420,"y":-220,"width":240,"height":50},
+		{"id":"n04","type":"file","file":"Computer Science/Topics/04. Software.md","x":-420,"y":-155,"width":240,"height":50},
+		{"id":"s3","type":"text","text":"🌐 Internet & Tech","x":100,"y":-300,"width":200,"height":45,"color":"3"},
+		{"id":"n05","type":"file","file":"Computer Science/Topics/05. The Internet and its Uses.md","x":70,"y":-220,"width":240,"height":50},
+		{"id":"n06","type":"file","file":"Computer Science/Topics/06. Automated and Emerging Technologies.md","x":70,"y":-155,"width":240,"height":50},
+		{"id":"s4","type":"text","text":"🧠 Algorithms & Programming","x":-700,"y":100,"width":230,"height":45,"color":"4"},
+		{"id":"n07","type":"file","file":"Computer Science/Topics/07. Algorithm Design and Problem Solving.md","x":-820,"y":175,"width":240,"height":50},
+		{"id":"n08","type":"file","file":"Computer Science/Topics/08. Programming.md","x":-820,"y":240,"width":240,"height":50},
+		{"id":"n09","type":"file","file":"Computer Science/Topics/09. Databases.md","x":-820,"y":305,"width":240,"height":50},
+		{"id":"s5","type":"text","text":"🔀 Logic & Practice","x":100,"y":100,"width":200,"height":45,"color":"2"},
+		{"id":"n10","type":"file","file":"Computer Science/Topics/10. Boolean Logic.md","x":70,"y":175,"width":240,"height":50},
+		{"id":"n11","type":"file","file":"Computer Science/Topics/11. Programming Scenarios Practice.md","x":70,"y":240,"width":240,"height":50},
+		{"id":"dg","type":"text","text":"📐 Diagrams","x":450,"y":-100,"width":180,"height":45,"color":"5"},
+		{"id":"d1","type":"file","file":"Computer Science/Topics/Diagram - Networks and Protocols.svg","x":430,"y":-25,"width":80,"height":40},
+		{"id":"d2","type":"file","file":"Computer Science/Topics/Diagram - CPU and Hardware.svg","x":430,"y":23,"width":80,"height":40},
+		{"id":"d3","type":"file","file":"Computer Science/Topics/Diagram - Data Representation.svg","x":430,"y":71,"width":80,"height":40},
+		{"id":"d4","type":"file","file":"Computer Science/Topics/Diagram - Logic Gates.svg","x":430,"y":119,"width":80,"height":40},
+		{"id":"d5","type":"file","file":"Computer Science/Topics/Diagram - Algorithms (Flowcharts and Sorting).svg","x":430,"y":167,"width":80,"height":40}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"idx","fromSide":"left","toNode":"s1","toSide":"right"},
+		{"id":"e2","fromNode":"idx","fromSide":"left","toNode":"s2","toSide":"right"},
+		{"id":"e3","fromNode":"idx","fromSide":"right","toNode":"s3","toSide":"left"},
+		{"id":"e4","fromNode":"idx","fromSide":"bottom","toNode":"s4","toSide":"top"},
+		{"id":"e5","fromNode":"idx","fromSide":"bottom","toNode":"s5","toSide":"top"},
+		{"id":"e6","fromNode":"idx","fromSide":"right","toNode":"dg","toSide":"left"},
+		{"id":"ec1","fromNode":"n01","fromSide":"right","toNode":"n02","toSide":"left","label":"data encoding → transmission"},
+		{"id":"ec2","fromNode":"n03","fromSide":"right","toNode":"n04","toSide":"left","label":"hardware runs software"},
+		{"id":"ec3","fromNode":"n07","fromSide":"right","toNode":"n08","toSide":"left","label":"design → code"},
+		{"id":"ec4","fromNode":"n08","fromSide":"right","toNode":"n09","toSide":"left","label":"programs use databases"},
+		{"id":"ec5","fromNode":"n10","fromSide":"right","toNode":"n11","toSide":"left","label":"logic → apply in code"},
+		{"id":"ec6","fromNode":"n05","fromSide":"bottom","toNode":"n03","toSide":"top","label":"internet needs network hardware"},
+		{"id":"ec7","fromNode":"n04","fromSide":"bottom","toNode":"n07","toSide":"top","label":"software = programs"}
+	]
+}

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 480" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="920" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="460" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Light — Refraction, TIR &amp; Lenses — IGCSE Physics</text>
+
+  <!-- ═══════ REFRACTION ═══════ -->
+  <text x="155" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">Refraction (Air → Glass)</text>
+
+  <!-- Glass block -->
+  <rect x="30" y="130" width="250" height="150" rx="4" fill="#89b4fa" fill-opacity="0.12" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="155" y="215" text-anchor="middle" font-size="11" fill="#89b4fa" fill-opacity="0.8">Glass (denser)</text>
+  <text x="155" y="100" text-anchor="middle" font-size="11" fill="#a6adc8">Air (less dense)</text>
+
+  <!-- Normal line -->
+  <line x1="155" y1="70" x2="155" y2="310" stroke="#45475a" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="168" y="78" text-anchor="start" font-size="10" fill="#45475a">normal</text>
+
+  <!-- Incident ray (from top-left) -->
+  <defs>
+    <marker id="arrY" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#f9e2af"/>
+    </marker>
+    <marker id="arrYR" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto">
+      <polygon points="8,0 0,3 8,6" fill="#f9e2af"/>
+    </marker>
+    <marker id="arrG" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#a6e3a1"/>
+    </marker>
+    <marker id="arrR2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#f38ba8"/>
+    </marker>
+    <marker id="arrB2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#89b4fa"/>
+    </marker>
+    <marker id="arrW" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#cdd6f4"/>
+    </marker>
+  </defs>
+  <line x1="85" y1="80" x2="155" y2="130" stroke="#f9e2af" stroke-width="2.5" marker-end="url(#arrY)"/>
+  <!-- Angle of incidence arc -->
+  <path d="M155,100 A30,30 0 0,1 143,127" stroke="#f9e2af" stroke-width="1.5" fill="none"/>
+  <text x="133" y="112" text-anchor="middle" font-size="11" fill="#f9e2af">i</text>
+
+  <!-- Refracted ray (bends toward normal) -->
+  <line x1="155" y1="130" x2="180" y2="280" stroke="#a6e3a1" stroke-width="2.5" marker-end="url(#arrG)"/>
+  <!-- Angle of refraction arc -->
+  <path d="M155,160 A30,30 0 0,1 167,156" stroke="#a6e3a1" stroke-width="1.5" fill="none"/>
+  <text x="175" y="162" text-anchor="middle" font-size="11" fill="#a6e3a1">r</text>
+
+  <!-- Formula -->
+  <rect x="30" y="315" width="250" height="55" rx="6" fill="#181825"/>
+  <text x="155" y="335" text-anchor="middle" font-size="13" fill="#f9e2af" font-weight="bold">n = sin i / sin r</text>
+  <text x="155" y="352" text-anchor="middle" font-size="11" fill="#a6adc8">Bends TOWARD normal</text>
+  <text x="155" y="365" text-anchor="middle" font-size="10" fill="#a6adc8">(entering denser medium)</text>
+
+  <!-- ═══════ TOTAL INTERNAL REFLECTION ═══════ -->
+  <text x="460" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#f38ba8">Total Internal Reflection (TIR)</text>
+
+  <!-- Glass block for TIR -->
+  <rect x="310" y="70" width="290" height="160" rx="4" fill="#f38ba8" fill-opacity="0.08" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="455" y="150" text-anchor="middle" font-size="11" fill="#f38ba8" fill-opacity="0.8">Glass (denser medium)</text>
+  <text x="455" y="270" text-anchor="middle" font-size="11" fill="#a6adc8">Air (less dense)</text>
+
+  <!-- Normal at glass-air surface -->
+  <line x1="455" y1="50" x2="455" y2="310" stroke="#45475a" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- Ray 1: i < critical angle — refracts out -->
+  <line x1="330" y1="170" x2="455" y2="230" stroke="#f9e2af" stroke-width="2" marker-end="url(#arrY)"/>
+  <line x1="455" y1="230" x2="530" y2="290" stroke="#f9e2af" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrY)"/>
+  <text x="540" y="290" text-anchor="start" font-size="10" fill="#f9e2af">refracted</text>
+  <text x="540" y="302" text-anchor="start" font-size="10" fill="#f9e2af">(i &lt; C)</text>
+
+  <!-- Ray 2: i > critical angle — TIR -->
+  <line x1="330" y1="120" x2="455" y2="230" stroke="#f38ba8" stroke-width="2.5" marker-end="url(#arrR2)"/>
+  <line x1="455" y1="230" x2="570" y2="130" stroke="#f38ba8" stroke-width="2.5" marker-end="url(#arrR2)"/>
+  <text x="575" y="120" text-anchor="start" font-size="11" fill="#f38ba8" font-weight="bold">TIR!</text>
+  <text x="575" y="133" text-anchor="start" font-size="10" fill="#f38ba8">(i &gt; C)</text>
+
+  <!-- Critical angle label -->
+  <path d="M455,210 A20,20 0 0,0 437,230" stroke="#cba6f7" stroke-width="1.5" fill="none"/>
+  <text x="432" y="218" text-anchor="middle" font-size="10" fill="#cba6f7">C</text>
+
+  <!-- TIR box -->
+  <rect x="310" y="315" width="290" height="70" rx="6" fill="#181825"/>
+  <text x="455" y="333" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">sin C = 1/n</text>
+  <text x="455" y="350" text-anchor="middle" font-size="11" fill="#a6adc8">Conditions: dense → less dense</text>
+  <text x="455" y="365" text-anchor="middle" font-size="11" fill="#a6adc8">AND angle &gt; critical angle</text>
+  <text x="455" y="380" text-anchor="middle" font-size="10" fill="#cba6f7">Used in: optical fibres, prisms, diamonds</text>
+
+  <!-- ═══════ CONVERGING LENS ═══════ -->
+  <text x="780" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#a6e3a1">Converging Lens</text>
+
+  <!-- Lens shape -->
+  <ellipse cx="780" cy="200" rx="12" ry="80" fill="#89b4fa" fill-opacity="0.25" stroke="#89b4fa" stroke-width="2"/>
+
+  <!-- Principal axis -->
+  <line x1="630" y1="200" x2="900" y2="200" stroke="#45475a" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Focal points -->
+  <circle cx="720" cy="200" r="4" fill="#f9e2af"/>
+  <text x="720" y="217" text-anchor="middle" font-size="10" fill="#f9e2af">F</text>
+  <circle cx="840" cy="200" r="4" fill="#f9e2af"/>
+  <text x="840" y="217" text-anchor="middle" font-size="10" fill="#f9e2af">F</text>
+
+  <!-- Object -->
+  <line x1="660" y1="200" x2="660" y2="135" stroke="#cba6f7" stroke-width="2.5"/>
+  <polygon points="655,135 665,135 660,122" fill="#cba6f7"/>
+  <text x="648" y="170" text-anchor="middle" font-size="10" fill="#cba6f7">Object</text>
+
+  <!-- Ray 1: parallel to axis → through F -->
+  <line x1="660" y1="135" x2="780" y2="135" stroke="#f38ba8" stroke-width="1.8" marker-end="url(#arrR2)"/>
+  <line x1="780" y1="135" x2="860" y2="248" stroke="#f38ba8" stroke-width="1.8" marker-end="url(#arrR2)"/>
+
+  <!-- Ray 2: through optical centre → straight -->
+  <line x1="660" y1="135" x2="880" y2="230" stroke="#a6e3a1" stroke-width="1.8" marker-end="url(#arrG)"/>
+
+  <!-- Ray 3: through F before lens → parallel after -->
+  <line x1="660" y1="135" x2="780" y2="175" stroke="#89b4fa" stroke-width="1.8" marker-end="url(#arrB2)"/>
+  <line x1="780" y1="175" x2="890" y2="175" stroke="#89b4fa" stroke-width="1.8" marker-end="url(#arrB2)"/>
+
+  <!-- Image (intersection) -->
+  <line x1="862" y1="200" x2="862" y2="248" stroke="#f9e2af" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="875" y="228" text-anchor="start" font-size="10" fill="#f9e2af">Image</text>
+  <text x="875" y="241" text-anchor="start" font-size="10" fill="#f9e2af">(real, inverted)</text>
+
+  <!-- Lens formula + image table -->
+  <rect x="630" y="315" width="280" height="150" rx="6" fill="#181825"/>
+  <text x="770" y="333" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Converging Lens Images</text>
+  <text x="770" y="352" text-anchor="middle" font-size="12" fill="#f9e2af">1/f = 1/u + 1/v</text>
+
+  <text x="640" y="372" text-anchor="start" font-size="10" fill="#a6adc8">Object position</text>
+  <text x="760" y="372" text-anchor="start" font-size="10" fill="#a6adc8">Image</text>
+  <line x1="635" y1="376" x2="905" y2="376" stroke="#313244" stroke-width="1"/>
+
+  <text x="640" y="390" text-anchor="start" font-size="10" fill="#cdd6f4">Beyond 2F</text>
+  <text x="760" y="390" text-anchor="start" font-size="10" fill="#f38ba8">Real, inverted, smaller</text>
+  <text x="640" y="405" text-anchor="start" font-size="10" fill="#cdd6f4">At 2F</text>
+  <text x="760" y="405" text-anchor="start" font-size="10" fill="#fab387">Real, inverted, same size</text>
+  <text x="640" y="420" text-anchor="start" font-size="10" fill="#cdd6f4">Between F and 2F</text>
+  <text x="760" y="420" text-anchor="start" font-size="10" fill="#a6e3a1">Real, inverted, larger</text>
+  <text x="640" y="435" text-anchor="start" font-size="10" fill="#cdd6f4">Inside F</text>
+  <text x="760" y="435" text-anchor="start" font-size="10" fill="#89b4fa">Virtual, upright, larger</text>
+  <text x="640" y="450" text-anchor="start" font-size="10" fill="#cba6f7">(magnifying glass)</text>
+
+</svg>

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" font-family="Arial, sans-serif">
+  <rect width="960" height="500" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">The Human Digestive System — IGCSE Biology</text>
+
+  <!-- ══════ DIAGRAM (left/center) ══════ -->
+
+  <!-- Mouth / oral cavity -->
+  <ellipse cx="310" cy="70" rx="45" ry="22" fill="#fab387" fill-opacity="0.3" stroke="#fab387" stroke-width="2"/>
+  <text x="310" y="74" text-anchor="middle" font-size="11" fill="#fab387">Mouth</text>
+  <line x1="250" y1="70" x2="195" y2="70" stroke="#fab387" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="190" y="65" text-anchor="end" font-size="10" fill="#fab387">Teeth (chewing)</text>
+  <text x="190" y="78" text-anchor="end" font-size="10" fill="#a6adc8">salivary amylase</text>
+
+  <!-- Oesophagus -->
+  <rect x="295" y="92" width="30" height="65" rx="10" fill="#f9e2af" fill-opacity="0.15" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="340" y="125" font-size="10" fill="#f9e2af">Oesophagus</text>
+  <text x="340" y="137" font-size="9" fill="#a6adc8">(peristalsis)</text>
+
+  <!-- Stomach -->
+  <path d="M270,157 C255,157 240,165 238,185 C236,210 242,240 255,255 C268,270 300,272 325,265 C348,258 360,240 358,215 C356,190 348,170 335,162 C322,154 285,157 270,157Z"
+        fill="#f38ba8" fill-opacity="0.18" stroke="#f38ba8" stroke-width="2"/>
+  <text x="298" y="210" text-anchor="middle" font-size="11" fill="#f38ba8">Stomach</text>
+  <line x1="230" y1="210" x2="195" y2="210" stroke="#f38ba8" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="190" y="205" text-anchor="end" font-size="10" fill="#f38ba8">Churns food</text>
+  <text x="190" y="218" text-anchor="end" font-size="10" fill="#a6adc8">pepsin (pH 2)</text>
+  <text x="190" y="231" text-anchor="end" font-size="10" fill="#a6adc8">HCl acid</text>
+
+  <!-- Liver -->
+  <path d="M380,155 C405,150 430,155 440,170 C450,185 445,205 430,210 C415,215 395,210 380,200 C365,190 360,168 380,155Z"
+        fill="#f9e2af" fill-opacity="0.2" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="405" y="183" text-anchor="middle" font-size="10" fill="#f9e2af">Liver</text>
+
+  <!-- Gall bladder -->
+  <ellipse cx="415" cy="215" rx="18" ry="13" fill="#a6e3a1" fill-opacity="0.2" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="415" y="218" text-anchor="middle" font-size="9" fill="#a6e3a1">Gall</text>
+  <text x="460" y="218" font-size="9" fill="#a6e3a1">← bile stored</text>
+
+  <!-- Pancreas -->
+  <path d="M350,240 C375,232 405,232 430,238 C445,242 448,252 435,258 C415,265 375,262 355,258 C340,254 338,245 350,240Z"
+        fill="#cba6f7" fill-opacity="0.2" stroke="#cba6f7" stroke-width="1.5"/>
+  <text x="393" y="252" text-anchor="middle" font-size="10" fill="#cba6f7">Pancreas</text>
+  <line x1="445" y1="250" x2="475" y2="250" stroke="#cba6f7" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="478" y="247" font-size="9" fill="#cba6f7">amylase, lipase,</text>
+  <text x="478" y="259" font-size="9" fill="#cba6f7">protease → duodenum</text>
+
+  <!-- Small intestine (coiled) -->
+  <path d="M325,265 C340,270 360,265 365,280 C370,295 355,305 340,310 C320,315 300,308 295,295 C290,282 305,270 325,265Z"
+        fill="#89b4fa" fill-opacity="0.12" stroke="#89b4fa" stroke-width="1.5"/>
+  <path d="M265,265 C270,278 275,295 280,310 C285,325 288,340 285,355 C282,370 275,378 285,385 C295,392 320,388 340,380 C360,372 375,358 380,342 C385,326 380,308 368,298"
+        fill="none" stroke="#89b4fa" stroke-width="2.5"/>
+  <text x="320" y="350" text-anchor="middle" font-size="11" fill="#89b4fa">Small</text>
+  <text x="320" y="363" text-anchor="middle" font-size="11" fill="#89b4fa">Intestine</text>
+  <line x1="245" y1="355" x2="195" y2="355" stroke="#89b4fa" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="190" y="347" text-anchor="end" font-size="10" fill="#89b4fa">Duodenum + Ileum</text>
+  <text x="190" y="360" text-anchor="end" font-size="10" fill="#a6adc8">enzymes digest</text>
+  <text x="190" y="373" text-anchor="end" font-size="10" fill="#a6adc8">villi absorb nutrients</text>
+
+  <!-- Large intestine -->
+  <path d="M380,350 C400,342 420,345 435,360 C445,375 445,400 440,420 C435,440 420,450 400,450 C375,450 355,440 345,420 C335,400 340,375 355,362 C362,355 372,354 380,350Z"
+        fill="#fab387" fill-opacity="0.12" stroke="#fab387" stroke-width="1.5"/>
+  <text x="393" y="400" text-anchor="middle" font-size="10" fill="#fab387">Large</text>
+  <text x="393" y="413" text-anchor="middle" font-size="10" fill="#fab387">Intestine</text>
+  <line x1="445" y1="400" x2="475" y2="400" stroke="#fab387" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="478" y="397" font-size="9" fill="#fab387">Absorbs water</text>
+  <text x="478" y="409" font-size="9" fill="#a6adc8">Forms faeces</text>
+
+  <!-- Rectum + Anus -->
+  <rect x="383" y="448" width="20" height="30" rx="5" fill="#a6adc8" fill-opacity="0.2" stroke="#a6adc8" stroke-width="1.5"/>
+  <text x="415" y="468" font-size="10" fill="#a6adc8">Rectum / Anus</text>
+
+  <!-- Bile duct line from gall bladder to duodenum -->
+  <line x1="415" y1="228" x2="365" y2="268" stroke="#a6e3a1" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- ══════ TABLE (right) ══════ -->
+  <rect x="535" y="50" width="400" height="430" rx="8" fill="#181825"/>
+  <text x="735" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#cdd6f4">Summary of Digestion</text>
+
+  <!-- Header -->
+  <rect x="540" y="80" width="390" height="22" rx="4" fill="#313244"/>
+  <text x="590" y="95" text-anchor="middle" font-size="10" font-weight="bold" fill="#cdd6f4">Organ</text>
+  <text x="690" y="95" text-anchor="middle" font-size="10" font-weight="bold" fill="#cdd6f4">Enzyme</text>
+  <text x="790" y="95" text-anchor="middle" font-size="10" font-weight="bold" fill="#cdd6f4">Substrate → Product</text>
+
+  <!-- Rows -->
+  <line x1="540" y1="102" x2="930" y2="102" stroke="#313244" stroke-width="1"/>
+  <text x="580" y="116" text-anchor="middle" font-size="10" fill="#fab387">Mouth</text>
+  <text x="680" y="116" text-anchor="middle" font-size="10" fill="#a6adc8">Salivary amylase</text>
+  <text x="800" y="116" text-anchor="middle" font-size="10" fill="#a6adc8">Starch → Maltose</text>
+
+  <line x1="540" y1="122" x2="930" y2="122" stroke="#313244" stroke-width="1"/>
+  <text x="580" y="138" text-anchor="middle" font-size="10" fill="#f38ba8">Stomach</text>
+  <text x="680" y="133" text-anchor="middle" font-size="10" fill="#a6adc8">Pepsin (HCl, pH 2)</text>
+  <text x="800" y="133" text-anchor="middle" font-size="10" fill="#a6adc8">Proteins → Peptides</text>
+
+  <line x1="540" y1="145" x2="930" y2="145" stroke="#313244" stroke-width="1"/>
+  <text x="580" y="162" text-anchor="middle" font-size="10" fill="#cba6f7">Pancreas</text>
+  <text x="680" y="157" text-anchor="middle" font-size="10" fill="#a6adc8">Amylase</text>
+  <text x="800" y="157" text-anchor="middle" font-size="10" fill="#a6adc8">Starch → Maltose</text>
+  <text x="680" y="170" text-anchor="middle" font-size="10" fill="#a6adc8">Lipase</text>
+  <text x="800" y="170" text-anchor="middle" font-size="10" fill="#a6adc8">Lipids → FA + glycerol</text>
+  <text x="680" y="183" text-anchor="middle" font-size="10" fill="#a6adc8">Protease (trypsin)</text>
+  <text x="800" y="183" text-anchor="middle" font-size="10" fill="#a6adc8">Proteins → Peptides</text>
+
+  <line x1="540" y1="190" x2="930" y2="190" stroke="#313244" stroke-width="1"/>
+  <text x="580" y="207" text-anchor="middle" font-size="10" fill="#89b4fa">Small intestine</text>
+  <text x="680" y="202" text-anchor="middle" font-size="10" fill="#a6adc8">Maltase</text>
+  <text x="800" y="202" text-anchor="middle" font-size="10" fill="#a6adc8">Maltose → Glucose</text>
+  <text x="680" y="215" text-anchor="middle" font-size="10" fill="#a6adc8">Peptidase</text>
+  <text x="800" y="215" text-anchor="middle" font-size="10" fill="#a6adc8">Peptides → Amino acids</text>
+
+  <line x1="540" y1="222" x2="930" y2="222" stroke="#313244" stroke-width="1"/>
+  <text x="580" y="237" text-anchor="middle" font-size="10" fill="#a6e3a1">Liver/bile</text>
+  <text x="680" y="237" text-anchor="middle" font-size="10" fill="#a6adc8">Bile (not enzyme)</text>
+  <text x="800" y="237" text-anchor="middle" font-size="10" fill="#a6adc8">Emulsifies fats; neutralises HCl</text>
+
+  <!-- Villus cross section -->
+  <text x="735" y="265" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Villus (Absorption)</text>
+  <line x1="540" y1="248" x2="930" y2="248" stroke="#45475a" stroke-width="1"/>
+
+  <!-- Villus shape -->
+  <path d="M680,440 L650,340 C640,310 650,280 680,275 C710,270 720,305 720,340Z"
+        fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1.5"/>
+  <!-- Capillary network -->
+  <line x1="665" y1="350" x2="705" y2="350" stroke="#f38ba8" stroke-width="2"/>
+  <line x1="662" y1="370" x2="708" y2="370" stroke="#f38ba8" stroke-width="2"/>
+  <line x1="665" y1="390" x2="705" y2="390" stroke="#f38ba8" stroke-width="2"/>
+  <!-- Lacteal -->
+  <line x1="685" y1="290" x2="685" y2="430" stroke="#89b4fa" stroke-width="2.5" stroke-dasharray="4,2"/>
+
+  <!-- Labels -->
+  <text x="730" y="310" font-size="10" fill="#a6e3a1">epithelium</text>
+  <text x="730" y="323" font-size="9" fill="#a6adc8">(one cell thick)</text>
+  <text x="730" y="355" font-size="10" fill="#f38ba8">capillaries</text>
+  <text x="730" y="368" font-size="9" fill="#a6adc8">(glucose,</text>
+  <text x="730" y="380" font-size="9" fill="#a6adc8">amino acids)</text>
+  <text x="620" y="370" font-size="10" fill="#89b4fa">lacteal</text>
+  <text x="600" y="383" font-size="9" fill="#a6adc8">(fats → lymph)</text>
+
+  <!-- Microvilli label -->
+  <line x1="660" y1="276" x2="640" y2="265" stroke="#a6e3a1" stroke-width="1"/>
+  <text x="595" y="263" text-anchor="middle" font-size="9" fill="#a6e3a1">microvilli</text>
+  <text x="595" y="274" text-anchor="middle" font-size="9" fill="#a6adc8">(brush border)</text>
+
+  <text x="735" y="465" text-anchor="middle" font-size="9" fill="#a6adc8">Villi greatly increase surface area for absorption</text>
+</svg>

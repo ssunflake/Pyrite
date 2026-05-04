@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">The Heart and Circulation — IGCSE Biology</text>
+
+  <!-- ══════ HEART DIAGRAM ══════ -->
+  <text x="300" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#f38ba8">Heart Structure</text>
+
+  <!-- Heart outline -->
+  <path d="M200,430 C160,400 100,360 90,310 C80,260 100,220 130,205 C155,193 185,195 210,210 C230,222 245,240 255,255 C265,240 280,222 300,210 C325,195 355,193 380,205 C410,220 430,260 420,310 C410,360 350,400 310,430 C290,445 220,445 200,430Z"
+        fill="#f38ba8" fill-opacity="0.15" stroke="#f38ba8" stroke-width="2.5"/>
+
+  <!-- Septum (vertical divide) -->
+  <line x1="255" y1="215" x2="255" y2="415" stroke="#6c7086" stroke-width="3"/>
+
+  <!-- Right atrium -->
+  <text x="175" y="265" text-anchor="middle" font-size="11" fill="#89b4fa">Right</text>
+  <text x="175" y="278" text-anchor="middle" font-size="11" fill="#89b4fa">Atrium</text>
+
+  <!-- Left atrium -->
+  <text x="335" y="265" text-anchor="middle" font-size="11" fill="#f38ba8">Left</text>
+  <text x="335" y="278" text-anchor="middle" font-size="11" fill="#f38ba8">Atrium</text>
+
+  <!-- AV valves -->
+  <line x1="150" y1="305" x2="240" y2="305" stroke="#f9e2af" stroke-width="2"/>
+  <polygon points="155,300 240,305 155,310" fill="#f9e2af" fill-opacity="0.5"/>
+  <text x="90" y="303" text-anchor="middle" font-size="9" fill="#f9e2af">tricuspid</text>
+  <text x="90" y="314" text-anchor="middle" font-size="9" fill="#f9e2af">valve (AV)</text>
+
+  <line x1="270" y1="305" x2="360" y2="305" stroke="#f9e2af" stroke-width="2"/>
+  <polygon points="355,300 270,305 355,310" fill="#f9e2af" fill-opacity="0.5"/>
+  <text x="410" y="303" text-anchor="middle" font-size="9" fill="#f9e2af">bicuspid</text>
+  <text x="410" y="314" text-anchor="middle" font-size="9" fill="#f9e2af">valve (AV)</text>
+
+  <!-- Right ventricle -->
+  <text x="175" y="360" text-anchor="middle" font-size="11" fill="#89b4fa">Right</text>
+  <text x="175" y="373" text-anchor="middle" font-size="11" fill="#89b4fa">Ventricle</text>
+  <text x="175" y="388" text-anchor="middle" font-size="9" fill="#a6adc8">(thinner wall)</text>
+
+  <!-- Left ventricle -->
+  <text x="335" y="360" text-anchor="middle" font-size="11" fill="#f38ba8">Left</text>
+  <text x="335" y="373" text-anchor="middle" font-size="11" fill="#f38ba8">Ventricle</text>
+  <text x="335" y="388" text-anchor="middle" font-size="9" fill="#a6adc8">(thicker wall)</text>
+
+  <!-- Pulmonary artery (right → lungs) -->
+  <path d="M155,220 C140,200 130,180 135,160 C140,140 160,132 185,135 C200,137 210,148 205,165"
+        fill="none" stroke="#89b4fa" stroke-width="3"/>
+  <text x="95" y="160" text-anchor="end" font-size="10" fill="#89b4fa">Pulmonary</text>
+  <text x="95" y="173" text-anchor="end" font-size="10" fill="#89b4fa">artery</text>
+  <text x="95" y="186" text-anchor="end" font-size="9" fill="#a6adc8">(to lungs)</text>
+
+  <!-- Pulmonary vein (lungs → left) -->
+  <path d="M355,220 C370,200 380,180 375,160 C370,140 350,132 325,135 C310,137 300,148 305,165"
+        fill="none" stroke="#f38ba8" stroke-width="3"/>
+  <text x="425" y="160" font-size="10" fill="#f38ba8">Pulmonary</text>
+  <text x="425" y="173" font-size="10" fill="#f38ba8">vein</text>
+  <text x="425" y="186" font-size="9" fill="#a6adc8">(from lungs)</text>
+
+  <!-- Aorta (left → body) -->
+  <path d="M335,230 C355,215 370,200 380,185 C390,165 390,140 375,125"
+        fill="none" stroke="#f38ba8" stroke-width="3.5"/>
+  <text x="425" y="120" font-size="10" fill="#f38ba8">Aorta</text>
+  <text x="425" y="133" font-size="9" fill="#a6adc8">(to body)</text>
+
+  <!-- Vena cava (body → right) -->
+  <path d="M155,235 C135,215 115,195 108,175 C100,155 108,135 125,125"
+        fill="none" stroke="#89b4fa" stroke-width="3.5"/>
+  <text x="60" y="120" text-anchor="end" font-size="10" fill="#89b4fa">Vena cava</text>
+  <text x="60" y="133" text-anchor="end" font-size="9" fill="#a6adc8">(from body)</text>
+
+  <!-- Coronary artery -->
+  <path d="M265,230 C275,250 270,265 260,270" fill="none" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="290" y="255" font-size="9" fill="#f9e2af">coronary</text>
+  <text x="290" y="266" font-size="9" fill="#f9e2af">artery</text>
+
+  <!-- SAN label -->
+  <circle cx="340" cy="245" r="8" fill="#a6e3a1" fill-opacity="0.4" stroke="#a6e3a1" stroke-width="1"/>
+  <text x="380" y="248" font-size="9" fill="#a6e3a1">SAN</text>
+  <text x="380" y="260" font-size="9" fill="#a6adc8">(pacemaker)</text>
+
+  <!-- Right = blue, Left = red colour coding -->
+  <rect x="80" y="440" width="12" height="12" fill="#89b4fa"/>
+  <text x="98" y="451" font-size="10" fill="#89b4fa">Right side = deoxygenated blood</text>
+  <rect x="270" y="440" width="12" height="12" fill="#f38ba8"/>
+  <text x="288" y="451" font-size="10" fill="#f38ba8">Left side = oxygenated blood</text>
+
+  <!-- ══════ DOUBLE CIRCULATION ══════ -->
+  <text x="700" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#cdd6f4">Double Circulation</text>
+
+  <!-- Lungs box -->
+  <rect x="615" y="70" width="170" height="70" rx="8" fill="#89b4fa" fill-opacity="0.12" stroke="#89b4fa" stroke-width="2"/>
+  <text x="700" y="100" text-anchor="middle" font-size="13" fill="#89b4fa">LUNGS</text>
+  <text x="700" y="118" text-anchor="middle" font-size="10" fill="#a6adc8">gas exchange</text>
+
+  <!-- Heart box -->
+  <rect x="640" y="215" width="120" height="60" rx="8" fill="#f38ba8" fill-opacity="0.15" stroke="#f38ba8" stroke-width="2"/>
+  <text x="700" y="248" text-anchor="middle" font-size="13" fill="#f38ba8">HEART</text>
+
+  <!-- Body box -->
+  <rect x="615" y="360" width="170" height="70" rx="8" fill="#a6e3a1" fill-opacity="0.12" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="700" y="390" text-anchor="middle" font-size="13" fill="#a6e3a1">BODY</text>
+  <text x="700" y="408" text-anchor="middle" font-size="10" fill="#a6adc8">all organs + tissues</text>
+
+  <!-- Pulmonary circuit arrows (heart ↔ lungs) -->
+  <!-- Right → lungs -->
+  <line x1="660" y1="215" x2="660" y2="140" stroke="#89b4fa" stroke-width="2.5"/>
+  <polygon points="655,142 665,142 660,130" fill="#89b4fa"/>
+  <text x="595" y="183" text-anchor="end" font-size="10" fill="#89b4fa">deoxygenated</text>
+  <text x="595" y="196" text-anchor="end" font-size="10" fill="#89b4fa">(pulmonary art.)</text>
+
+  <!-- Lungs → left -->
+  <line x1="740" y1="140" x2="740" y2="215" stroke="#f38ba8" stroke-width="2.5"/>
+  <polygon points="735,213 745,213 740,225" fill="#f38ba8"/>
+  <text x="760" y="183" font-size="10" fill="#f38ba8">oxygenated</text>
+  <text x="760" y="196" font-size="10" fill="#f38ba8">(pulmonary vein)</text>
+
+  <!-- Systemic circuit (heart ↔ body) -->
+  <!-- Left → body -->
+  <line x1="740" y1="275" x2="740" y2="360" stroke="#f38ba8" stroke-width="2.5"/>
+  <polygon points="735,358 745,358 740,370" fill="#f38ba8"/>
+  <text x="760" y="322" font-size="10" fill="#f38ba8">oxygenated</text>
+  <text x="760" y="335" font-size="10" fill="#f38ba8">(aorta)</text>
+
+  <!-- Body → right -->
+  <line x1="660" y1="360" x2="660" y2="275" stroke="#89b4fa" stroke-width="2.5"/>
+  <polygon points="655,277 665,277 660,265" fill="#89b4fa"/>
+  <text x="595" y="322" text-anchor="end" font-size="10" fill="#89b4fa">deoxygenated</text>
+  <text x="595" y="335" text-anchor="end" font-size="10" fill="#89b4fa">(vena cava)</text>
+
+  <!-- Labels for circuits -->
+  <text x="540" y="183" text-anchor="middle" font-size="11" fill="#89b4fa" font-weight="bold">Pulmonary</text>
+  <text x="540" y="196" text-anchor="middle" font-size="11" fill="#89b4fa" font-weight="bold">circuit</text>
+  <text x="540" y="322" text-anchor="middle" font-size="11" fill="#a6e3a1" font-weight="bold">Systemic</text>
+  <text x="540" y="335" text-anchor="middle" font-size="11" fill="#a6e3a1" font-weight="bold">circuit</text>
+
+  <!-- Blood vessel comparison -->
+  <rect x="510" y="430" width="430" height="42" rx="6" fill="#181825"/>
+  <text x="725" y="448" text-anchor="middle" font-size="10" font-weight="bold" fill="#cdd6f4">Arteries: thick wall, high pressure, no valves  |  Veins: thin wall, valves, low pressure  |  Capillaries: 1-cell thick, exchange</text>
+  <text x="725" y="463" text-anchor="middle" font-size="10" fill="#a6adc8">Left ventricle wall THICKER than right — pumps blood to entire body at higher pressure</text>
+</svg>

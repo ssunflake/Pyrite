@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Logic Gates — IGCSE Computer Science</text>
+
+  <!-- ══ GATE 1: NOT ══ -->
+  <text x="95" y="58" text-anchor="middle" font-size="12" font-weight="bold" fill="#f38ba8">NOT</text>
+  <rect x="20" y="65" width="150" height="120" rx="6" fill="#181825"/>
+  <!-- NOT symbol: triangle + circle -->
+  <line x1="35" y1="115" x2="60" y2="115" stroke="#f38ba8" stroke-width="2"/>
+  <polygon points="60,100 60,130 95,115" fill="none" stroke="#f38ba8" stroke-width="2"/>
+  <circle cx="100" cy="115" r="5" fill="none" stroke="#f38ba8" stroke-width="2"/>
+  <line x1="105" y1="115" x2="130" y2="115" stroke="#f38ba8" stroke-width="2"/>
+  <text x="38" y="112" font-size="10" fill="#a6adc8">A</text>
+  <text x="133" y="112" font-size="10" fill="#a6adc8">Q</text>
+  <!-- Truth table -->
+  <text x="30" y="147" font-size="9" font-weight="bold" fill="#cdd6f4">A | Q</text>
+  <line x1="30" y1="151" x2="155" y2="151" stroke="#45475a" stroke-width="1"/>
+  <text x="30" y="164" font-size="10" fill="#a6adc8">0 | </text><text x="50" y="164" font-size="10" fill="#a6e3a1">1</text>
+  <text x="30" y="178" font-size="10" fill="#a6adc8">1 | </text><text x="50" y="178" font-size="10" fill="#f38ba8">0</text>
+
+  <!-- ══ GATE 2: AND ══ -->
+  <text x="245" y="58" text-anchor="middle" font-size="12" font-weight="bold" fill="#89b4fa">AND</text>
+  <rect x="170" y="65" width="150" height="130" rx="6" fill="#181825"/>
+  <!-- AND symbol: D shape -->
+  <line x1="185" y1="100" x2="185" y2="130" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="185" y1="100" x2="215" y2="100" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="185" y1="130" x2="215" y2="130" stroke="#89b4fa" stroke-width="2"/>
+  <path d="M215,100 A15,15 0 0,1 215,130" fill="none" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="180" y1="107" x2="185" y2="107" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="180" y1="123" x2="185" y2="123" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="230" y1="115" x2="250" y2="115" stroke="#89b4fa" stroke-width="2"/>
+  <text x="182" y="105" text-anchor="end" font-size="9" fill="#a6adc8">A</text>
+  <text x="182" y="122" text-anchor="end" font-size="9" fill="#a6adc8">B</text>
+  <text x="253" y="118" font-size="9" fill="#a6adc8">Q</text>
+  <!-- Truth table -->
+  <text x="180" y="152" font-size="9" font-weight="bold" fill="#cdd6f4">A B | Q</text>
+  <line x1="180" y1="156" x2="310" y2="156" stroke="#45475a" stroke-width="1"/>
+  <text x="180" y="168" font-size="10" fill="#a6adc8">0 0 | </text><text x="217" y="168" font-size="10" fill="#f38ba8">0</text>
+  <text x="180" y="181" font-size="10" fill="#a6adc8">0 1 | </text><text x="217" y="181" font-size="10" fill="#f38ba8">0</text>
+  <text x="180" y="194" font-size="10" fill="#a6adc8">1 0 | </text><text x="217" y="194" font-size="10" fill="#f38ba8">0</text>
+  <text x="180" y="207" font-size="10" fill="#a6adc8">1 1 | </text><text x="217" y="207" font-size="10" fill="#a6e3a1">1</text>
+
+  <!-- ══ GATE 3: OR ══ -->
+  <text x="400" y="58" text-anchor="middle" font-size="12" font-weight="bold" fill="#a6e3a1">OR</text>
+  <rect x="325" y="65" width="150" height="130" rx="6" fill="#181825"/>
+  <!-- OR symbol: curved back -->
+  <path d="M345,100 Q355,115 345,130" fill="none" stroke="#a6e3a1" stroke-width="2"/>
+  <line x1="345" y1="100" x2="380" y2="100" stroke="#a6e3a1" stroke-width="2"/>
+  <line x1="345" y1="130" x2="380" y2="130" stroke="#a6e3a1" stroke-width="2"/>
+  <path d="M380,100 Q400,115 380,130" fill="none" stroke="#a6e3a1" stroke-width="2"/>
+  <line x1="340" y1="107" x2="355" y2="107" stroke="#a6e3a1" stroke-width="2"/>
+  <line x1="340" y1="123" x2="355" y2="123" stroke="#a6e3a1" stroke-width="2"/>
+  <line x1="400" y1="115" x2="420" y2="115" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="337" y="105" text-anchor="end" font-size="9" fill="#a6adc8">A</text>
+  <text x="337" y="122" text-anchor="end" font-size="9" fill="#a6adc8">B</text>
+  <text x="423" y="118" font-size="9" fill="#a6adc8">Q</text>
+  <!-- Truth table -->
+  <text x="335" y="152" font-size="9" font-weight="bold" fill="#cdd6f4">A B | Q</text>
+  <line x1="335" y1="156" x2="465" y2="156" stroke="#45475a" stroke-width="1"/>
+  <text x="335" y="168" font-size="10" fill="#a6adc8">0 0 | </text><text x="372" y="168" font-size="10" fill="#f38ba8">0</text>
+  <text x="335" y="181" font-size="10" fill="#a6adc8">0 1 | </text><text x="372" y="181" font-size="10" fill="#a6e3a1">1</text>
+  <text x="335" y="194" font-size="10" fill="#a6adc8">1 0 | </text><text x="372" y="194" font-size="10" fill="#a6e3a1">1</text>
+  <text x="335" y="207" font-size="10" fill="#a6adc8">1 1 | </text><text x="372" y="207" font-size="10" fill="#a6e3a1">1</text>
+
+  <!-- ══ GATE 4: NAND ══ -->
+  <text x="560" y="58" text-anchor="middle" font-size="12" font-weight="bold" fill="#f9e2af">NAND</text>
+  <rect x="485" y="65" width="150" height="130" rx="6" fill="#181825"/>
+  <!-- NAND = AND + circle -->
+  <line x1="500" y1="100" x2="500" y2="130" stroke="#f9e2af" stroke-width="2"/>
+  <line x1="500" y1="100" x2="530" y2="100" stroke="#f9e2af" stroke-width="2"/>
+  <line x1="500" y1="130" x2="530" y2="130" stroke="#f9e2af" stroke-width="2"/>
+  <path d="M530,100 A15,15 0 0,1 530,130" fill="none" stroke="#f9e2af" stroke-width="2"/>
+  <line x1="495" y1="107" x2="500" y2="107" stroke="#f9e2af" stroke-width="2"/>
+  <line x1="495" y1="123" x2="500" y2="123" stroke="#f9e2af" stroke-width="2"/>
+  <circle cx="550" cy="115" r="5" fill="none" stroke="#f9e2af" stroke-width="2"/>
+  <line x1="555" y1="115" x2="575" y2="115" stroke="#f9e2af" stroke-width="2"/>
+  <text x="492" y="105" text-anchor="end" font-size="9" fill="#a6adc8">A</text>
+  <text x="492" y="122" text-anchor="end" font-size="9" fill="#a6adc8">B</text>
+  <text x="578" y="118" font-size="9" fill="#a6adc8">Q</text>
+  <!-- Truth table -->
+  <text x="495" y="152" font-size="9" font-weight="bold" fill="#cdd6f4">A B | Q</text>
+  <line x1="495" y1="156" x2="625" y2="156" stroke="#45475a" stroke-width="1"/>
+  <text x="495" y="168" font-size="10" fill="#a6adc8">0 0 | </text><text x="532" y="168" font-size="10" fill="#a6e3a1">1</text>
+  <text x="495" y="181" font-size="10" fill="#a6adc8">0 1 | </text><text x="532" y="181" font-size="10" fill="#a6e3a1">1</text>
+  <text x="495" y="194" font-size="10" fill="#a6adc8">1 0 | </text><text x="532" y="194" font-size="10" fill="#a6e3a1">1</text>
+  <text x="495" y="207" font-size="10" fill="#a6adc8">1 1 | </text><text x="532" y="207" font-size="10" fill="#f38ba8">0</text>
+
+  <!-- ══ GATE 5: NOR ══ -->
+  <text x="720" y="58" text-anchor="middle" font-size="12" font-weight="bold" fill="#cba6f7">NOR</text>
+  <rect x="645" y="65" width="150" height="130" rx="6" fill="#181825"/>
+  <path d="M660,100 Q670,115 660,130" fill="none" stroke="#cba6f7" stroke-width="2"/>
+  <line x1="660" y1="100" x2="695" y2="100" stroke="#cba6f7" stroke-width="2"/>
+  <line x1="660" y1="130" x2="695" y2="130" stroke="#cba6f7" stroke-width="2"/>
+  <path d="M695,100 Q715,115 695,130" fill="none" stroke="#cba6f7" stroke-width="2"/>
+  <line x1="655" y1="107" x2="668" y2="107" stroke="#cba6f7" stroke-width="2"/>
+  <line x1="655" y1="123" x2="668" y2="123" stroke="#cba6f7" stroke-width="2"/>
+  <circle cx="720" cy="115" r="5" fill="none" stroke="#cba6f7" stroke-width="2"/>
+  <line x1="725" y1="115" x2="745" y2="115" stroke="#cba6f7" stroke-width="2"/>
+  <text x="652" y="105" text-anchor="end" font-size="9" fill="#a6adc8">A</text>
+  <text x="652" y="122" text-anchor="end" font-size="9" fill="#a6adc8">B</text>
+  <text x="748" y="118" font-size="9" fill="#a6adc8">Q</text>
+  <text x="655" y="152" font-size="9" font-weight="bold" fill="#cdd6f4">A B | Q</text>
+  <line x1="655" y1="156" x2="785" y2="156" stroke="#45475a" stroke-width="1"/>
+  <text x="655" y="168" font-size="10" fill="#a6adc8">0 0 | </text><text x="692" y="168" font-size="10" fill="#a6e3a1">1</text>
+  <text x="655" y="181" font-size="10" fill="#a6adc8">0 1 | </text><text x="692" y="181" font-size="10" fill="#f38ba8">0</text>
+  <text x="655" y="194" font-size="10" fill="#a6adc8">1 0 | </text><text x="692" y="194" font-size="10" fill="#f38ba8">0</text>
+  <text x="655" y="207" font-size="10" fill="#a6adc8">1 1 | </text><text x="692" y="207" font-size="10" fill="#f38ba8">0</text>
+
+  <!-- ══ GATE 6: XOR ══ -->
+  <text x="880" y="58" text-anchor="middle" font-size="12" font-weight="bold" fill="#fab387">XOR</text>
+  <rect x="805" y="65" width="148" height="130" rx="6" fill="#181825"/>
+  <!-- XOR: extra curved line at back -->
+  <path d="M818,100 Q828,115 818,130" fill="none" stroke="#fab387" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <path d="M825,100 Q835,115 825,130" fill="none" stroke="#fab387" stroke-width="2"/>
+  <line x1="825" y1="100" x2="855" y2="100" stroke="#fab387" stroke-width="2"/>
+  <line x1="825" y1="130" x2="855" y2="130" stroke="#fab387" stroke-width="2"/>
+  <path d="M855,100 Q875,115 855,130" fill="none" stroke="#fab387" stroke-width="2"/>
+  <line x1="815" y1="107" x2="832" y2="107" stroke="#fab387" stroke-width="2"/>
+  <line x1="815" y1="123" x2="832" y2="123" stroke="#fab387" stroke-width="2"/>
+  <line x1="875" y1="115" x2="895" y2="115" stroke="#fab387" stroke-width="2"/>
+  <text x="812" y="105" text-anchor="end" font-size="9" fill="#a6adc8">A</text>
+  <text x="812" y="122" text-anchor="end" font-size="9" fill="#a6adc8">B</text>
+  <text x="898" y="118" font-size="9" fill="#a6adc8">Q</text>
+  <text x="815" y="152" font-size="9" font-weight="bold" fill="#cdd6f4">A B | Q</text>
+  <line x1="815" y1="156" x2="945" y2="156" stroke="#45475a" stroke-width="1"/>
+  <text x="815" y="168" font-size="10" fill="#a6adc8">0 0 | </text><text x="852" y="168" font-size="10" fill="#f38ba8">0</text>
+  <text x="815" y="181" font-size="10" fill="#a6adc8">0 1 | </text><text x="852" y="181" font-size="10" fill="#a6e3a1">1</text>
+  <text x="815" y="194" font-size="10" fill="#a6adc8">1 0 | </text><text x="852" y="194" font-size="10" fill="#a6e3a1">1</text>
+  <text x="815" y="207" font-size="10" fill="#a6adc8">1 1 | </text><text x="852" y="207" font-size="10" fill="#f38ba8">0</text>
+
+  <!-- ══ COMBINED CIRCUIT EXAMPLE ══ -->
+  <text x="480" y="238" text-anchor="middle" font-size="13" font-weight="bold" fill="#cdd6f4">Combined Circuit Example: Q = (A AND B) OR (NOT C)</text>
+
+  <rect x="20" y="248" width="920" height="220" rx="8" fill="#181825"/>
+
+  <!-- Left side: circuit diagram -->
+  <!-- A and B inputs to AND gate -->
+  <text x="50" y="290" font-size="11" fill="#89b4fa">A ──</text>
+  <text x="50" y="320" font-size="11" fill="#89b4fa">B ──</text>
+
+  <!-- AND gate body -->
+  <line x1="90" y1="283" x2="90" y2="313" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="90" y1="283" x2="118" y2="283" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="90" y1="313" x2="118" y2="313" stroke="#89b4fa" stroke-width="2"/>
+  <path d="M118,283 A15,15 0 0,1 118,313" fill="none" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="85" y1="290" x2="90" y2="290" stroke="#89b4fa" stroke-width="2"/>
+  <line x1="85" y1="306" x2="90" y2="306" stroke="#89b4fa" stroke-width="2"/>
+  <text x="100" y="302" text-anchor="middle" font-size="8" fill="#89b4fa">AND</text>
+  <line x1="133" y1="298" x2="195" y2="298" stroke="#89b4fa" stroke-width="2"/>
+
+  <!-- C input to NOT gate -->
+  <text x="50" y="360" font-size="11" fill="#f38ba8">C ──</text>
+  <line x1="85" y1="355" x2="110" y2="355" stroke="#f38ba8" stroke-width="2"/>
+  <polygon points="110,343 110,367 140,355" fill="none" stroke="#f38ba8" stroke-width="2"/>
+  <circle cx="145" cy="355" r="5" fill="none" stroke="#f38ba8" stroke-width="2"/>
+  <text x="120" y="346" text-anchor="middle" font-size="8" fill="#f38ba8">NOT</text>
+  <line x1="150" y1="355" x2="195" y2="355" stroke="#f38ba8" stroke-width="2"/>
+
+  <!-- OR gate (taking AND output and NOT output) -->
+  <path d="M200,298 Q210,326 200,355" fill="none" stroke="#a6e3a1" stroke-width="2"/>
+  <line x1="200" y1="298" x2="232" y2="298" stroke="#a6e3a1" stroke-width="2"/>
+  <line x1="200" y1="355" x2="232" y2="355" stroke="#a6e3a1" stroke-width="2"/>
+  <path d="M232,298 Q252,326 232,355" fill="none" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="225" y="330" text-anchor="middle" font-size="8" fill="#a6e3a1">OR</text>
+  <line x1="252" y1="326" x2="295" y2="326" stroke="#a6e3a1" stroke-width="2"/>
+
+  <text x="300" y="330" font-size="12" fill="#cdd6f4" font-weight="bold">── Q</text>
+  <text x="320" y="346" font-size="10" fill="#cdd6f4">= (A AND B) OR (NOT C)</text>
+
+  <!-- Right: truth table -->
+  <rect x="380" y="255" width="540" height="200" rx="6" fill="#313244"/>
+  <text x="650" y="273" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Truth Table for Q = (A AND B) OR (NOT C)</text>
+
+  <!-- Header -->
+  <rect x="385" y="278" width="530" height="20" rx="3" fill="#45475a"/>
+  <text x="420" y="292" text-anchor="middle" font-size="10" fill="#cdd6f4">A</text>
+  <text x="465" y="292" text-anchor="middle" font-size="10" fill="#cdd6f4">B</text>
+  <text x="510" y="292" text-anchor="middle" font-size="10" fill="#cdd6f4">C</text>
+  <text x="580" y="292" text-anchor="middle" font-size="10" fill="#89b4fa">A AND B</text>
+  <text x="670" y="292" text-anchor="middle" font-size="10" fill="#f38ba8">NOT C</text>
+  <text x="780" y="292" text-anchor="middle" font-size="10" fill="#a6e3a1">Q (final)</text>
+
+  <!-- Rows -->
+  <text x="420" y="310" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="465" y="310" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="510" y="310" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="580" y="310" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="670" y="310" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text><text x="780" y="310" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text>
+  <text x="420" y="326" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="465" y="326" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="510" y="326" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="580" y="326" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="670" y="326" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="780" y="326" text-anchor="middle" font-size="10" fill="#f38ba8">0</text>
+  <text x="420" y="342" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="465" y="342" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="510" y="342" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="580" y="342" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="670" y="342" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text><text x="780" y="342" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text>
+  <text x="420" y="358" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="465" y="358" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="510" y="358" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="580" y="358" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="670" y="358" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="780" y="358" text-anchor="middle" font-size="10" fill="#f38ba8">0</text>
+  <text x="420" y="374" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="465" y="374" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="510" y="374" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="580" y="374" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="670" y="374" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text><text x="780" y="374" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text>
+  <text x="420" y="390" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="465" y="390" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="510" y="390" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="580" y="390" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="670" y="390" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="780" y="390" text-anchor="middle" font-size="10" fill="#f38ba8">0</text>
+  <text x="420" y="406" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="465" y="406" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="510" y="406" text-anchor="middle" font-size="10" fill="#a6adc8">0</text><text x="580" y="406" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text><text x="670" y="406" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text><text x="780" y="406" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text>
+  <text x="420" y="422" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="465" y="422" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="510" y="422" text-anchor="middle" font-size="10" fill="#a6adc8">1</text><text x="580" y="422" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text><text x="670" y="422" text-anchor="middle" font-size="10" fill="#f38ba8">0</text><text x="780" y="422" text-anchor="middle" font-size="10" fill="#a6e3a1">1</text>
+  <text x="650" y="450" text-anchor="middle" font-size="9" fill="#a6adc8">n inputs → 2ⁿ rows in truth table  |  NAND and NOR are universal gates</text>
+</svg>

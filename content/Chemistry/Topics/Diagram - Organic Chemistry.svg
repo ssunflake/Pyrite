@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Organic Chemistry — IGCSE Chemistry</text>
+
+  <!-- ══ HOMOLOGOUS SERIES OVERVIEW ══ -->
+  <text x="480" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#f9e2af">Key Homologous Series</text>
+
+  <!-- Alkanes -->
+  <rect x="10" y="65" width="220" height="120" rx="6" fill="#89b4fa" fill-opacity="0.1" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="120" y="84" text-anchor="middle" font-size="11" font-weight="bold" fill="#89b4fa">Alkanes CₙH₂ₙ₊₂</text>
+  <text x="120" y="100" text-anchor="middle" font-size="10" fill="#a6adc8">Saturated; C–C single bonds only</text>
+  <text x="120" y="114" text-anchor="middle" font-size="10" fill="#a6adc8">CH₄ methane | C₂H₆ ethane</text>
+  <text x="120" y="128" text-anchor="middle" font-size="10" fill="#a6adc8">C₃H₈ propane | C₄H₁₀ butane</text>
+  <text x="120" y="144" text-anchor="middle" font-size="10" fill="#f38ba8">Reactions: combustion, substitution</text>
+  <text x="120" y="158" text-anchor="middle" font-size="9" fill="#a6adc8">Inert with bromine water (dark)</text>
+  <text x="120" y="173" text-anchor="middle" font-size="9" fill="#a6adc8">CH₄ + Cl₂ → CH₃Cl + HCl (UV light)</text>
+
+  <!-- Alkenes -->
+  <rect x="240" y="65" width="220" height="120" rx="6" fill="#a6e3a1" fill-opacity="0.1" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="350" y="84" text-anchor="middle" font-size="11" font-weight="bold" fill="#a6e3a1">Alkenes CₙH₂ₙ</text>
+  <text x="350" y="100" text-anchor="middle" font-size="10" fill="#a6adc8">Unsaturated; contain C=C</text>
+  <text x="350" y="114" text-anchor="middle" font-size="10" fill="#a6adc8">C₂H₄ ethene | C₃H₆ propene</text>
+  <text x="350" y="128" text-anchor="middle" font-size="10" fill="#a6adc8">C₄H₈ butene</text>
+  <text x="350" y="144" text-anchor="middle" font-size="10" fill="#f38ba8">Reactions: addition, polymerisation</text>
+  <text x="350" y="158" text-anchor="middle" font-size="9" fill="#a6e3a1">TEST: decolourises bromine water</text>
+  <text x="350" y="173" text-anchor="middle" font-size="9" fill="#a6adc8">C₂H₄ + Br₂ → CH₂BrCH₂Br</text>
+
+  <!-- Alcohols -->
+  <rect x="470" y="65" width="220" height="120" rx="6" fill="#f38ba8" fill-opacity="0.1" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="580" y="84" text-anchor="middle" font-size="11" font-weight="bold" fill="#f38ba8">Alcohols CₙH₂ₙ₊₁OH</text>
+  <text x="580" y="100" text-anchor="middle" font-size="10" fill="#a6adc8">Functional group: –OH</text>
+  <text x="580" y="114" text-anchor="middle" font-size="10" fill="#a6adc8">CH₃OH methanol | C₂H₅OH ethanol</text>
+  <text x="580" y="128" text-anchor="middle" font-size="10" fill="#a6adc8">Soluble in water; neutral pH</text>
+  <text x="580" y="144" text-anchor="middle" font-size="10" fill="#f38ba8">Combustion | oxidation → acid</text>
+  <text x="580" y="158" text-anchor="middle" font-size="9" fill="#a6adc8">Dehydration → alkene (Al₂O₃, 180°C)</text>
+  <text x="580" y="173" text-anchor="middle" font-size="9" fill="#a6adc8">Esterification → ester (conc H₂SO₄)</text>
+
+  <!-- Carboxylic acids -->
+  <rect x="700" y="65" width="248" height="120" rx="6" fill="#fab387" fill-opacity="0.1" stroke="#fab387" stroke-width="1.5"/>
+  <text x="824" y="84" text-anchor="middle" font-size="11" font-weight="bold" fill="#fab387">Carboxylic Acids –COOH</text>
+  <text x="824" y="100" text-anchor="middle" font-size="10" fill="#a6adc8">Functional group: –COOH</text>
+  <text x="824" y="114" text-anchor="middle" font-size="10" fill="#a6adc8">HCOOH methanoic | CH₃COOH ethanoic</text>
+  <text x="824" y="128" text-anchor="middle" font-size="10" fill="#a6adc8">Weak acids (pH ~3)</text>
+  <text x="824" y="144" text-anchor="middle" font-size="10" fill="#fab387">React with metals, oxides, carbonates</text>
+  <text x="824" y="158" text-anchor="middle" font-size="9" fill="#a6adc8">CH₃COOH ⇌ CH₃COO⁻ + H⁺</text>
+  <text x="824" y="173" text-anchor="middle" font-size="9" fill="#a6adc8">Esterification with alcohols</text>
+
+  <!-- ══ ETHANOL PRODUCTION ══ -->
+  <text x="240" y="215" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Ethanol Production Comparison</text>
+
+  <rect x="10" y="225" width="450" height="120" rx="8" fill="#181825"/>
+  <!-- Headers -->
+  <rect x="15" y="230" width="440" height="22" rx="4" fill="#313244"/>
+  <text x="130" y="245" text-anchor="middle" font-size="10" font-weight="bold" fill="#cdd6f4">Feature</text>
+  <text x="295" y="245" text-anchor="middle" font-size="10" font-weight="bold" fill="#f38ba8">Fermentation</text>
+  <text x="420" y="245" text-anchor="middle" font-size="10" font-weight="bold" fill="#a6e3a1">Hydration of Ethene</text>
+
+  <text x="130" y="263" text-anchor="middle" font-size="10" fill="#a6adc8">Raw material</text>
+  <text x="295" y="263" text-anchor="middle" font-size="10" fill="#f38ba8">Glucose (renewable)</text>
+  <text x="420" y="263" text-anchor="middle" font-size="10" fill="#a6e3a1">Ethene (crude oil)</text>
+
+  <text x="130" y="279" text-anchor="middle" font-size="10" fill="#a6adc8">Conditions</text>
+  <text x="295" y="279" text-anchor="middle" font-size="10" fill="#f38ba8">~30°C, yeast, anaerobic</text>
+  <text x="420" y="279" text-anchor="middle" font-size="10" fill="#a6e3a1">300°C, 60 atm, H₃PO₄</text>
+
+  <text x="130" y="295" text-anchor="middle" font-size="10" fill="#a6adc8">Process type</text>
+  <text x="295" y="295" text-anchor="middle" font-size="10" fill="#f38ba8">Batch, slow, impure</text>
+  <text x="420" y="295" text-anchor="middle" font-size="10" fill="#a6e3a1">Continuous, fast, pure</text>
+
+  <text x="130" y="311" text-anchor="middle" font-size="10" fill="#a6adc8">Sustainability</text>
+  <text x="295" y="311" text-anchor="middle" font-size="10" fill="#a6e3a1">Renewable ✓</text>
+  <text x="420" y="311" text-anchor="middle" font-size="10" fill="#f38ba8">Non-renewable ✗</text>
+
+  <text x="130" y="333" text-anchor="middle" font-size="10" fill="#a6adc8">Equation</text>
+  <text x="295" y="333" text-anchor="middle" font-size="10" fill="#f38ba8">C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂</text>
+  <text x="420" y="333" text-anchor="middle" font-size="10" fill="#a6e3a1">C₂H₄ + H₂O → C₂H₅OH</text>
+
+  <!-- ══ ESTER FORMATION ══ -->
+  <text x="700" y="215" text-anchor="middle" font-size="12" font-weight="bold" fill="#cba6f7">Esterification</text>
+
+  <rect x="480" y="225" width="465" height="95" rx="8" fill="#181825"/>
+  <text x="712" y="248" text-anchor="middle" font-size="11" fill="#cdd6f4">acid + alcohol ⇌ ester + water</text>
+  <text x="712" y="268" text-anchor="middle" font-size="12" fill="#cba6f7">CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O</text>
+  <text x="712" y="285" text-anchor="middle" font-size="10" fill="#a6adc8">Catalyst: concentrated H₂SO₄ | Reversible | Warm</text>
+  <text x="712" y="300" text-anchor="middle" font-size="10" fill="#f9e2af">ethyl ethanoate — fruity smell — solvent (nail varnish remover)</text>
+  <text x="712" y="315" text-anchor="middle" font-size="9" fill="#a6adc8">Name: [alcohol alkyl] [acid anion -oate] e.g. methyl methanoate = HCOOCH₃</text>
+
+  <!-- ══ ADDITION POLYMERISATION ══ -->
+  <text x="480" y="345" text-anchor="middle" font-size="12" font-weight="bold" fill="#f9e2af">Addition Polymerisation</text>
+  <rect x="480" y="355" width="465" height="110" rx="8" fill="#181825"/>
+
+  <!-- Monomer: ethene -->
+  <text x="520" y="376" font-size="10" fill="#a6adc8">Monomer:</text>
+  <rect x="515" y="385" width="60" height="30" rx="4" fill="#89b4fa" fill-opacity="0.2" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="545" y="405" text-anchor="middle" font-size="11" fill="#89b4fa">CH₂=CH₂</text>
+  <text x="545" y="425" text-anchor="middle" font-size="9" fill="#89b4fa">ethene</text>
+
+  <text x="595" y="406" text-anchor="middle" font-size="14" fill="#cdd6f4">→</text>
+
+  <!-- Polymer -->
+  <text x="640" y="376" font-size="10" fill="#a6adc8">Polymer:</text>
+  <rect x="635" y="385" width="110" height="30" rx="4" fill="#a6e3a1" fill-opacity="0.2" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="690" y="405" text-anchor="middle" font-size="11" fill="#a6e3a1">–(CH₂–CH₂)ₙ–</text>
+  <text x="690" y="425" text-anchor="middle" font-size="9" fill="#a6e3a1">poly(ethene)</text>
+
+  <!-- Others -->
+  <text x="760" y="385" font-size="9" fill="#f9e2af">CH₂=CHCl → poly(chloroethene) / PVC</text>
+  <text x="760" y="400" font-size="9" fill="#f9e2af">CH₃CH=CH₂ → poly(propene)</text>
+  <text x="760" y="415" font-size="9" fill="#f9e2af">No atoms lost (addition, not condensation)</text>
+  <text x="760" y="430" font-size="9" fill="#a6adc8">Double bond breaks; chains link</text>
+  <text x="760" y="445" font-size="9" fill="#a6adc8">Test monomer: decolourises bromine water</text>
+  <text x="760" y="458" font-size="9" fill="#a6adc8">Polymer: does NOT decolourise</text>
+
+  <!-- ══ CRACKING ══ -->
+  <text x="240" y="367" text-anchor="middle" font-size="12" font-weight="bold" fill="#fab387">Cracking (Thermal Decomposition)</text>
+  <rect x="10" y="377" width="450" height="88" rx="8" fill="#181825"/>
+  <text x="235" y="396" text-anchor="middle" font-size="10" fill="#a6adc8">Long alkane → shorter alkane + alkene</text>
+  <text x="235" y="414" text-anchor="middle" font-size="11" fill="#fab387">C₁₀H₂₂ → C₈H₁₈ + C₂H₄</text>
+  <text x="235" y="430" text-anchor="middle" font-size="10" fill="#a6adc8">Conditions: high temperature / Al₂O₃ catalyst</text>
+  <text x="235" y="446" text-anchor="middle" font-size="10" fill="#a6adc8">Purpose: increase supply of useful short-chain fuels and alkene monomers</text>
+  <text x="235" y="460" text-anchor="middle" font-size="9" fill="#a6e3a1">Product always contains alkene (unsaturated) — test: decolourises bromine water</text>
+</svg>

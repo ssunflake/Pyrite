@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Data Representation — IGCSE Computer Science</text>
+
+  <!-- ══ BINARY PLACE VALUES ══ -->
+  <text x="240" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#f9e2af">Binary ↔ Denary ↔ Hexadecimal</text>
+
+  <!-- 8-bit place value headers -->
+  <rect x="20" y="65" width="460" height="28" rx="4" fill="#313244"/>
+  <text x="37" y="83" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">128</text>
+  <text x="94" y="83" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">64</text>
+  <text x="152" y="83" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">32</text>
+  <text x="210" y="83" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">16</text>
+  <text x="268" y="83" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">8</text>
+  <text x="326" y="83" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">4</text>
+  <text x="384" y="83" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">2</text>
+  <text x="445" y="83" text-anchor="middle" font-size="12" fill="#f9e2af" font-weight="bold">1</text>
+
+  <!-- Example: 150 = 10010110 -->
+  <rect x="20" y="95" width="460" height="28" rx="4" fill="#89b4fa" fill-opacity="0.12"/>
+  <text x="37" y="113" text-anchor="middle" font-size="13" fill="#89b4fa" font-weight="bold">1</text>
+  <text x="94" y="113" text-anchor="middle" font-size="13" fill="#45475a">0</text>
+  <text x="152" y="113" text-anchor="middle" font-size="13" fill="#45475a">0</text>
+  <text x="210" y="113" text-anchor="middle" font-size="13" fill="#89b4fa" font-weight="bold">1</text>
+  <text x="268" y="113" text-anchor="middle" font-size="13" fill="#45475a">0</text>
+  <text x="326" y="113" text-anchor="middle" font-size="13" fill="#89b4fa" font-weight="bold">1</text>
+  <text x="384" y="113" text-anchor="middle" font-size="13" fill="#89b4fa" font-weight="bold">1</text>
+  <text x="445" y="113" text-anchor="middle" font-size="13" fill="#45475a">0</text>
+  <text x="492" y="110" font-size="11" fill="#89b4fa">= 128+16+4+2 = <tspan font-weight="bold">150</tspan></text>
+  <text x="492" y="125" font-size="10" fill="#a6adc8">hex: 1001 = 9, 0110 = 6 → <tspan fill="#89b4fa">96₁₆</tspan></text>
+
+  <!-- Example: 99 = 01100011 -->
+  <rect x="20" y="126" width="460" height="28" rx="4" fill="#a6e3a1" fill-opacity="0.08"/>
+  <text x="37" y="144" text-anchor="middle" font-size="13" fill="#45475a">0</text>
+  <text x="94" y="144" text-anchor="middle" font-size="13" fill="#a6e3a1" font-weight="bold">1</text>
+  <text x="152" y="144" text-anchor="middle" font-size="13" fill="#a6e3a1" font-weight="bold">1</text>
+  <text x="210" y="144" text-anchor="middle" font-size="13" fill="#45475a">0</text>
+  <text x="268" y="144" text-anchor="middle" font-size="13" fill="#45475a">0</text>
+  <text x="326" y="144" text-anchor="middle" font-size="13" fill="#45475a">0</text>
+  <text x="384" y="144" text-anchor="middle" font-size="13" fill="#a6e3a1" font-weight="bold">1</text>
+  <text x="445" y="144" text-anchor="middle" font-size="13" fill="#a6e3a1" font-weight="bold">1</text>
+  <text x="492" y="141" font-size="11" fill="#a6e3a1">= 64+32+2+1 = <tspan font-weight="bold">99</tspan></text>
+  <text x="492" y="156" font-size="10" fill="#a6adc8">hex: 0110 = 6, 0011 = 3 → <tspan fill="#a6e3a1">63₁₆</tspan></text>
+
+  <!-- Two's complement note -->
+  <rect x="20" y="162" width="460" height="40" rx="4" fill="#181825"/>
+  <text x="30" y="178" font-size="10" fill="#cba6f7" font-weight="bold">Two's Complement (negative numbers):</text>
+  <text x="30" y="193" font-size="10" fill="#a6adc8">-25 → 25 = 00011001 → flip: 11100110 → add 1: <tspan fill="#cba6f7" font-weight="bold">11100111</tspan></text>
+  <text x="492" y="180" font-size="10" fill="#cba6f7">MSB = 1 → negative</text>
+  <text x="492" y="195" font-size="10" fill="#a6adc8">8-bit range: -128 to +127</text>
+
+  <!-- HEX TABLE -->
+  <text x="240" y="222" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Hex Reference</text>
+  <rect x="20" y="228" width="460" height="28" rx="4" fill="#313244"/>
+  <text x="50" y="246" text-anchor="middle" font-size="10" fill="#cdd6f4">0=0000</text>
+  <text x="100" y="246" text-anchor="middle" font-size="10" fill="#cdd6f4">1=0001</text>
+  <text x="150" y="246" text-anchor="middle" font-size="10" fill="#cdd6f4">2=0010</text>
+  <text x="200" y="246" text-anchor="middle" font-size="10" fill="#cdd6f4">3=0011</text>
+  <text x="250" y="246" text-anchor="middle" font-size="10" fill="#cdd6f4">4=0100</text>
+  <text x="300" y="246" text-anchor="middle" font-size="10" fill="#cdd6f4">5=0101</text>
+  <text x="350" y="246" text-anchor="middle" font-size="10" fill="#cdd6f4">6=0110</text>
+  <text x="400" y="246" text-anchor="middle" font-size="10" fill="#cdd6f4">7=0111</text>
+  <rect x="20" y="258" width="460" height="28" rx="4" fill="#313244" fill-opacity="0.5"/>
+  <text x="50" y="276" text-anchor="middle" font-size="10" fill="#f9e2af">8=1000</text>
+  <text x="100" y="276" text-anchor="middle" font-size="10" fill="#f9e2af">9=1001</text>
+  <text x="150" y="276" text-anchor="middle" font-size="10" fill="#f9e2af">A=1010</text>
+  <text x="200" y="276" text-anchor="middle" font-size="10" fill="#f9e2af">B=1011</text>
+  <text x="250" y="276" text-anchor="middle" font-size="10" fill="#f9e2af">C=1100</text>
+  <text x="300" y="276" text-anchor="middle" font-size="10" fill="#f9e2af">D=1101</text>
+  <text x="350" y="276" text-anchor="middle" font-size="10" fill="#f9e2af">E=1110</text>
+  <text x="400" y="276" text-anchor="middle" font-size="10" fill="#f9e2af">F=1111</text>
+
+  <!-- ══ IMAGE DATA ══ -->
+  <text x="240" y="315" text-anchor="middle" font-size="11" font-weight="bold" fill="#fab387">Images (Bitmap)</text>
+  <rect x="20" y="322" width="460" height="90" rx="6" fill="#181825"/>
+
+  <!-- Mini pixel grid -->
+  <rect x="30" y="332" width="15" height="15" fill="#1e1e2e" stroke="#6c7086" stroke-width="1"/>
+  <rect x="45" y="332" width="15" height="15" fill="#f38ba8" stroke="#6c7086" stroke-width="1"/>
+  <rect x="60" y="332" width="15" height="15" fill="#f38ba8" stroke="#6c7086" stroke-width="1"/>
+  <rect x="30" y="347" width="15" height="15" fill="#f38ba8" stroke="#6c7086" stroke-width="1"/>
+  <rect x="45" y="347" width="15" height="15" fill="#f38ba8" stroke="#6c7086" stroke-width="1"/>
+  <rect x="60" y="347" width="15" height="15" fill="#1e1e2e" stroke="#6c7086" stroke-width="1"/>
+  <rect x="30" y="362" width="15" height="15" fill="#f38ba8" stroke="#6c7086" stroke-width="1"/>
+  <rect x="45" y="362" width="15" height="15" fill="#1e1e2e" stroke="#6c7086" stroke-width="1"/>
+  <rect x="60" y="362" width="15" height="15" fill="#f38ba8" stroke="#6c7086" stroke-width="1"/>
+  <text x="82" y="340" font-size="9" fill="#a6adc8">Each square = 1 pixel</text>
+  <text x="82" y="353" font-size="10" fill="#fab387">File size = width × height × colour depth (bits)</text>
+  <text x="82" y="366" font-size="9" fill="#a6adc8">÷ 8 = bytes | ÷ 1024 = KB | ÷ 1024 = MB</text>
+  <text x="30" y="393" font-size="10" fill="#fab387">Example:</text>
+  <text x="90" y="393" font-size="10" fill="#a6adc8">800×600 image, 24-bit colour = 800×600×24 = 11,520,000 bits = 1,440,000 B ≈ 1.37 MB</text>
+  <text x="30" y="407" font-size="10" fill="#a6adc8">Higher colour depth → more colours → larger file size</text>
+
+  <!-- ══ SOUND DATA ══ -->
+  <text x="240" y="432" text-anchor="middle" font-size="11" font-weight="bold" fill="#a6e3a1">Sound (Digital Sampling)</text>
+  <rect x="20" y="438" width="460" height="35" rx="6" fill="#181825"/>
+  <text x="30" y="452" font-size="10" fill="#a6e3a1">File size = sample rate × bit depth × duration (s) → ÷8 for bytes</text>
+  <text x="30" y="466" font-size="9" fill="#a6adc8">Higher sample rate / bit depth → better quality, bigger file. CD: 44,100 Hz / 16-bit</text>
+
+  <!-- ══ RIGHT: COMPRESSION ══ -->
+  <text x="730" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">Compression</text>
+
+  <rect x="545" y="65" width="395" height="180" rx="8" fill="#181825"/>
+
+  <!-- Lossy -->
+  <rect x="555" y="75" width="175" height="158" rx="6" fill="#f38ba8" fill-opacity="0.1" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="642" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#f38ba8">Lossy</text>
+  <text x="642" y="111" text-anchor="middle" font-size="10" fill="#a6adc8">Data permanently</text>
+  <text x="642" y="124" text-anchor="middle" font-size="10" fill="#a6adc8">removed</text>
+  <text x="642" y="140" text-anchor="middle" font-size="10" fill="#a6adc8">Cannot fully restore</text>
+  <text x="642" y="156" text-anchor="middle" font-size="10" fill="#f38ba8">✓ Much smaller file</text>
+  <text x="642" y="170" text-anchor="middle" font-size="10" fill="#f38ba8">✗ Quality loss</text>
+  <text x="642" y="186" text-anchor="middle" font-size="10" fill="#a6adc8">Used for:</text>
+  <text x="642" y="200" text-anchor="middle" font-size="10" fill="#a6adc8">JPEG, MP3, MP4</text>
+  <text x="642" y="216" text-anchor="middle" font-size="9" fill="#a6adc8">(images, audio, video)</text>
+
+  <!-- Lossless -->
+  <rect x="735" y="75" width="175" height="158" rx="6" fill="#a6e3a1" fill-opacity="0.1" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="822" y="95" text-anchor="middle" font-size="11" font-weight="bold" fill="#a6e3a1">Lossless</text>
+  <text x="822" y="111" text-anchor="middle" font-size="10" fill="#a6adc8">No data lost</text>
+  <text x="822" y="124" text-anchor="middle" font-size="10" fill="#a6adc8">Fully restorable</text>
+  <text x="822" y="140" text-anchor="middle" font-size="10" fill="#a6e3a1">✓ No quality loss</text>
+  <text x="822" y="154" text-anchor="middle" font-size="10" fill="#f38ba8">✗ Less compression</text>
+  <text x="822" y="170" text-anchor="middle" font-size="10" fill="#a6adc8">Used for:</text>
+  <text x="822" y="184" text-anchor="middle" font-size="10" fill="#a6adc8">PNG, ZIP, text files</text>
+  <text x="822" y="200" text-anchor="middle" font-size="10" fill="#a6adc8">Program files</text>
+  <text x="822" y="216" text-anchor="middle" font-size="9" fill="#a6adc8">Technique: RLE, LZ</text>
+
+  <!-- RLE Example -->
+  <rect x="545" y="255" width="395" height="75" rx="6" fill="#313244"/>
+  <text x="742" y="273" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Run-Length Encoding (RLE) Example</text>
+  <text x="555" y="292" font-size="10" fill="#a6adc8">Original:</text>
+  <text x="612" y="292" font-size="10" fill="#f9e2af">W W W W W B B B B W W W</text>
+  <text x="555" y="310" font-size="10" fill="#a6adc8">RLE encoded:</text>
+  <text x="640" y="310" font-size="10" fill="#a6e3a1">5W  4B  3W</text>
+  <text x="555" y="325" font-size="9" fill="#a6adc8">12 values stored as 3 — saves space when many repeated values</text>
+
+  <!-- Data sizes summary -->
+  <rect x="545" y="340" width="395" height="130" rx="6" fill="#181825"/>
+  <text x="742" y="360" text-anchor="middle" font-size="11" font-weight="bold" fill="#cdd6f4">Data Units Quick Reference</text>
+  <text x="555" y="378" font-size="10" fill="#a6adc8">1 bit = smallest unit (0 or 1)</text>
+  <text x="555" y="393" font-size="10" fill="#a6adc8">1 nibble = 4 bits    |    1 byte = 8 bits</text>
+  <text x="555" y="408" font-size="10" fill="#f9e2af">1 KB = 1024 B  |  1 MB = 1024 KB  |  1 GB = 1024 MB</text>
+  <text x="555" y="423" font-size="10" fill="#a6adc8">ASCII: 7/8-bit chars  |  Unicode: 16/32-bit (all languages)</text>
+  <text x="555" y="438" font-size="10" fill="#89b4fa">Colour depth: 1-bit=2 colours, 8-bit=256, 24-bit=16.7 million</text>
+  <text x="555" y="453" font-size="10" fill="#fab387">Sample rate: CD=44,100 Hz | Bit depth: CD=16-bit per sample</text>
+  <text x="555" y="468" font-size="9" fill="#a6adc8">Overflow = result needs more bits than available → error</text>
+</svg>

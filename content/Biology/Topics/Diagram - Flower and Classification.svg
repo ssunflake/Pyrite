@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Flower Structure and Classification — IGCSE Biology</text>
+
+  <!-- ══════ FLOWER DIAGRAM ══════ -->
+  <text x="240" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#f38ba8">Flower Structure (Insect-Pollinated)</text>
+
+  <!-- Receptacle / stalk -->
+  <rect x="215" y="400" width="20" height="60" rx="3" fill="#a6e3a1" fill-opacity="0.4"/>
+
+  <!-- Sepals (green) -->
+  <ellipse cx="200" cy="390" rx="22" ry="12" fill="#a6e3a1" fill-opacity="0.5" stroke="#a6e3a1" stroke-width="1.5" transform="rotate(-30,200,390)"/>
+  <ellipse cx="225" cy="395" rx="22" ry="12" fill="#a6e3a1" fill-opacity="0.5" stroke="#a6e3a1" stroke-width="1.5"/>
+  <ellipse cx="250" cy="390" rx="22" ry="12" fill="#a6e3a1" fill-opacity="0.5" stroke="#a6e3a1" stroke-width="1.5" transform="rotate(30,250,390)"/>
+
+  <!-- Petals (pink) -->
+  <ellipse cx="165" cy="320" rx="35" ry="55" fill="#f38ba8" fill-opacity="0.35" stroke="#f38ba8" stroke-width="2" transform="rotate(-25,165,320)"/>
+  <ellipse cx="205" cy="290" rx="35" ry="55" fill="#f38ba8" fill-opacity="0.35" stroke="#f38ba8" stroke-width="2" transform="rotate(-5,205,290)"/>
+  <ellipse cx="250" cy="298" rx="35" ry="55" fill="#f38ba8" fill-opacity="0.35" stroke="#f38ba8" stroke-width="2" transform="rotate(15,250,298)"/>
+  <ellipse cx="280" cy="325" rx="35" ry="55" fill="#f38ba8" fill-opacity="0.35" stroke="#f38ba8" stroke-width="2" transform="rotate(35,280,325)"/>
+
+  <!-- Stamens (filament + anther) -->
+  <line x1="215" y1="380" x2="190" y2="330" stroke="#f9e2af" stroke-width="2"/>
+  <ellipse cx="188" cy="326" rx="8" ry="5" fill="#f9e2af" fill-opacity="0.8" stroke="#f9e2af" stroke-width="1"/>
+  <line x1="220" y1="378" x2="210" y2="315" stroke="#f9e2af" stroke-width="2"/>
+  <ellipse cx="209" cy="311" rx="8" ry="5" fill="#f9e2af" fill-opacity="0.8" stroke="#f9e2af" stroke-width="1"/>
+  <line x1="230" y1="378" x2="240" y2="315" stroke="#f9e2af" stroke-width="2"/>
+  <ellipse cx="241" cy="311" rx="8" ry="5" fill="#f9e2af" fill-opacity="0.8" stroke="#f9e2af" stroke-width="1"/>
+  <line x1="235" y1="380" x2="265" y2="330" stroke="#f9e2af" stroke-width="2"/>
+  <ellipse cx="266" cy="326" rx="8" ry="5" fill="#f9e2af" fill-opacity="0.8" stroke="#f9e2af" stroke-width="1"/>
+
+  <!-- Carpel (stigma-style-ovary) -->
+  <!-- Ovary -->
+  <ellipse cx="225" cy="375" rx="22" ry="16" fill="#cba6f7" fill-opacity="0.3" stroke="#cba6f7" stroke-width="2"/>
+  <!-- Style -->
+  <line x1="225" y1="360" x2="225" y2="325" stroke="#cba6f7" stroke-width="2.5"/>
+  <!-- Stigma -->
+  <ellipse cx="225" cy="320" rx="14" ry="8" fill="#cba6f7" fill-opacity="0.5" stroke="#cba6f7" stroke-width="2"/>
+  <text x="225" y="323" text-anchor="middle" font-size="8" fill="#1e1e2e">sticky</text>
+
+  <!-- Ovule inside ovary -->
+  <ellipse cx="225" cy="376" rx="10" ry="7" fill="#cba6f7" fill-opacity="0.5"/>
+  <text x="225" y="379" text-anchor="middle" font-size="7" fill="#1e1e2e">ovule</text>
+
+  <!-- Labels with lines -->
+  <line x1="145" y1="317" x2="110" y2="310" stroke="#f38ba8" stroke-width="1"/>
+  <text x="105" y="308" text-anchor="end" font-size="10" fill="#f38ba8">Petal</text>
+  <text x="105" y="320" text-anchor="end" font-size="9" fill="#a6adc8">(attract pollinators)</text>
+
+  <line x1="188" y1="326" x2="135" y2="340" stroke="#f9e2af" stroke-width="1"/>
+  <text x="130" y="338" text-anchor="end" font-size="10" fill="#f9e2af">Anther</text>
+  <text x="130" y="350" text-anchor="end" font-size="9" fill="#a6adc8">(produces pollen)</text>
+
+  <line x1="195" y1="350" x2="140" y2="365" stroke="#f9e2af" stroke-width="1"/>
+  <text x="135" y="363" text-anchor="end" font-size="9" fill="#f9e2af">Filament</text>
+
+  <line x1="225" y1="321" x2="275" y2="300" stroke="#cba6f7" stroke-width="1"/>
+  <text x="280" y="298" font-size="10" fill="#cba6f7">Stigma</text>
+  <text x="280" y="310" font-size="9" fill="#a6adc8">(receives pollen)</text>
+
+  <line x1="230" y1="340" x2="280" y2="335" stroke="#cba6f7" stroke-width="1"/>
+  <text x="285" y="333" font-size="9" fill="#cba6f7">Style</text>
+
+  <line x1="245" y1="370" x2="285" y2="370" stroke="#cba6f7" stroke-width="1"/>
+  <text x="290" y="368" font-size="10" fill="#cba6f7">Ovary</text>
+  <text x="290" y="380" font-size="9" fill="#a6adc8">(contains ovules)</text>
+
+  <line x1="225" y1="395" x2="285" y2="405" stroke="#a6e3a1" stroke-width="1"/>
+  <text x="290" y="403" font-size="10" fill="#a6e3a1">Sepal</text>
+  <text x="290" y="415" font-size="9" fill="#a6adc8">(protects bud)</text>
+
+  <!-- Nectary at base -->
+  <ellipse cx="225" cy="395" rx="8" ry="4" fill="#f9e2af" fill-opacity="0.4" stroke="#f9e2af" stroke-width="1"/>
+  <line x1="230" y1="397" x2="280" y2="420" stroke="#f9e2af" stroke-width="1"/>
+  <text x="285" y="418" font-size="9" fill="#f9e2af">Nectary (nectar)</text>
+
+  <!-- ══════ CLASSIFICATION TREE ══════ -->
+  <text x="670" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">Classification of Vertebrates</text>
+
+  <!-- Kingdom Animalia -->
+  <rect x="575" y="68" width="180" height="30" rx="6" fill="#89b4fa" fill-opacity="0.2" stroke="#89b4fa" stroke-width="2"/>
+  <text x="665" y="88" text-anchor="middle" font-size="12" fill="#89b4fa">Kingdom Animalia</text>
+
+  <!-- Vertebrates vs Invertebrates -->
+  <line x1="665" y1="98" x2="605" y2="125" stroke="#6c7086" stroke-width="1.5"/>
+  <line x1="665" y1="98" x2="745" y2="125" stroke="#6c7086" stroke-width="1.5"/>
+  <rect x="545" y="125" width="120" height="28" rx="4" fill="#313244" stroke="#45475a" stroke-width="1"/>
+  <text x="605" y="143" text-anchor="middle" font-size="10" fill="#a6adc8">Invertebrates</text>
+  <rect x="685" y="125" width="120" height="28" rx="4" fill="#313244" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="745" y="143" text-anchor="middle" font-size="10" fill="#89b4fa">Vertebrates ✓</text>
+
+  <!-- 5 vertebrate classes -->
+  <line x1="745" y1="153" x2="580" y2="185" stroke="#6c7086" stroke-width="1.5"/>
+  <line x1="745" y1="153" x2="640" y2="185" stroke="#6c7086" stroke-width="1.5"/>
+  <line x1="745" y1="153" x2="745" y2="185" stroke="#6c7086" stroke-width="1.5"/>
+  <line x1="745" y1="153" x2="850" y2="185" stroke="#6c7086" stroke-width="1.5"/>
+  <line x1="745" y1="153" x2="920" y2="185" stroke="#6c7086" stroke-width="1.5"/>
+
+  <!-- Fish -->
+  <rect x="545" y="185" width="70" height="55" rx="4" fill="#89b4fa" fill-opacity="0.15" stroke="#89b4fa" stroke-width="1.5"/>
+  <text x="580" y="202" text-anchor="middle" font-size="10" fill="#89b4fa">Fish 🐟</text>
+  <text x="580" y="216" text-anchor="middle" font-size="8" fill="#a6adc8">scales</text>
+  <text x="580" y="228" text-anchor="middle" font-size="8" fill="#a6adc8">gills</text>
+  <text x="580" y="240" text-anchor="middle" font-size="8" fill="#a6adc8">ectothermic</text>
+
+  <!-- Amphibians -->
+  <rect x="610" y="185" width="70" height="55" rx="4" fill="#a6e3a1" fill-opacity="0.15" stroke="#a6e3a1" stroke-width="1.5"/>
+  <text x="645" y="202" text-anchor="middle" font-size="10" fill="#a6e3a1">Amphibia 🐸</text>
+  <text x="645" y="216" text-anchor="middle" font-size="8" fill="#a6adc8">moist skin</text>
+  <text x="645" y="228" text-anchor="middle" font-size="8" fill="#a6adc8">eggs in water</text>
+  <text x="645" y="240" text-anchor="middle" font-size="8" fill="#a6adc8">ectothermic</text>
+
+  <!-- Reptiles -->
+  <rect x="710" y="185" width="70" height="55" rx="4" fill="#fab387" fill-opacity="0.15" stroke="#fab387" stroke-width="1.5"/>
+  <text x="745" y="202" text-anchor="middle" font-size="10" fill="#fab387">Reptiles 🦎</text>
+  <text x="745" y="216" text-anchor="middle" font-size="8" fill="#a6adc8">dry scales</text>
+  <text x="745" y="228" text-anchor="middle" font-size="8" fill="#a6adc8">shelled eggs</text>
+  <text x="745" y="240" text-anchor="middle" font-size="8" fill="#a6adc8">ectothermic</text>
+
+  <!-- Birds -->
+  <rect x="815" y="185" width="70" height="55" rx="4" fill="#f9e2af" fill-opacity="0.15" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="850" y="202" text-anchor="middle" font-size="10" fill="#f9e2af">Birds 🐦</text>
+  <text x="850" y="216" text-anchor="middle" font-size="8" fill="#a6adc8">feathers</text>
+  <text x="850" y="228" text-anchor="middle" font-size="8" fill="#a6adc8">hard-shelled eggs</text>
+  <text x="850" y="240" text-anchor="middle" font-size="8" fill="#a6adc8">endothermic</text>
+
+  <!-- Mammals -->
+  <rect x="888" y="185" width="62" height="55" rx="4" fill="#f38ba8" fill-opacity="0.15" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="919" y="202" text-anchor="middle" font-size="10" fill="#f38ba8">Mammals 🦁</text>
+  <text x="919" y="216" text-anchor="middle" font-size="8" fill="#a6adc8">hair/fur</text>
+  <text x="919" y="228" text-anchor="middle" font-size="8" fill="#a6adc8">live young</text>
+  <text x="919" y="240" text-anchor="middle" font-size="8" fill="#a6adc8">endothermic</text>
+
+  <!-- ══════ INSECT vs WIND POLLINATION ══════ -->
+  <rect x="425" y="270" width="520" height="190" rx="8" fill="#181825"/>
+  <text x="685" y="290" text-anchor="middle" font-size="12" font-weight="bold" fill="#cdd6f4">Insect vs Wind Pollination</text>
+
+  <!-- Header -->
+  <rect x="430" y="298" width="510" height="22" rx="3" fill="#313244"/>
+  <text x="565" y="313" text-anchor="middle" font-size="10" font-weight="bold" fill="#cdd6f4">Feature</text>
+  <text x="695" y="313" text-anchor="middle" font-size="10" font-weight="bold" fill="#f38ba8">Insect-pollinated</text>
+  <text x="845" y="313" text-anchor="middle" font-size="10" font-weight="bold" fill="#89b4fa">Wind-pollinated</text>
+
+  <text x="565" y="337" text-anchor="middle" font-size="10" fill="#a6adc8">Petals</text>
+  <text x="695" y="337" text-anchor="middle" font-size="10" fill="#f38ba8">Large, colourful, scented</text>
+  <text x="845" y="337" text-anchor="middle" font-size="10" fill="#89b4fa">Small, dull, no scent</text>
+  <line x1="435" y1="345" x2="935" y2="345" stroke="#313244" stroke-width="1"/>
+
+  <text x="565" y="362" text-anchor="middle" font-size="10" fill="#a6adc8">Pollen</text>
+  <text x="695" y="362" text-anchor="middle" font-size="10" fill="#f38ba8">Sticky/spiky, less</text>
+  <text x="845" y="362" text-anchor="middle" font-size="10" fill="#89b4fa">Smooth/light, abundant</text>
+  <line x1="435" y1="370" x2="935" y2="370" stroke="#313244" stroke-width="1"/>
+
+  <text x="565" y="387" text-anchor="middle" font-size="10" fill="#a6adc8">Stigma</text>
+  <text x="695" y="387" text-anchor="middle" font-size="10" fill="#f38ba8">Sticky, inside flower</text>
+  <text x="845" y="387" text-anchor="middle" font-size="10" fill="#89b4fa">Feathery, hangs outside</text>
+  <line x1="435" y1="395" x2="935" y2="395" stroke="#313244" stroke-width="1"/>
+
+  <text x="565" y="412" text-anchor="middle" font-size="10" fill="#a6adc8">Nectar</text>
+  <text x="695" y="412" text-anchor="middle" font-size="10" fill="#f38ba8">Present (attracts insects)</text>
+  <text x="845" y="412" text-anchor="middle" font-size="10" fill="#89b4fa">Absent</text>
+  <line x1="435" y1="420" x2="935" y2="420" stroke="#313244" stroke-width="1"/>
+
+  <text x="565" y="437" text-anchor="middle" font-size="10" fill="#a6adc8">Anthers</text>
+  <text x="695" y="437" text-anchor="middle" font-size="10" fill="#f38ba8">Inside flower</text>
+  <text x="845" y="437" text-anchor="middle" font-size="10" fill="#89b4fa">Hang outside (exposed)</text>
+  <line x1="435" y1="445" x2="935" y2="445" stroke="#313244" stroke-width="1"/>
+
+  <text x="565" y="458" text-anchor="middle" font-size="10" fill="#a6adc8">Examples</text>
+  <text x="695" y="458" text-anchor="middle" font-size="10" fill="#f38ba8">Rose, sunflower</text>
+  <text x="845" y="458" text-anchor="middle" font-size="10" fill="#89b4fa">Grass, wheat, maize</text>
+</svg>

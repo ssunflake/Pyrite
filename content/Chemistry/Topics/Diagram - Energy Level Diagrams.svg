@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Energy Level Diagrams and Rate Graphs — IGCSE Chemistry</text>
+
+  <!-- ══ EXOTHERMIC ══ -->
+  <text x="130" y="58" text-anchor="middle" font-size="13" font-weight="bold" fill="#f38ba8">Exothermic Reaction</text>
+  <rect x="20" y="68" width="220" height="210" rx="8" fill="#181825"/>
+
+  <!-- Axes -->
+  <line x1="40" y1="255" x2="40" y2="85" stroke="#6c7086" stroke-width="2"/>
+  <line x1="40" y1="255" x2="228" y2="255" stroke="#6c7086" stroke-width="2"/>
+  <text x="22" y="170" text-anchor="middle" font-size="10" fill="#a6adc8" transform="rotate(-90,22,170)">Energy</text>
+  <text x="134" y="270" text-anchor="middle" font-size="10" fill="#a6adc8">Reaction progress</text>
+  <polygon points="40,83 35,95 45,95" fill="#6c7086"/>
+  <polygon points="230,255 218,250 218,260" fill="#6c7086"/>
+
+  <!-- Reactant energy level -->
+  <line x1="50" y1="130" x2="95" y2="130" stroke="#f38ba8" stroke-width="2.5"/>
+  <text x="48" y="128" text-anchor="end" font-size="9" fill="#f38ba8">Reactants</text>
+
+  <!-- Activation energy peak -->
+  <path d="M95,130 C110,130 115,95 130,92 C145,89 148,100 165,130" fill="none" stroke="#f9e2af" stroke-width="2.5"/>
+
+  <!-- Product energy level (lower) -->
+  <line x1="165" y1="185" x2="222" y2="185" stroke="#a6e3a1" stroke-width="2.5"/>
+  <text x="225" y="188" font-size="9" fill="#a6e3a1">Products</text>
+
+  <!-- Connection line -->
+  <line x1="165" y1="130" x2="165" y2="185" stroke="#f38ba8" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="161,183 169,183 165,188" fill="#f38ba8"/>
+
+  <!-- Eₐ arrow -->
+  <line x1="100" y1="130" x2="100" y2="92" stroke="#f9e2af" stroke-width="1.5"/>
+  <polygon points="96,94 104,94 100,90" fill="#f9e2af"/>
+  <text x="75" y="110" text-anchor="middle" font-size="9" fill="#f9e2af">Eₐ</text>
+
+  <!-- ΔH arrow -->
+  <line x1="185" y1="130" x2="185" y2="185" stroke="#f38ba8" stroke-width="1.5"/>
+  <text x="202" y="160" font-size="9" fill="#f38ba8">ΔH</text>
+  <text x="202" y="172" font-size="9" fill="#f38ba8">−ve</text>
+
+  <!-- Catalyst Eₐ lower -->
+  <path d="M95,130 C110,130 115,108 128,105 C141,102 145,112 165,130" fill="none" stroke="#cba6f7" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="125" y="100" text-anchor="middle" font-size="9" fill="#cba6f7">Eₐ with catalyst</text>
+  <text x="125" y="110" text-anchor="middle" font-size="9" fill="#cba6f7">(lower path)</text>
+
+  <!-- ══ ENDOTHERMIC ══ -->
+  <text x="360" y="58" text-anchor="middle" font-size="13" font-weight="bold" fill="#a6e3a1">Endothermic Reaction</text>
+  <rect x="250" y="68" width="220" height="210" rx="8" fill="#181825"/>
+  <line x1="270" y1="255" x2="270" y2="85" stroke="#6c7086" stroke-width="2"/>
+  <line x1="270" y1="255" x2="458" y2="255" stroke="#6c7086" stroke-width="2"/>
+  <text x="252" y="170" text-anchor="middle" font-size="10" fill="#a6adc8" transform="rotate(-90,252,170)">Energy</text>
+  <polygon points="270,83 265,95 275,95" fill="#6c7086"/>
+  <polygon points="460,255 448,250 448,260" fill="#6c7086"/>
+
+  <!-- Reactant level (lower) -->
+  <line x1="280" y1="200" x2="325" y2="200" stroke="#f38ba8" stroke-width="2.5"/>
+  <text x="278" y="198" text-anchor="end" font-size="9" fill="#f38ba8">Reactants</text>
+
+  <!-- Peak higher -->
+  <path d="M325,200 C340,200 345,100 360,97 C375,94 378,105 395,145" fill="none" stroke="#f9e2af" stroke-width="2.5"/>
+
+  <!-- Product level (higher) -->
+  <line x1="395" y1="145" x2="452" y2="145" stroke="#a6e3a1" stroke-width="2.5"/>
+  <text x="455" y="148" font-size="9" fill="#a6e3a1">Products</text>
+
+  <!-- ΔH positive -->
+  <line x1="415" y1="200" x2="415" y2="145" stroke="#a6e3a1" stroke-width="1.5"/>
+  <polygon points="411,147 419,147 415,143" fill="#a6e3a1"/>
+  <text x="432" y="175" font-size="9" fill="#a6e3a1">ΔH</text>
+  <text x="432" y="187" font-size="9" fill="#a6e3a1">+ve</text>
+
+  <!-- Eₐ -->
+  <line x1="330" y1="200" x2="330" y2="97" stroke="#f9e2af" stroke-width="1.5"/>
+  <text x="310" y="148" text-anchor="middle" font-size="9" fill="#f9e2af">Eₐ</text>
+
+  <!-- ══ MAXWELL-BOLTZMANN ══ -->
+  <text x="640" y="58" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">Maxwell–Boltzmann Distribution</text>
+  <rect x="490" y="68" width="450" height="220" rx="8" fill="#181825"/>
+
+  <!-- Axes -->
+  <line x1="510" y1="265" x2="510" y2="85" stroke="#6c7086" stroke-width="2"/>
+  <line x1="510" y1="265" x2="928" y2="265" stroke="#6c7086" stroke-width="2"/>
+  <text x="490" y="175" text-anchor="middle" font-size="10" fill="#a6adc8" transform="rotate(-90,490,175)">Number of particles</text>
+  <text x="718" y="282" text-anchor="middle" font-size="10" fill="#a6adc8">Kinetic energy →</text>
+  <polygon points="510,83 505,95 515,95" fill="#6c7086"/>
+
+  <!-- Lower T curve (T1, narrow, tall, peaks left) -->
+  <path d="M515,260 C520,255 528,200 540,155 C552,110 562,92 575,95 C590,98 605,120 625,165 C645,210 660,248 680,263"
+        fill="none" stroke="#89b4fa" stroke-width="2.5"/>
+  <text x="560" y="87" text-anchor="middle" font-size="10" fill="#89b4fa">T₁ (lower)</text>
+
+  <!-- Higher T curve (T2, flatter, wider, shifts right) -->
+  <path d="M515,260 C522,255 540,215 565,175 C588,135 615,108 640,100 C665,93 690,105 720,135 C750,165 770,210 800,258"
+        fill="none" stroke="#f38ba8" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="690" y="88" text-anchor="middle" font-size="10" fill="#f38ba8">T₂ (higher)</text>
+
+  <!-- Activation energy line -->
+  <line x1="700" y1="268" x2="700" y2="85" stroke="#f9e2af" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="700" y="80" text-anchor="middle" font-size="10" fill="#f9e2af">Eₐ</text>
+
+  <!-- Shaded area (T2 particles > Ea) -->
+  <path d="M700,170 C715,150 730,135 750,130 C770,127 785,135 800,160 C815,185 820,220 825,258 L700,258 Z"
+        fill="#f38ba8" fill-opacity="0.2"/>
+  <text x="760" y="215" text-anchor="middle" font-size="9" fill="#f38ba8">More particles</text>
+  <text x="760" y="228" text-anchor="middle" font-size="9" fill="#f38ba8">exceed Eₐ at T₂</text>
+
+  <!-- Shaded area T1 (small) -->
+  <path d="M700,245 C706,235 712,228 720,225 C728,222 735,228 742,240 C748,252 752,260 755,263 L700,263 Z"
+        fill="#89b4fa" fill-opacity="0.2"/>
+
+  <!-- Key for areas -->
+  <text x="540" y="230" font-size="9" fill="#89b4fa">Area beyond Eₐ at T₁</text>
+  <text x="540" y="243" font-size="9" fill="#a6adc8">(few particles react)</text>
+  <text x="540" y="260" font-size="9" fill="#f38ba8">Area beyond Eₐ at T₂ (larger)</text>
+
+  <!-- ══ RATE GRAPH ══ -->
+  <text x="640" y="318" text-anchor="middle" font-size="13" font-weight="bold" fill="#cdd6f4">Rate Graph — Amount of Product vs Time</text>
+  <rect x="490" y="328" width="450" height="135" rx="8" fill="#181825"/>
+
+  <line x1="510" y1="445" x2="510" y2="342" stroke="#6c7086" stroke-width="2"/>
+  <line x1="510" y1="445" x2="930" y2="445" stroke="#6c7086" stroke-width="2"/>
+  <text x="495" y="395" text-anchor="middle" font-size="10" fill="#a6adc8" transform="rotate(-90,495,395)">Product</text>
+  <text x="718" y="462" text-anchor="middle" font-size="10" fill="#a6adc8">Time →</text>
+
+  <!-- High concentration / temperature (fast) -->
+  <path d="M515,440 C530,420 548,390 575,370 C600,352 625,346 680,346 C730,346 780,346 920,346"
+        fill="none" stroke="#f38ba8" stroke-width="2.5"/>
+  <text x="810" y="342" text-anchor="middle" font-size="10" fill="#f38ba8">Higher conc./temp (faster)</text>
+
+  <!-- Lower concentration (slow) -->
+  <path d="M515,440 C535,430 560,410 595,390 C625,372 660,362 720,358 C780,355 860,354 920,354"
+        fill="none" stroke="#89b4fa" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="810" y="358" text-anchor="middle" font-size="10" fill="#89b4fa">Lower conc./temp (slower)</text>
+
+  <!-- Annotations -->
+  <text x="545" y="432" font-size="9" fill="#a6adc8">steeper slope</text>
+  <text x="545" y="442" font-size="9" fill="#a6adc8">= faster rate</text>
+  <text x="680" y="432" font-size="9" fill="#a6adc8">levels off when</text>
+  <text x="680" y="442" font-size="9" fill="#a6adc8">reaction finished</text>
+</svg>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Algorithms — Flowcharts and Sorting — IGCSE Computer Science</text>
+
+  <!-- ══ FLOWCHART SYMBOLS ══ -->
+  <text x="130" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#89b4fa">Flowchart Symbols</text>
+  <rect x="15" y="65" width="230" height="310" rx="8" fill="#181825"/>
+
+  <!-- Start/Stop -->
+  <rect x="70" y="80" width="120" height="28" rx="14" fill="#a6e3a1" fill-opacity="0.25" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="130" y="99" text-anchor="middle" font-size="11" fill="#a6e3a1">Start / Stop</text>
+
+  <!-- Process -->
+  <rect x="70" y="128" width="120" height="28" rx="3" fill="#89b4fa" fill-opacity="0.2" stroke="#89b4fa" stroke-width="2"/>
+  <text x="130" y="147" text-anchor="middle" font-size="11" fill="#89b4fa">Process</text>
+  <text x="30" y="147" text-anchor="start" font-size="9" fill="#89b4fa">x = x + 1</text>
+
+  <!-- Input/Output -->
+  <polygon points="70,175 185,175 195,203 60,203" fill="#f9e2af" fill-opacity="0.15" stroke="#f9e2af" stroke-width="2"/>
+  <text x="130" y="193" text-anchor="middle" font-size="11" fill="#f9e2af">Input / Output</text>
+  <text x="30" y="195" text-anchor="start" font-size="9" fill="#f9e2af">INPUT x</text>
+
+  <!-- Decision -->
+  <polygon points="130,225 185,245 130,265 75,245" fill="#f38ba8" fill-opacity="0.15" stroke="#f38ba8" stroke-width="2"/>
+  <text x="130" y="249" text-anchor="middle" font-size="10" fill="#f38ba8">x &gt; 10?</text>
+  <text x="30" y="249" text-anchor="start" font-size="9" fill="#f38ba8">Decision</text>
+  <text x="192" y="241" font-size="9" fill="#a6e3a1">YES</text>
+  <text x="112" y="278" text-anchor="middle" font-size="9" fill="#f38ba8">NO</text>
+
+  <!-- Arrows -->
+  <line x1="130" y1="108" x2="130" y2="126" stroke="#a6adc8" stroke-width="1.5"/>
+  <polygon points="126,124 134,124 130,128" fill="#a6adc8"/>
+  <line x1="130" y1="156" x2="130" y2="173" stroke="#a6adc8" stroke-width="1.5"/>
+  <polygon points="126,171 134,171 130,175" fill="#a6adc8"/>
+  <line x1="130" y1="203" x2="130" y2="223" stroke="#a6adc8" stroke-width="1.5"/>
+  <polygon points="126,221 134,221 130,225" fill="#a6adc8"/>
+
+  <!-- Rules reminder -->
+  <rect x="25" y="280" width="205" height="85" rx="4" fill="#313244"/>
+  <text x="127" y="298" text-anchor="middle" font-size="10" font-weight="bold" fill="#cdd6f4">Rules:</text>
+  <text x="35" y="313" font-size="9" fill="#a6adc8">• All arrows must lead somewhere</text>
+  <text x="35" y="327" font-size="9" fill="#a6adc8">• Decision has YES and NO branches</text>
+  <text x="35" y="341" font-size="9" fill="#a6adc8">• One statement per box</text>
+  <text x="35" y="355" font-size="9" fill="#a6adc8">• Content = pseudocode or words</text>
+
+  <!-- ══ LINEAR SEARCH ══ -->
+  <text x="370" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#a6e3a1">Linear Search</text>
+
+  <!-- Data array -->
+  <rect x="255" y="68" width="230" height="360" rx="8" fill="#181825"/>
+  <text x="370" y="88" text-anchor="middle" font-size="10" fill="#a6adc8">Search for: <tspan fill="#a6e3a1" font-weight="bold">4</tspan> in [5, 3, 9, 4, 7]</text>
+
+  <!-- Array cells -->
+  <rect x="268" y="96" width="36" height="28" rx="3" fill="#313244" stroke="#6c7086" stroke-width="1"/>
+  <text x="286" y="114" text-anchor="middle" font-size="11" fill="#a6adc8">5</text>
+  <rect x="305" y="96" width="36" height="28" rx="3" fill="#313244" stroke="#6c7086" stroke-width="1"/>
+  <text x="323" y="114" text-anchor="middle" font-size="11" fill="#a6adc8">3</text>
+  <rect x="342" y="96" width="36" height="28" rx="3" fill="#313244" stroke="#6c7086" stroke-width="1"/>
+  <text x="360" y="114" text-anchor="middle" font-size="11" fill="#a6adc8">9</text>
+  <rect x="379" y="96" width="36" height="28" rx="3" fill="#a6e3a1" fill-opacity="0.3" stroke="#a6e3a1" stroke-width="2"/>
+  <text x="397" y="114" text-anchor="middle" font-size="11" fill="#a6e3a1" font-weight="bold">4</text>
+  <rect x="416" y="96" width="36" height="28" rx="3" fill="#313244" stroke="#6c7086" stroke-width="1"/>
+  <text x="434" y="114" text-anchor="middle" font-size="11" fill="#a6adc8">7</text>
+  <!-- index labels -->
+  <text x="286" y="135" text-anchor="middle" font-size="9" fill="#a6adc8">[0]</text>
+  <text x="323" y="135" text-anchor="middle" font-size="9" fill="#a6adc8">[1]</text>
+  <text x="360" y="135" text-anchor="middle" font-size="9" fill="#a6adc8">[2]</text>
+  <text x="397" y="135" text-anchor="middle" font-size="9" fill="#a6e3a1">[3]</text>
+  <text x="434" y="135" text-anchor="middle" font-size="9" fill="#a6adc8">[4]</text>
+
+  <!-- Steps -->
+  <text x="268" y="158" font-size="10" fill="#a6adc8">Step 1: [0] = 5 ≠ 4 → continue</text>
+  <text x="268" y="174" font-size="10" fill="#a6adc8">Step 2: [1] = 3 ≠ 4 → continue</text>
+  <text x="268" y="190" font-size="10" fill="#a6adc8">Step 3: [2] = 9 ≠ 4 → continue</text>
+  <text x="268" y="206" font-size="10" fill="#a6e3a1" font-weight="bold">Step 4: [3] = 4 = 4 → FOUND!</text>
+
+  <!-- Pseudocode -->
+  <rect x="265" y="220" width="210" height="90" rx="4" fill="#313244"/>
+  <text x="370" y="238" text-anchor="middle" font-size="9" font-weight="bold" fill="#cdd6f4">Pseudocode</text>
+  <text x="272" y="252" font-size="9" fill="#a6e3a1">Found ← FALSE</text>
+  <text x="272" y="264" font-size="9" fill="#a6adc8">FOR i ← 0 TO LEN-1</text>
+  <text x="285" y="276" font-size="9" fill="#a6adc8">  IF Data[i] = Target</text>
+  <text x="295" y="288" font-size="9" fill="#a6adc8">    Found ← TRUE</text>
+  <text x="285" y="300" font-size="9" fill="#a6adc8">  ENDIF</text>
+  <text x="272" y="312" font-size="9" fill="#a6adc8">NEXT i</text>
+
+  <text x="370" y="340" text-anchor="middle" font-size="9" fill="#a6adc8">Worst case: checks every element</text>
+  <text x="370" y="354" text-anchor="middle" font-size="9" fill="#a6adc8">Best case: found at index 0</text>
+  <text x="370" y="368" text-anchor="middle" font-size="9" fill="#f9e2af">Works on unsorted data</text>
+
+  <!-- ══ BUBBLE SORT ══ -->
+  <text x="660" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#fab387">Bubble Sort</text>
+  <rect x="495" y="65" width="450" height="400" rx="8" fill="#181825"/>
+
+  <text x="660" y="85" text-anchor="middle" font-size="10" fill="#a6adc8">Sort [6, 2, 5, 1] into ascending order</text>
+
+  <!-- Pass 1 -->
+  <text x="510" y="105" font-size="10" font-weight="bold" fill="#fab387">Pass 1:</text>
+  <text x="510" y="120" font-size="9" fill="#a6adc8">6 2 5 1  → compare 6,2: SWAP</text>
+  <text x="510" y="134" font-size="9" fill="#a6adc8">2 6 5 1  → compare 6,5: SWAP</text>
+  <text x="510" y="148" font-size="9" fill="#a6adc8">2 5 6 1  → compare 6,1: SWAP</text>
+  <text x="510" y="162" font-size="9" fill="#fab387">Result: 2 5 1 6  (largest 'bubbled' to end)</text>
+
+  <!-- Pass 2 -->
+  <text x="510" y="185" font-size="10" font-weight="bold" fill="#fab387">Pass 2:</text>
+  <text x="510" y="200" font-size="9" fill="#a6adc8">2 5 1 6  → compare 2,5: OK</text>
+  <text x="510" y="214" font-size="9" fill="#a6adc8">2 5 1 6  → compare 5,1: SWAP</text>
+  <text x="510" y="228" font-size="9" fill="#fab387">Result: 2 1 5 6</text>
+
+  <!-- Pass 3 -->
+  <text x="510" y="251" font-size="10" font-weight="bold" fill="#fab387">Pass 3:</text>
+  <text x="510" y="266" font-size="9" fill="#a6adc8">2 1 5 6  → compare 2,1: SWAP</text>
+  <text x="510" y="280" font-size="9" fill="#fab387">Result: 1 2 5 6</text>
+
+  <!-- Pass 4 -->
+  <text x="510" y="303" font-size="10" font-weight="bold" fill="#a6e3a1">Pass 4 (n-1 = 3 passes needed):</text>
+  <text x="510" y="318" font-size="9" fill="#a6adc8">1 2 5 6  → no swaps needed → DONE</text>
+
+  <!-- Stop conditions box -->
+  <rect x="505" y="335" width="430" height="50" rx="4" fill="#313244"/>
+  <text x="720" y="353" text-anchor="middle" font-size="10" font-weight="bold" fill="#cdd6f4">When to stop:</text>
+  <text x="515" y="370" font-size="9" fill="#f9e2af">Method 1:</text>
+  <text x="575" y="370" font-size="9" fill="#a6adc8">Run exactly n−1 passes (simple but inefficient)</text>
+  <text x="515" y="383" font-size="9" fill="#f9e2af">Method 2:</text>
+  <text x="575" y="383" font-size="9" fill="#a6adc8">Stop early if a whole pass makes no swaps (efficient)</text>
+
+  <!-- Swap mechanism -->
+  <rect x="505" y="393" width="430" height="65" rx="4" fill="#313244"/>
+  <text x="720" y="412" text-anchor="middle" font-size="10" font-weight="bold" fill="#cdd6f4">Swap mechanism (requires temp variable):</text>
+  <text x="515" y="428" font-size="9" fill="#cba6f7">temp ← Data[i]</text>
+  <text x="515" y="442" font-size="9" fill="#cba6f7">Data[i] ← Data[i+1]</text>
+  <text x="515" y="456" font-size="9" fill="#cba6f7">Data[i+1] ← temp</text>
+  <text x="650" y="428" font-size="9" fill="#a6adc8">Without temp, the original</text>
+  <text x="650" y="442" font-size="9" fill="#a6adc8">value would be overwritten</text>
+  <text x="650" y="456" font-size="9" fill="#a6adc8">before it can be saved!</text>
+</svg>

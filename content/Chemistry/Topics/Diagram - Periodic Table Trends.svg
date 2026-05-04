@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Arial, sans-serif">
+  <rect width="960" height="480" fill="#1e1e2e" rx="12"/>
+  <text x="480" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#cdd6f4">Periodic Table Trends — IGCSE Chemistry</text>
+
+  <!-- ══ MINI PERIODIC TABLE WITH TRENDS ══ -->
+  <!-- Period labels -->
+  <text x="30" y="90" text-anchor="middle" font-size="10" fill="#a6adc8">Period 1</text>
+  <text x="30" y="130" text-anchor="middle" font-size="10" fill="#a6adc8">Period 2</text>
+  <text x="30" y="170" text-anchor="middle" font-size="10" fill="#a6adc8">Period 3</text>
+
+  <!-- Group labels -->
+  <text x="80" y="55" text-anchor="middle" font-size="9" fill="#a6adc8">Gp 1</text>
+  <text x="120" y="55" text-anchor="middle" font-size="9" fill="#a6adc8">Gp 2</text>
+  <text x="525" y="55" text-anchor="middle" font-size="9" fill="#a6adc8">Gp 3</text>
+  <text x="565" y="55" text-anchor="middle" font-size="9" fill="#a6adc8">Gp 4</text>
+  <text x="605" y="55" text-anchor="middle" font-size="9" fill="#a6adc8">Gp 5</text>
+  <text x="645" y="55" text-anchor="middle" font-size="9" fill="#a6adc8">Gp 6</text>
+  <text x="685" y="55" text-anchor="middle" font-size="9" fill="#a6adc8">Gp 7</text>
+  <text x="725" y="55" text-anchor="middle" font-size="9" fill="#a6adc8">Gp 0</text>
+
+  <!-- Period 1: H, He -->
+  <rect x="58" y="62" width="34" height="26" rx="3" fill="#f38ba8" fill-opacity="0.3" stroke="#f38ba8" stroke-width="1"/>
+  <text x="75" y="79" text-anchor="middle" font-size="11" fill="#f38ba8">H</text>
+  <rect x="708" y="62" width="34" height="26" rx="3" fill="#a6e3a1" fill-opacity="0.3" stroke="#a6e3a1" stroke-width="1"/>
+  <text x="725" y="79" text-anchor="middle" font-size="11" fill="#a6e3a1">He</text>
+
+  <!-- Period 2: Li Be B C N O F Ne -->
+  <rect x="58" y="102" width="34" height="26" rx="3" fill="#89b4fa" fill-opacity="0.3" stroke="#89b4fa" stroke-width="1"/>
+  <text x="75" y="119" text-anchor="middle" font-size="11" fill="#89b4fa">Li</text>
+  <rect x="98" y="102" width="34" height="26" rx="3" fill="#89b4fa" fill-opacity="0.3" stroke="#89b4fa" stroke-width="1"/>
+  <text x="115" y="119" text-anchor="middle" font-size="11" fill="#89b4fa">Be</text>
+  <rect x="508" y="102" width="34" height="26" rx="3" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1"/>
+  <text x="525" y="119" text-anchor="middle" font-size="11" fill="#f9e2af">B</text>
+  <rect x="548" y="102" width="34" height="26" rx="3" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1"/>
+  <text x="565" y="119" text-anchor="middle" font-size="11" fill="#f9e2af">C</text>
+  <rect x="588" y="102" width="34" height="26" rx="3" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1"/>
+  <text x="605" y="119" text-anchor="middle" font-size="11" fill="#f9e2af">N</text>
+  <rect x="628" y="102" width="34" height="26" rx="3" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1"/>
+  <text x="645" y="119" text-anchor="middle" font-size="11" fill="#f9e2af">O</text>
+  <rect x="668" y="102" width="34" height="26" rx="3" fill="#cba6f7" fill-opacity="0.3" stroke="#cba6f7" stroke-width="1"/>
+  <text x="685" y="119" text-anchor="middle" font-size="11" fill="#cba6f7">F</text>
+  <rect x="708" y="102" width="34" height="26" rx="3" fill="#a6e3a1" fill-opacity="0.3" stroke="#a6e3a1" stroke-width="1"/>
+  <text x="725" y="119" text-anchor="middle" font-size="11" fill="#a6e3a1">Ne</text>
+
+  <!-- Period 3: Na Mg Al Si P S Cl Ar -->
+  <rect x="58" y="142" width="34" height="26" rx="3" fill="#89b4fa" fill-opacity="0.3" stroke="#89b4fa" stroke-width="1"/>
+  <text x="75" y="159" text-anchor="middle" font-size="11" fill="#89b4fa">Na</text>
+  <rect x="98" y="142" width="34" height="26" rx="3" fill="#89b4fa" fill-opacity="0.3" stroke="#89b4fa" stroke-width="1"/>
+  <text x="115" y="159" text-anchor="middle" font-size="11" fill="#89b4fa">Mg</text>
+  <rect x="508" y="142" width="34" height="26" rx="3" fill="#89b4fa" fill-opacity="0.3" stroke="#89b4fa" stroke-width="1"/>
+  <text x="525" y="159" text-anchor="middle" font-size="11" fill="#89b4fa">Al</text>
+  <rect x="548" y="142" width="34" height="26" rx="3" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1"/>
+  <text x="565" y="159" text-anchor="middle" font-size="11" fill="#f9e2af">Si</text>
+  <rect x="588" y="142" width="34" height="26" rx="3" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1"/>
+  <text x="605" y="159" text-anchor="middle" font-size="11" fill="#f9e2af">P</text>
+  <rect x="628" y="142" width="34" height="26" rx="3" fill="#f9e2af" fill-opacity="0.3" stroke="#f9e2af" stroke-width="1"/>
+  <text x="645" y="159" text-anchor="middle" font-size="11" fill="#f9e2af">S</text>
+  <rect x="668" y="142" width="34" height="26" rx="3" fill="#cba6f7" fill-opacity="0.3" stroke="#cba6f7" stroke-width="1"/>
+  <text x="685" y="159" text-anchor="middle" font-size="11" fill="#cba6f7">Cl</text>
+  <rect x="708" y="142" width="34" height="26" rx="3" fill="#a6e3a1" fill-opacity="0.3" stroke="#a6e3a1" stroke-width="1"/>
+  <text x="725" y="159" text-anchor="middle" font-size="11" fill="#a6e3a1">Ar</text>
+
+  <!-- Group 1 down arrow: reactivity increases -->
+  <text x="75" y="205" text-anchor="middle" font-size="9" fill="#89b4fa">K</text>
+  <text x="75" y="225" text-anchor="middle" font-size="9" fill="#89b4fa">Rb</text>
+  <text x="75" y="242" text-anchor="middle" font-size="9" fill="#89b4fa">Cs</text>
+  <line x1="60" y1="180" x2="60" y2="245" stroke="#89b4fa" stroke-width="2"/>
+  <polygon points="55,243 65,243 60,250" fill="#89b4fa"/>
+  <text x="38" y="215" text-anchor="middle" font-size="9" fill="#89b4fa" transform="rotate(-90,38,215)">Reactivity ↑</text>
+
+  <!-- Group 17 reactivity -->
+  <text x="685" y="205" text-anchor="middle" font-size="9" fill="#cba6f7">Br</text>
+  <text x="685" y="225" text-anchor="middle" font-size="9" fill="#cba6f7">I</text>
+  <text x="685" y="242" text-anchor="middle" font-size="9" fill="#cba6f7">At</text>
+  <line x1="745" y1="180" x2="745" y2="245" stroke="#cba6f7" stroke-width="2"/>
+  <polygon points="740,243 750,243 745,250" fill="#cba6f7"/>
+  <text x="758" y="215" text-anchor="middle" font-size="9" fill="#cba6f7" transform="rotate(-90,758,215)">Reactivity ↓</text>
+
+  <!-- Across period arrows (Period 3) -->
+  <defs>
+    <marker id="arrR3" markerWidth="7" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0,0 7,3 0,6" fill="#fab387"/></marker>
+    <marker id="arrL3" markerWidth="7" markerHeight="6" refX="0" refY="3" orient="auto"><polygon points="7,0 0,3 7,6" fill="#fab387"/></marker>
+  </defs>
+  <!-- Atomic radius decreases across -->
+  <line x1="75" y1="185" x2="720" y2="185" stroke="#fab387" stroke-width="2" marker-end="url(#arrR3)"/>
+  <text x="400" y="178" text-anchor="middle" font-size="10" fill="#fab387">Atomic radius decreases → (more protons, same shell)</text>
+
+  <!-- ══ GROUP 1 TABLE ══ -->
+  <rect x="20" y="270" width="360" height="185" rx="8" fill="#181825"/>
+  <text x="200" y="290" text-anchor="middle" font-size="12" font-weight="bold" fill="#89b4fa">Group 1 — Alkali Metals</text>
+  <rect x="25" y="298" width="350" height="20" rx="3" fill="#313244"/>
+  <text x="60" y="312" text-anchor="middle" font-size="9" font-weight="bold" fill="#cdd6f4">Metal</text>
+  <text x="130" y="312" text-anchor="middle" font-size="9" font-weight="bold" fill="#cdd6f4">Reaction with water</text>
+  <text x="280" y="312" text-anchor="middle" font-size="9" font-weight="bold" fill="#cdd6f4">Observation</text>
+
+  <text x="60" y="330" text-anchor="middle" font-size="9" fill="#89b4fa">Li</text>
+  <text x="130" y="330" text-anchor="middle" font-size="9" fill="#a6adc8">2Li + 2H₂O → 2LiOH + H₂</text>
+  <text x="280" y="330" text-anchor="middle" font-size="9" fill="#a6adc8">Steady, floats, fizzes</text>
+
+  <text x="60" y="348" text-anchor="middle" font-size="9" fill="#89b4fa">Na</text>
+  <text x="130" y="348" text-anchor="middle" font-size="9" fill="#a6adc8">2Na + 2H₂O → 2NaOH + H₂</text>
+  <text x="280" y="348" text-anchor="middle" font-size="9" fill="#a6adc8">Vigorous, melts, moves</text>
+
+  <text x="60" y="366" text-anchor="middle" font-size="9" fill="#89b4fa">K</text>
+  <text x="130" y="366" text-anchor="middle" font-size="9" fill="#a6adc8">2K + 2H₂O → 2KOH + H₂</text>
+  <text x="280" y="366" text-anchor="middle" font-size="9" fill="#f38ba8">Violent; lilac flame; H₂ ignites</text>
+
+  <text x="200" y="392" text-anchor="middle" font-size="10" fill="#a6adc8">↓ Group 1: m.p. decreases, reactivity increases</text>
+  <text x="200" y="407" text-anchor="middle" font-size="10" fill="#a6adc8">Stored under oil — react with O₂ and H₂O in air</text>
+
+  <!-- ══ GROUP 17 TABLE ══ -->
+  <rect x="390" y="270" width="360" height="185" rx="8" fill="#181825"/>
+  <text x="570" y="290" text-anchor="middle" font-size="12" font-weight="bold" fill="#cba6f7">Group 17 — Halogens</text>
+  <rect x="395" y="298" width="350" height="20" rx="3" fill="#313244"/>
+  <text x="430" y="312" text-anchor="middle" font-size="9" font-weight="bold" fill="#cdd6f4">Halogen</text>
+  <text x="510" y="312" text-anchor="middle" font-size="9" font-weight="bold" fill="#cdd6f4">Colour/State (r.t.p.)</text>
+  <text x="660" y="312" text-anchor="middle" font-size="9" font-weight="bold" fill="#cdd6f4">Reactivity</text>
+
+  <text x="430" y="330" text-anchor="middle" font-size="9" fill="#cba6f7">F₂</text>
+  <text x="510" y="330" text-anchor="middle" font-size="9" fill="#a6adc8">Pale yellow gas</text>
+  <text x="660" y="330" text-anchor="middle" font-size="9" fill="#f38ba8">Most reactive</text>
+
+  <text x="430" y="348" text-anchor="middle" font-size="9" fill="#cba6f7">Cl₂</text>
+  <text x="510" y="348" text-anchor="middle" font-size="9" fill="#a6e3a1">Green/yellow gas</text>
+  <text x="660" y="348" text-anchor="middle" font-size="9" fill="#f38ba8">Very reactive</text>
+
+  <text x="430" y="366" text-anchor="middle" font-size="9" fill="#cba6f7">Br₂</text>
+  <text x="510" y="366" text-anchor="middle" font-size="9" fill="#fab387">Orange-brown liquid</text>
+  <text x="660" y="366" text-anchor="middle" font-size="9" fill="#f9e2af">Moderately reactive</text>
+
+  <text x="430" y="384" text-anchor="middle" font-size="9" fill="#cba6f7">I₂</text>
+  <text x="510" y="384" text-anchor="middle" font-size="9" fill="#a6adc8">Grey/purple solid</text>
+  <text x="660" y="384" text-anchor="middle" font-size="9" fill="#a6e3a1">Least reactive</text>
+
+  <text x="570" y="408" text-anchor="middle" font-size="10" fill="#a6adc8">↓ Group 17: b.p. increases; reactivity decreases</text>
+  <text x="570" y="421" text-anchor="middle" font-size="10" fill="#cba6f7">Displacement: Cl₂ displaces Br⁻; Cl₂/Br₂ displace I⁻</text>
+  <text x="570" y="436" text-anchor="middle" font-size="10" fill="#a6adc8">Test: Cl₂ → bleaches; Br₂ → orange; I₂ → blue-black with starch</text>
+
+  <!-- Noble gases -->
+  <rect x="760" y="270" width="180" height="80" rx="8" fill="#181825"/>
+  <text x="850" y="290" text-anchor="middle" font-size="11" font-weight="bold" fill="#a6e3a1">Group 18 (Noble Gases)</text>
+  <text x="850" y="308" text-anchor="middle" font-size="9" fill="#a6adc8">Full outer electron shell</text>
+  <text x="850" y="322" text-anchor="middle" font-size="9" fill="#a6adc8">→ extremely unreactive</text>
+  <text x="850" y="336" text-anchor="middle" font-size="9" fill="#a6adc8">He, Ne, Ar, Kr, Xe</text>
+  <text x="850" y="350" text-anchor="middle" font-size="9" fill="#a6e3a1">Monatomic gases</text>
+
+  <!-- Transition metals -->
+  <rect x="760" y="362" width="180" height="93" rx="8" fill="#181825"/>
+  <text x="850" y="382" text-anchor="middle" font-size="11" font-weight="bold" fill="#fab387">Transition Metals</text>
+  <text x="850" y="400" text-anchor="middle" font-size="9" fill="#a6adc8">Variable oxidation states</text>
+  <text x="850" y="415" text-anchor="middle" font-size="9" fill="#a6adc8">Coloured compounds</text>
+  <text x="850" y="430" text-anchor="middle" font-size="9" fill="#a6adc8">Good catalysts</text>
+  <text x="850" y="445" text-anchor="middle" font-size="9" fill="#fab387">Fe, Cu, Zn, Ni, Cr, Mn</text>
+</svg>
