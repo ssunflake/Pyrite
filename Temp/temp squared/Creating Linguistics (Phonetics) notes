@@ -1,0 +1,669 @@
+## User
+
+You are creating study notes for a student in an Obsidian markdown vault at root directory `Pyrite/`. Create practical phonetics/linguistics notes inside `Pyrite/Temp/Linguistics/`.
+
+## STEP 1 — Create directories
+- `Pyrite/Temp/Linguistics`
+- `Pyrite/Temp/Linguistics/Topics`
+
+## FORMAT RULES
+- Each file uses wikilinks: `[[Like This]]`
+- Navigation at top of each topic: `> [[00. Linguistics Index|← Index]] | [[Prev|← Ch N-1]] | [[Next|Ch N+1 →]]`
+- Use `> 💡 **Tip:**` and `> [!note]` callout blocks
+- Use `---` between major sections
+- Every topic ends with a **Key Definitions** table
+
+---
+
+## FILES TO CREATE (7 total)
+
+---
+
+### FILE 1: `Pyrite/Temp/Linguistics/00. Linguistics Index.md`
+
+```
+# 🗣️ Linguistics — Phonetics & Pronunciation Notes
+
+> **Scope:** How English and French sounds work — vowels, consonants, and pronunciation rules
+> **Exam Year:** 2027
+
+---
+
+## 📚 All 6 Chapters
+
+### 🔤 Section 1: The IPA
+- [[01. The IPA - International Phonetic Alphabet]]
+
+### 🇬🇧 Section 2: English Phonetics
+- [[02. English Vowels]]
+- [[03. English Consonants]]
+- [[04. English Pronunciation Rules]]
+
+### 🇫🇷 Section 3: French Phonetics
+- [[05. French Vowels]]
+- [[06. French Consonants and Pronunciation Rules]]
+
+---
+
+> 💡 **Study tip:** ...
+```
+
+Add a quick overview comparison table: English vs French — key phonetic differences (e.g. French has nasal vowels, front rounded vowels /y/ /ø/ /œ/, uvular /ʁ/, liaison; English has more vowel sounds overall, different stress patterns).
+
+---
+
+### FILE 2: `Pyrite/Temp/Linguistics/Topics/01. The IPA - International Phonetic Alphabet.md`
+
+Navigation: ← Index | Ch 2 →
+
+Content:
+- What the IPA is and why it exists (one symbol = one sound, works for ALL languages)
+- How to read IPA notation: / / for phonemic transcription, [ ] for phonetic transcription
+- IPA vowel chart overview: the vowel quadrilateral (front/back × close/open) — describe it in text/table form
+- IPA consonant chart overview: place of articulation (columns) × manner of articulation (rows)
+
+**Place of articulation table** — describe each with which body parts are involved and give one example sound:
+| Place | Articulator | Example sound | Example word |
+Bilabial, Labiodental, Dental, Alveolar, Post-alveolar, Palatal, Velar, Glottal
+
+**Manner of articulation table** — describe each:
+| Manner | Description | Example sound | Example word |
+Plosive/Stop, Fricative, Affricate, Nasal, Lateral, Approximant
+
+- Voiced vs Voiceless: definition, how to test it (hand on throat), English voiced/voiceless pairs table:
+| Voiceless | Voiced | Example pair |
+/p/–/b/, /t/–/d/, /k/–/g/, /f/–/v/, /θ/–/ð/, /s/–/z/, /ʃ/–/ʒ/, /tʃ/–/dʒ/
+
+- Key Definitions table
+
+---
+
+### FILE 3: `Pyrite/Temp/Linguistics/Topics/02. English Vowels.md`
+
+Navigation: ← Ch 1 | Ch 3 →
+
+Content:
+
+**English has ~20 vowel sounds** (more than most European languages). Organised into:
+
+**Short Monophthongs table** — IPA | Keyword | Example words | Mouth position:
+/ɪ/ — KIT — bit, sit, gym, women
+/e/ — DRESS — bed, head, said, friend
+/æ/ — TRAP — cat, hand, laugh (some dialects)
+/ʌ/ — STRUT — cup, blood, does, love
+/ɒ/ — LOT — hot, watch, was, want (RP only)
+/ʊ/ — FOOT — put, book, could, wolf
+
+**Long Monophthongs table** — IPA | Keyword | Example words | Mouth position:
+/iː/ — FLEECE — see, sea, machine, field
+/ɑː/ — PALM/START — car, far, bath (RP), father
+/ɔː/ — THOUGHT — saw, caught, door, four, war
+/uː/ — GOOSE — too, blue, through, shoe
+/ɜː/ — NURSE — bird, word, heard, fur, earth
+
+**The Schwa /ə/** — most common English vowel sound:
+- Unstressed syllable reduction: about /əˈbaʊt/, banana /bəˈnɑːnə/, the /ðə/ (before consonant)
+- Schwa only occurs in UNSTRESSED syllables
+- Examples of schwa in different spellings: a (about), e (the), o (police), i (family), u (supply)
+
+**Diphthongs table** — IPA | Keyword | Example words | Movement description:
+/eɪ/ — FACE — day, rain, break, they, eight
+/aɪ/ — PRICE — my, night, buy, tied, eye
+/ɔɪ/ — CHOICE — boy, coin, noise, toy
+/əʊ/ — GOAT — go, stone, know, though, soul (RP)
+/aʊ/ — MOUTH — now, south, crowd, house
+/ɪə/ — NEAR — here, ear, idea, beer, weird
+/eə/ — SQUARE — there, fair, care, wear, they're
+/ʊə/ — CURE — tour, pure, sure, poor (becoming rare)
+
+**Vowel length and spelling patterns:**
+- Table of spelling → vowel sound patterns (e.g. -igh- = /aɪ/, -oo- = /uː/ or /ʊ/, -ou- = /aʊ/ or /ʌ/, -ea- = /iː/ or /e/, magic-e rule: cap/cape, bit/bite, hop/hope)
+- Why English spelling is inconsistent (historical reasons briefly: Great Vowel Shift, borrowed words)
+
+**RP vs General American key differences:**
+| Sound | RP (British) | GenAm (American) | Example |
+/ɑː/ pre-nasal | /ɑː/ | /æ/ | dance, path, bath
+Non-rhotic vs rhotic: RP drops /r/ after vowels (car /kɑː/); GenAm keeps it (car /kɑːr/)
+LOT-PALM merger in AmEng: hot and father have same vowel
+
+- Key Definitions table
+
+---
+
+### FILE 4: `Pyrite/Temp/Linguistics/Topics/03. English Consonants.md`
+
+Navigation: ← Ch 2 | Ch 4 →
+
+Content:
+
+**English has 24 consonant phonemes.** Full reference table:
+| IPA | Keyword | Example words | Place | Manner | Voiced? |
+/p/ — PIG — pin, happy, cup — Bilabial — Plosive — Voiceless
+/b/ — BAT — bat, able, rub — Bilabial — Plosive — Voiced
+/t/ — TAN — top, butter, cat — Alveolar — Plosive — Voiceless
+/d/ — DOG — dog, ladder, bad — Alveolar — Plosive — Voiced
+/k/ — CAT — cat, school, pick, queen — Velar — Plosive — Voiceless
+/g/ — GET — get, bigger, bag — Velar — Plosive — Voiced
+/f/ — FAT — fat, phone, rough, off — Labiodental — Fricative — Voiceless
+/v/ — VAT — van, of, love — Labiodental — Fricative — Voiced
+/θ/ — THIN — thin, path, teeth, method — Dental — Fricative — Voiceless
+/ð/ — THIS — this, the, breathe, father — Dental — Fricative — Voiced
+/s/ — SIT — sit, city, pass, science — Alveolar — Fricative — Voiceless
+/z/ — ZAP — zoo, is, please, xylophone — Alveolar — Fricative — Voiced
+/ʃ/ — SHIP — ship, sure, machine, nation — Post-alveolar — Fricative — Voiceless
+/ʒ/ — MEASURE — measure, vision, genre, beige — Post-alveolar — Fricative — Voiced
+/tʃ/ — CHIP — chip, watch, nature — Post-alveolar — Affricate — Voiceless
+/dʒ/ — JAM — jam, badge, soldier, giraffe — Post-alveolar — Affricate — Voiced
+/m/ — MAP — map, summer, comb — Bilabial — Nasal — Voiced
+/n/ — NAP — nap, sunny, know — Alveolar — Nasal — Voiced
+/ŋ/ — SING — sing, think, finger — Velar — Nasal — Voiced
+/l/ — LEG — leg, allow, bell — Alveolar — Lateral — Voiced
+/r/ — RED — red, write, carry — Post-alveolar — Approximant — Voiced
+/j/ — YES — yes, few, beauty, onion — Palatal — Approximant — Voiced
+/w/ — WET — wet, one, queen — Bilabial — Approximant — Voiced
+/h/ — HAT — hat, who, ahead — Glottal — Fricative — Voiceless
+
+**Special notes for each tricky sound:**
+- /θ/ vs /ð/ — both spelled "th"; /θ/ = voiceless (think, bath); /ð/ = voiced (the, this, breathe). Test: hand on throat.
+- /ŋ/ — never at the start of English words; -ng and -nk spelling (sing, sink)
+- /r/ — in RP non-rhotic: only pronounced before a vowel. Linking-r and intrusive-r explained.
+- /h/ — sometimes silent: hour, honest, heir, ghost
+- /j/ — spelled as y (yes), or part of /juː/ (new, few, beauty, use)
+- /w/ — silent in wr- words (write, wrong, wrist)
+
+**Consonant clusters:**
+- English allows complex clusters: /str-/ (street), /spl-/ (splash), /-ksθs/ (sixths)
+- Common clusters table: initial (str-, spr-, spl-, scr-, thr-, shr-) and final (-nd, -nt, -nk, -sts, -lts, -lps)
+
+**Consonant spellings — irregular patterns table:**
+| Sound | Spellings | Examples |
+/f/ | f, ff, ph, gh | fat, off, phone, rough |
+/k/ | c, k, ck, ch, qu | cat, kite, back, school, queen |
+/s/ | s, c, ss, sc | sit, city, miss, science |
+/dʒ/ | j, g, dge, ge | jam, giraffe, bridge, large |
+/ʃ/ | sh, ti, ci, ch, s | ship, nation, special, machine, sure |
+/z/ | z, s, zz, x | zoo, is, buzz, xylophone |
+/n/ | n, kn, gn, pn | nap, know, gnaw, pneumonia |
+
+**Aspiration in English:**
+- /p/, /t/, /k/ are aspirated [pʰ tʰ kʰ] at the start of stressed syllables: pin [pʰɪn]
+- After /s/ they are NOT aspirated: spin [spɪn] (compare pin vs spin)
+
+- Key Definitions table
+
+---
+
+### FILE 5: `Pyrite/Temp/Linguistics/Topics/04. English Pronunciation Rules.md`
+
+Navigation: ← Ch 3 | Ch 5 →
+
+Content:
+
+**Word Stress:**
+- English is a stress-timed language: stressed syllables occur at roughly regular intervals
+- Stressed syllables = louder, longer, clearer vowel; unstressed = shorter, often reduced to schwa
+- Primary stress marked with ˈ before syllable: /ˈhæp.i/, /kəmˈpjuː.tər/
+- Rules for stress placement (not always predictable but tendencies):
+  - 2-syllable nouns/adjectives → usually stress on 1st syllable: TAble, HAppy, PENcil
+  - 2-syllable verbs → often stress on 2nd syllable: reLAX, deCIDE, beGIN
+  - Stress-shifting noun/verb pairs table: REcord/reCORD, REfund/reFUND, PROtest/proTEST, CONtent/conTENT, OBject/obJECT, PERmit/perMIT, PREsent/preSENT
+  - Suffixes that attract stress: -tion/-sion/-tion (naTION), -ic (deMOcratic), -ity (realiTY), -ify (iDENtify)
+  - Suffixes that don't shift stress: -ness, -ful, -less, -ly, -er, -ment
+
+**Weak Forms:**
+- Function words are reduced in connected speech
+- Table of common words with strong vs weak form:
+  | Word | Strong form | Weak form | Example in context |
+  and | /ænd/ | /ənd/ or /ən/ | bread and butter /brɛd ən ˈbʌtər/
+  the | /ðiː/ | /ðə/ | the cat /ðə kæt/ (before consonant)
+  the | /ðiː/ | /ði/ | the apple /ði ˈæpəl/ (before vowel)
+  to | /tuː/ | /tə/ | I want to go /aɪ wɒnt tə gəʊ/
+  of | /ɒv/ | /əv/ or /ə/ | cup of tea /kʌp ə tiː/
+  can | /kæn/ | /kən/ | I can do it /aɪ kən duː ɪt/
+  have | /hæv/ | /həv/ or /əv/ | I should have gone
+  was | /wɒz/ | /wəz/ | It was good
+  for | /fɔː/ | /fə/ | waiting for a bus
+  at | /æt/ | /ət/ | looking at it
+
+**Connected Speech Processes:**
+- **Assimilation**: a sound changes to become more like a neighbouring sound
+  - Regressive: /ɪn/ + /k/ → /ɪŋ/ (in case → [ɪŋ keɪs])
+  - Progressive: ten boys → [tem bɔɪz] (n → m before bilabial)
+- **Elision**: sounds are dropped in rapid speech
+  - /t/ and /d/ between consonants: next door /nɛks dɔː/, friendship /ˈfrɛnʃɪp/
+  - Consonant cluster simplification: facts /fækts/ → [fæks]
+- **Linking**: consonant at end of word links to vowel at start of next word
+  - Linking-r (RP): far away /fɑːr əˈweɪ/ — the r is pronounced because a vowel follows
+  - Intrusive-r: law and order /lɔːr ənd ˈɔːdə/ — r inserted even with no r in spelling
+- **Coalescence**: two sounds merge into one across a word boundary
+  - /t/ + /j/ → /tʃ/: did you /ˈdɪdʒu/, meet you /miːtʃu/
+  - /d/ + /j/ → /dʒ/: would you /ˈwʊdʒu/, graduate /ˈɡrædʒuɪt/
+
+**Silent Letters (comprehensive table):**
+| Letter | When silent | Examples |
+b | after m, before t | comb, thumb, debt, subtle |
+c | before k | black, sick, lock |
+d | in -dge | bridge, hedge, knowledge |
+g | before n | gnaw, sign, foreign, gnome |
+gh | after a vowel | night, light, daughter, through, eight |
+h | at start of some words | hour, honest, heir, vehicle, ghost |
+k | before n | knee, know, knife, knit |
+l | before -f, -m, -k, -d, -v | calf, calm, walk, could, half |
+n | after m at end | column, autumn, solemn, damn |
+p | before n, s, t (mostly Greek origin) | pneumonia, psychology, pterodactyl |
+s | in some words | island, aisle, debris |
+t | in some common words | castle, listen, whistle, often, fasten |
+w | before r, in some words | write, wrong, answer, sword |
+
+**Intonation:**
+- Falling tone (↘): statements, commands, wh-questions — sounds definite/finished
+- Rising tone (↗): yes/no questions, listing items (all but last), showing surprise — sounds open/unfinished
+- Fall-rise (↘↗): implies a reservation, "but..." — sounds cautious
+- Table: Utterance type → Typical intonation → Example
+
+- Key Definitions table
+
+---
+
+### FILE 6: `Pyrite/Temp/Linguistics/Topics/05. French Vowels.md`
+
+Navigation: ← Ch 4 | Ch 6 →
+
+Content:
+
+**Overview:** French has fewer vowel sounds than English but includes sounds English lacks: front rounded vowels (/y/, /ø/, /œ/) and four nasal vowels (/ɑ̃/, /ɛ̃/, /ɔ̃/, /œ̃/).
+
+**Oral Vowels table** — IPA | Spelling(s) | Example words | Description of mouth position:
+/a/ — a, à — chat, patte, là — Open front, unrounded
+/ɑ/ — â, some 'a' words — pâte, bas — Open back, unrounded (fading in modern French, merged with /a/ for many speakers)
+/e/ — é, er, ez, es (monosyllables) — été, parler, chez, des — Close-mid front, unrounded; pure (no diphthong)
+/ɛ/ — è, ê, ei, ai, e (in closed syllable) — fête, lait, faire, belle, avec — Open-mid front, unrounded
+/i/ — i, î, y — vie, île, stylo — Close front, unrounded (like English /iː/ but shorter and purer)
+/o/ — o, ô, au, eau — rose, côte, eau, beau — Close-mid back, rounded; pure (no diphthong)
+/ɔ/ — o (in open syllable/before /r/) — sort, or, porte, sol — Open-mid back, rounded
+/u/ — ou, oû — tout, ou, où, goût — Close back, rounded (like English /uː/ but purer, more rounded)
+/y/ — u, û — tu, pur, flûte, sur — Close front, ROUNDED — NO English equivalent. Lips rounded as for /u/, tongue position as for /i/
+/ø/ — eu, œu (in open syllable) — deux, feu, peu, nœud — Close-mid front, rounded — NO English equivalent
+/œ/ — eu, œ (in closed syllable) — peur, sœur, heure, seul, œil — Open-mid front, rounded
+/ə/ — e (unstressed, not at end of word) — le, me, ce, refaire — Schwa — often silent in rapid speech
+
+**Nasal Vowels table** — IPA | Spellings | Example words | Notes:
+/ɑ̃/ — an, am, en, em — dans, enfant, temps, chambre, vent — Most common nasal; open back, nasalised
+/ɛ̃/ — in, im, ain, aim, ein, yn, ym, un*, um* — vin, pain, main, plein, brun*, un* — Open-mid front nasal (*brun and un are /œ̃/ in conservative speech, /ɛ̃/ for most modern speakers)
+/ɔ̃/ — on, om — bon, pont, ombre, maison — Close-mid back nasal
+/œ̃/ — un, um — un, brun, parfum — Open-mid front rounded nasal (merging with /ɛ̃/ in modern French)
+
+> ⚠️ **Key rule:** Nasal vowels occur when n or m follows the vowel AND is NOT followed by another vowel or another n/m: bon /bɔ̃/ (nasal) BUT bonne /bɔn/ (oral — the nn causes denasalisation); vin /vɛ̃/ (nasal) BUT vigne /viɲ/ (oral)
+
+**Front Rounded Vowels — how to pronounce them:**
+- /y/ (u in French): round lips tightly as if saying /uː/, then position tongue as if saying /iː/ — the result is /y/. Examples: tu, vu, pur, rue
+- /ø/ (eu in open syllable): round lips as if for /o/, tongue position as for /e/ — Examples: feu, deux, peu
+- /œ/ (eu in closed syllable): round lips, tongue relaxed — Examples: peur, heure, sœur
+
+**Accent marks and vowel sounds:**
+| Accent | Name | Effect on sound | Examples |
+é | acute (accent aigu) | Always /e/ — close-mid | été, café, bébé |
+è | grave (accent grave) on e | Always /ɛ/ — open-mid | père, mère, après |
+ê | circumflex (accent circonflexe) on e | /ɛ/ (historically marked a lost 's') | fête, bête, même |
+â | circumflex on a | Historically /ɑ/ (now often /a/) | pâte, château |
+î, û, ô | circumflex on i, u, o | Generally no sound change; historical marker | île, flûte, côte |
+à, ù | grave on a, u | No sound change; only distinguishes words | à (to) vs a (has), où (where) vs ou (or) |
+ç | cedilla | c pronounced /s/ (not /k/) before a, o, u | ça, leçon, reçu |
+ë, ï, ü | diaeresis (tréma) | Vowel pronounced separately from preceding vowel | Noël, naïf, Noëlle |
+
+**E muet (Silent E):**
+- The schwa /ə/ (written as e without accent) can be silent depending on position and speech speed
+- Rules: silent at end of a word (une, table, belle); may be retained in formal/slow speech or when needed for pronunciation (e.g. un cheval /œ̃ ʃval/ in fast speech, /œ̃ ʃəval/ more carefully)
+
+- Key Definitions table
+
+---
+
+### FILE 7: `Pyrite/Temp/Linguistics/Topics/06. French Consonants and Pronunciation Rules.md`
+
+Navigation: ← Ch 5 | Index →
+
+Content:
+
+**Overview:** French has 20 consonant phonemes. Most are similar to English but there are key differences: the French r (/ʁ/), the palatal nasal /ɲ/, the labio-velar /ɥ/, and crucially — many final consonants are SILENT.
+
+**French Consonants table** — IPA | Spelling(s) | Example | Notes:
+/p/ — p — père, apprendre — Like English, but NOT aspirated in French (no puff of air)
+/b/ — b — bon, bébé — Like English /b/
+/t/ — t, th — table, thé — Like English, but NOT aspirated; dental (tongue touches upper teeth, not alveolar ridge)
+/d/ — d — dans, adieu — Dental, not aspirated; like English /d/
+/k/ — c (before a/o/u), qu, k — carte, qui, kilo — NOT aspirated; like English /k/ but no aspiration
+/g/ — g (before a/o/u), gu (before e/i) — garçon, guerre, golf — Like English /g/
+/f/ — f, ph — faire, téléphone — Like English /f/
+/v/ — v — venir, vivre — Like English /v/
+/s/ — s (initial/double), c (before e/i), ç, t (in -tion) — sur, assez, cinq, garçon, nation — Like English /s/; note -tion in French = /sjɔ̃/ not /ʃən/
+/z/ — s (between vowels), z — maison, zéro, rose — s between vowels = /z/
+/ʃ/ — ch — chat, chercher, Charles — Like English /ʃ/ (sh); NOT like English "ch" /tʃ/
+/ʒ/ — j, g (before e/i) — je, jour, geste, girafe — Like the s in English "measure"
+/m/ — m — maman, même — Like English /m/
+/n/ — n — non, annonce — Like English /n/
+/ŋ/ — -ing (borrowed English words) — parking, camping — Only in borrowed words; otherwise /n/ or /ɲ/
+/ɲ/ — gn — agneau, champagne, montagne, Espagne — Palatal nasal — like "ny" in "canyon"; NO English equivalent
+/l/ — l — lune, belle, il — Like English /l/ (always clear, never dark)
+/ʁ/ — r, rr — rouge, Paris, arrêt — Uvular fricative/approximant — produced at back of throat, NOT like English /r/
+/w/ — ou + vowel, w — oui, Louis, wagon — Like English /w/
+/ɥ/ — u + vowel — nuit, lui, nuage — Rounded palatal approximant — like /w/ but with /y/ lip rounding; NO English equivalent
+/j/ — i/y + vowel, -ll- (after i) — yeux, hier, fille, vaille — Like English /j/ (yes)
+
+**The French R (/ʁ/) — how to pronounce it:**
+- Produced at the back of the throat — the uvula vibrates or the back of the tongue constricts against the uvular region
+- NOT a rolled/trilled /r/ (that is Spanish or Italian)
+- Closest English approximation: the sound of gargling water
+- Practice words: rouge /ʁuʒ/, Paris /paʁi/, merci /mɛʁsi/, bonjour /bɔ̃ʒuʁ/
+
+**GN = /ɲ/ (NOT /gn/):**
+- champagne = /ʃɑ̃paɲ/ (NOT "shamp-ag-ne")
+- montagne = /mɔ̃taɲ/, agneau = /aɲo/
+
+**CH = /ʃ/ (NOT /tʃ/):**
+- chat /ʃa/ = cat (like English "sh", NOT "ch" as in "chip")
+- Exception: borrowed words — chrome /kʁɔm/, chaos /kaos/
+
+---
+
+**Silent Final Consonants:**
+French final consonants are usually SILENT. Key rule: **CaReFuL** — the consonants C, R, F, L are often pronounced at the end of words; most others are silent.
+
+| Consonant | Usually silent? | Exceptions (pronounced) | Examples |
+s (plural, verb endings) | YES — silent | — | les amis /le zami/, vous mangez /vu mɑ̃ʒe/ |
+t (verb endings, many nouns) | YES — silent | — | il mange /il mɑ̃ʒ/, et /e/, vingt /vɛ̃/ |
+d (past participle -nd, etc.) | YES — silent | — | grand /ɡʁɑ̃/, pied /pje/ |
+x (plurals) | YES — silent | six, dix (before noun or alone) | deux /dø/, voix /vwa/ |
+p | YES — silent | — | trop /tʁo/, beaucoup /boku/ |
+g (in -ing, end of words) | YES — silent | — | long /lɔ̃/, sang /sɑ̃/ |
+c (end) | Often PRONOUNCED | — | avec /avɛk/, chic /ʃik/, parc /paʁk/ |
+r (end, most verbs, nouns) | Often PRONOUNCED | -er infinitives are silent | mer /mɛʁ/, sur /syʁ/ BUT parler /paʁle/ |
+f (end) | Often PRONOUNCED | — | neuf /nœf/, chef /ʃɛf/ |
+l (end) | Often PRONOUNCED | — | seul /sœl/, journal /ʒuʁnal/ |
+
+**Liaison (La Liaison):**
+- When a normally silent final consonant IS pronounced because the next word begins with a vowel or mute h
+- The consonant links to the beginning of the next word
+
+Liaison rules:
+| Type | Explanation | Examples |
+Obligatory | Always liaison | les amis /le‿zami/, vous avez /vu‿zave/, ils ont /il‿zɔ̃/, un enfant /œ̃‿nɑ̃fɑ̃/ |
+Obligatory | After determiners, pronouns, numbers before nouns | — |
+Forbidden | After et, before aspirate h, after singular nouns, after proper nouns | et il /e il/ (NOT /e‿til/); les haricots /le aʁiko/ (NOT /le‿zaʁiko/) |
+Optional | In formal/literary speech | — |
+
+Sound changes in liaison:
+- s and x become /z/: les amis /le‿zami/, deux enfants /dø‿zɑ̃fɑ̃/
+- d becomes /t/: grand ami /ɡʁɑ̃‿tami/
+- f becomes /v/ in neuf ans /nœ‿vɑ̃/, neuf heures /nœ‿vœʁ/
+
+**Elision (L'Élision):**
+- Dropping the final vowel of certain short words when the next word starts with a vowel or mute h
+- Shown in writing with an apostrophe
+
+| Before elision | After elision | Examples |
+le | l' | l'ami, l'homme, l'eau |
+la | l' | l'amie, l'heure, l'école |
+je | j' | j'aime, j'ai, j'habite |
+me | m' | il m'appelle, elle m'a dit |
+te | t' | il t'aime, elle t'attend |
+se | s' | il s'appelle, elle s'en va |
+de | d' | d'accord, d'habitude |
+ne | n' | n'est-ce pas?, je n'ai pas |
+que | qu' | qu'est-ce que, qu'il, qu'elle |
+si + il | s'il | s'il vous plaît, s'il te plaît |
+
+**Mute h vs Aspirate h:**
+- ALL French h's are phonetically silent — you never say the /h/ sound
+- **Mute h (h muet)**: treated as if the word starts with a vowel → triggers liaison and elision: l'homme, les hommes /le‿zɔm/
+- **Aspirate h (h aspiré)**: treated as if the word starts with a consonant → blocks liaison and elision: le haricot (NOT l'haricot), les haricots /le aʁiko/ (no liaison)
+- Must be learned word by word: haricot (aspirate), homme (mute), heure (mute), hibou (aspirate), hiver (mute), honte (aspirate)
+
+**C before vowels — c vs ç:**
+- c before e, i, y → /s/: certain, cinq, cycle
+- c before a, o, u → /k/: carte, côte, culture
+- ç always → /s/ (used before a, o, u to retain /s/ sound): ça, leçon, reçu, garçon
+
+**G before vowels:**
+- g before e, i, y → /ʒ/: geste, girafe, gym
+- g before a, o, u → /ɡ/: garçon, golf, guide
+- gu before e, i → /ɡ/: guerre, guide (the u is silent!)
+- gue, gui = /ɡ/: bague, guichet
+
+**Double consonants:**
+- In French, double consonants are almost always pronounced as a single consonant (unlike Italian or some other languages): belle /bɛl/, homme /ɔm/, classique /klasik/
+- Exception: some double consonants after a prefix can be pronounced long in very careful speech
+
+**-tion pronunciation:**
+- French: -tion = /sjɔ̃/ — nation /nasjɔ̃/, condition /kɔ̃disjɔ̃/
+- NOT /ʃən/ as in English!
+
+- Key Definitions table
+
+---
+
+Make every file **detailed, accurate, and practical** — these are phonetics/pronunciation notes to help a student understand how the sounds of English and French work. Include plenty of example words for every sound, IPA symbols throughout, tables, and practical tips. Accuracy of IPA symbols is important.
+
+## Assistant
+
+<thinking>
+The user wants me to create a comprehensive set of linguistics notes in an Obsidian markdown vault. Let me break down the tasks:
+
+1. Create directories: `Pyrite/Temp/Linguistics` and `Pyrite/Temp/Linguistics/Topics`
+2. Create 7 files with detailed phonetics/linguistics content
+
+Let me start by creating the directories and then all 7 files. I'll create the directories first, then all files in parallel since they're independent of each other.
+
+Let me carefully craft each file with accurate IPA symbols and detailed content as specified.
+
+Let me think through the content for each file carefully:
+
+**FILE 1: 00. Linguistics Index.md**
+
+
+I'll include an overview comparison table of English vs French phonetics and links to all 6 chapters.
+
+**FILE 2: 01. The IPA - International Phonetic Alphabet.md**
+I need to cover the IPA overview with a vowel quadrilateral and consonant chart, plus tables for place and manner of articulation, and voiced vs voiceless pairs.
+
+**FILE 3: 02. English Vowels.md**
+This will detail short and long monophthongs, schwa, diphthongs, vowel length and spelling patterns, and RP vs General American differences.
+
+**FILE 4: 03. English Consonants.md**
+I'm planning to cover consonant classifications, place and manner distinctions, and specific English consonant features.
+
+**FILE 5: 04. English Pronunciation Rules.md**
+This section addresses word stress patterns, weak forms, connected speech processes, silent letters, and intonation patterns.
+
+**FILE 6: 05. French Vowels.md**
+I need to explain oral vowels, nasal vowels, front rounded vowels, how accent marks function, and the concept of e muet.
+
+**FILE 7: 06. French Consonants and Pronunciation Rules.md**
+This final file will cover French consonant characteristics, the French R sound, silent final consonants, liaison and elision rules, h distinctions, C and G pronunciation rules, double consonant behavior, and how -tion endings are pronounced.
+
+Now I'm ready to start creating these files, making sure to use proper IPA symbols throughout. I'm working through the remaining phonetic symbols for English and other languages—diphthongs like /aʊ/ and /ɪə/, consonants including the fricatives and affricates, plus some French nasal vowels and approximants that appear in various languages.
+
+Now I'm organizing the file structure for the linguistics project, creating the necessary directories and preparing to write out the content files with a comparison table showing how English and French phonetics differ. Generating markdown table... I'm comparing how English and French handle stress patterns, vowel reduction, and consonant pronunciation—English allows stress anywhere and heavily reduces unstressed vowels, while French fixes stress on the final syllable and preserves vowel quality. I'm also noting key differences in aspiration, silent letters, and how the languages handle sound changes at word boundaries through liaison and elision.
+
+Now looking at how the languages diverge further with TH sounds that exist only in English, the treatment of H, and how they pronounce the -tion ending differently—plus structural differences in consonant clusters and vowel length that matter phonemically in English but not French. I'm looking at the structure of a linguistics guide that covers the International Phonetic Alphabet and pronunciation rules across English and French. The current section explains why the IPA was created—how English spelling is inconsistent with words like "though" and "through" that don't rhyme despite similar spelling, and how the IPA solves this by assigning one symbol to each sound regardless of spelling conventions.
+
+Now I'm moving into how to actually read IPA notation, showing the difference between phonemic transcription in slashes (the broad, contrastive form you'd typically see in exams) and phonetic transcription in brackets (the more detailed version that captures nuances like aspiration), along with stress marks and syllable boundaries.
+
+Then I'm introducing the vowel chart, which plots vowel sounds based on where your tongue sits in your mouth—moving horizontally from front to back and vertically from high to low—and I'm laying out the standard vowel quadrilateral with the IPA symbols positioned according to these dimensions.
+
+Now I'm noting which vowels are actually used in English and French, since those are the practical inventories speakers work with, and I'm flagging that this chart is an idealized representation rather than a precise measurement tool.
+
+Moving into place of articulation...
+
+Generating articulation chart... the first bump you feel is the alveolar ridge. Now I'm moving on to manner of articulation—how the airflow gets modified to create different sounds, covering plosives where air completely stops then releases, fricatives where air creates friction, and other articulation methods. Now I'm explaining how to distinguish voiced from voiceless consonants by feeling vibration in the throat, then showing the paired consonants in English where the only difference is voicing. The table is starting to map out these pairs by their place and manner of articulation.
+
+Generating markdown table... Generating definitions table...
+
+Now I'm moving into the vowel section, setting up the framework for English vowels and noting that there are roughly 20 vowel sounds in English, which is significantly more than most other European languages, making this a particularly tricky area for learners to master. Generating vowel reference table... I'm noting that the schwa is the most common vowel in English and only appears in unstressed syllables, functioning as a reduced neutral sound that results from English's natural tendency to weaken vowels when they're not stressed. The thinking is moving into examples of how schwa appears in actual words, though the table seems to be cut off mid-row. Generating pronunciation table... Generating markdown table... Generating spelling patterns table... Now I'm seeing how the magic-e rule applies to more examples like fine and made, and then I'm thinking about why English spelling is so chaotic — it comes down to the Great Vowel Shift throwing pronunciation out of sync with standardized spelling, plus all the borrowed words from French, Latin, and other languages that each brought their own conventions, and the printing press locking things in place before everything settled.
+
+Generating comparison table... Now I'm laying out the key linguistic terms—monophthongs versus diphthongs, the distinction between short lax vowels and long tense ones, and how schwa functions as that neutral mid-central vowel. I'm continuing through the phonetics terminology—covering the Great Vowel Shift and how it explains English spelling patterns, plus the distinction between tense and lax vowels. Now I'm moving into the consonants section and will be creating several large reference tables for English and French pronunciation rules. Now I'm writing out the complete content for each file, starting with the index that links to all six chapters on IPA, English phonetics, and French phonetics. Generating comparison table... Looking at the vowel length distinctions, consonant cluster complexity, and intonation patterns that differentiate English from French, I can see how these phonological features create fundamentally different sound systems. Now I'm moving forward with implementing the actual files for this comparison. I'm organizing the file structure with directories first, then creating the markdown files in batches. For the vowel quadrilateral in the IPA chapter, I'll use a descriptive table format instead of ASCII art to ensure it renders properly in Obsidian. Now I'm writing out the complete content for each file, starting with the index that links to all six chapters on English and French phonetics. PA chapter to build your symbol foundation, then work through English before French. Return to this index to cross-reference sounds between the two languages.
+
+Now I'm looking at the key phonetic contrasts between English and French. English has roughly 20 vowel sounds including many diphthongs, while French relies on about 16 mostly pure vowels and introduces four nasal vowels that English lacks entirely. French also has three front rounded vowels with no English equivalent. The R sound differs dramatically—English uses a post-alveolar approximant while French produces a uvular fricative from the back of the throat. Word stress patterns are fundamentally different too: English allows stress on any syllable with a stress-timed rhythm, whereas French fixes stress on the final syllable of phrase groups with syllable-timing. Other notable differences include how English heavily reduces unstressed syllables to schwa while French maintains more vowel clarity, English aspirates its stop consonants at the start of stressed syllables while French never does, and both languages handle silent letters but through different patterns. Generating the vowel chart... I'm mapping out the remaining file structures—diphthongs and vowel spelling patterns for English, then moving into consonants with their articulation details, followed by pronunciation rules covering stress and connected speech. After that I'll tackle the French sections with oral and nasal vowels, front rounded vowels, and French-specific consonant features.
+
+Now I'm ready to start building the actual files with detailed IPA notation and comprehensive examples. I'm finishing up the French consonants list, then moving on to create the directory structure and files. I need to set up the Pyrite/Temp/Linguistics/Topics directories and write out comprehensive content for each file. I'm organizing the directory structure and planning to write all the markdown files in parallel batches—first creating the main index and IPA chapter, then the English vowels and consonants sections, followed by the French language chapters. Each file will include navigation links at the top, structured content with tables for articulation details, and key definitions at the end. Now I'm mapping out the remaining chapters for French pronunciation, covering vowels, consonants, and the specific phonetic rules like liaison and elision that distinguish French from English.
+
+I'm ready to start writing the actual content for each file, beginning with the IPA chapter and its vowel quadrilateral diagram to show the positioning of vowels in the mouth. I'm setting up a comprehensive markdown table to compare the phonetic systems between English and French, starting with vowel inventory counts and planning to fill in other key distinctions like consonant systems and pronunciation patterns. Now I'm looking at the rest of this comparison table — covering elision patterns, the TH sounds that English has but French doesn't, how H is treated differently, the pronunciation of the -tion suffix, vowel length contrasts, consonant cluster complexity, and intonation patterns between the two languages.
+
+Moving into the IPA chapter, I'm explaining what the International Phonetic Alphabet is and why it's necessary — English spelling is wildly inconsistent, so the same letter combinations produce completely different sounds depending on the word, making it impossible to predict pronunciation from written text alone. The IPA solves this by giving each sound its own unique symbol.
+
+Now I'm laying out the core notation system: slashes show phonemic transcription (the meaningful sound distinctions), square brackets show phonetic transcription (the detailed articulatory variations), and stress marks indicate which syllables are emphasized in a word.
+
+Generating notation reference table... The vowel chart is organized by tongue position—front to back horizontally and high to low vertically—with paired symbols showing unrounded and rounded versions of the same vowel. I'm now laying out the specific vowel positions across the chart's dimensions. I'm reviewing the key principles about vowel positioning—front versus back, close versus open, and how lip rounding affects the sound—then moving into consonant articulation by examining where in the vocal tract different sounds are produced, starting with bilabial and labiodental consonants. Continuing through the other major articulation points—velar consonants use the back of the tongue against the soft palate, uvular sounds involve the very back of the throat, and glottal sounds originate from the vocal folds themselves, with a helpful tip about locating the alveolar ridge by touch.
+
+Now I'm moving into manner of articulation, which describes how the airflow gets modified—whether it's completely blocked and released like in plosives, or squeezed through a narrow opening to create friction like in fricatives. Approximants are similar but the articulators stay far enough apart that there's no friction. Now I'm moving into voicing — the key distinction between consonants is whether the vocal folds vibrate or stay open. I can test this by placing my fingers on my throat and feeling for vibration when I say different sounds.
+
+Generating minimal pairs table... I'm seeing how the past tense suffix pronunciation varies depending on the preceding consonant's voicing, and now I'm laying out the core phonetic definitions—phonemes versus allophones, and the difference between phonemic and phonetic transcription systems. Now I'm going through the different manners of articulation—nasals where air flows through the nose, laterals with airflow around the tongue sides, and approximants that approach without friction. Then I'm mapping out the places of articulation: bilabial, alveolar, velar, uvular, and glottal positions in the vocal tract.
+
+I've been planning out the structure for these educational files, but I think it's time to stop overthinking and just start building them. I have a solid outline for each one, so let me create the directories and then write out all seven files systematically.
+
+I'm keeping track of the file sizes and making sure to handle the technical details correctly—Unicode IPA symbols, proper markdown tables, and consistent navigation links between files. The key definitions table should go at the end of each file. Let me start writing them out now, working through each one methodically. Now I'm ready to write out all the file content and create them. I'll set up the directories first, then generate all seven files in two batches to keep things organized. I'm verifying the Unicode encodings for all the IPA symbols I'll need to use throughout these files, making sure each character is properly represented. I'm finishing up the IPA character mappings for French vowels, including the nasal vowels that use combining tildes for proper rendering in Obsidian, and now I'm ready to start generating the actual files.
+
+Before I begin, I need to verify I'm following all the formatting requirements: wikilinks in double brackets, navigation headers with the index and chapter links, callout blocks for tips and notes, horizontal dividers between sections, and markdown tables for the key definitions at the end of each file.
+
+Let me confirm the folder structure is correct—the index file goes in `Pyrite/Temp/Linguistics/` with all the topic files organized in that same directory.
+
+Now I'm ready to start generating the files, beginning with the directories and then creating the index file followed by the topic files in parallel batches. Now I'm writing out the index file with the full structure — it's a markdown document organizing six chapters on linguistics, phonetics, and pronunciation for English and French, with cross-references and study tips included.
+
+Generating comparison table... I'm continuing through the phonetic differences, noting how French handles final consonants and liaison rules quite differently from English, plus the absence of English's TH sounds and H pronunciation in French, and how suffix pronunciations diverge between the two languages. I'm establishing the foundational concept that the IPA uses a one-to-one mapping between symbols and sounds, created by the International Phonetic Association in 1886, and is now standard across dictionaries and linguistics. Then I'm illustrating why this system was necessary by showing how English spelling creates ambiguity—the same letter combinations produce wildly different pronunciations across different words.
+
+Generating markdown table... it tells you which syllable to emphasise, and the stress mark always goes before the stressed syllable—so /ˈhæp.i/ is correct, not /hæpˈi/. The same word can have different stress patterns depending on its part of speech, like *record* as a noun versus a verb. Now I'm moving into the vowel quadrilateral, which maps vowel sounds based on tongue position—front to back horizontally and high to low vertically.
+
+When two vowel symbols appear at the same position on the chart, the left one is unrounded with lips flat or spread, while the right one is rounded with pursed lips. I'm looking at a table showing the key vowels across different heights and positions, from close vowels like /i/ and /u/ down to open vowels like /a/ and /ɑ/, with the central vowels like /ə/ in between.
+
+For English, the essential vowels to focus on are the short vowels /ɪ e æ ʌ ɒ ʊ/, the long vowels /iː ɑː ɔː uː ɜː/, the schwa /ə/, and the diphthongs /eɪ aɪ ɔɪ əʊ aʊ ɪə eə ʊə/. French has a broader set including /a ɑ e ɛ i o ɔ u y ø œ ə/ plus the nasalized vowels /ɑ̃ ɛ̃ ɔ̃ œ̃/. The key difference is that French has front rounded vowels like /y ø œ/ that don't exist in English—these combine lip rounding with a front tongue position, which is unfamiliar to English speakers.
+
+Now I'm looking at the places of articulation in the vocal tract, examining where each sound is produced and which body parts are involved.
+
+Generating articulation table... Now I'm moving into manner of articulation—how the airflow gets shaped to create different sounds. I'm starting with plosives, which completely block the airflow in the mouth.
+
+Generating markdown table... Now I'm explaining how voicing works in consonants—vocal folds either vibrate or stay open—and I can test this by feeling vibration at the throat while producing sounds like /s/ versus /z/. English consonants come in voiced/voiceless pairs that are identical except for this voicing distinction, and I'm starting to lay out those pairs in a table with examples like pin versus bin.
+
+Generating markdown table... I'm laying out the key linguistic definitions—phonemes as the minimal units that distinguish meaning, allophones as non-contrastive variants, and the difference between phonemic transcription in slashes versus phonetic transcription in brackets that captures finer articulatory details. I'm also noting minimal pairs as the test for whether sounds are phonemically distinct, and defining voicing and place of articulation as fundamental properties for classifying consonants.
+
+Now I'm moving through the major consonant types by manner of articulation—plosives with their complete blockage and release, fricatives with continuous airflow turbulence, affricates combining both, nasals routing air through the nose, laterals with side airflow, and approximants where articulators approach without friction. I'm also touching on the vowel quadrilateral as the framework for mapping vowel positions.
+
+I'm now looking at aspiration, that small burst of air following voiceless plosives in certain positions like English word-initial stops.
+
+Now moving into English vowels — there are roughly 20 vowel sounds in English, split between monophthongs and diphthongs. I'm starting with the short monophthongs, which are characterized by lax articulation rather than just duration. I'm mapping out each vowel with its IPA symbol, keyword, example words, and the specific mouth and tongue positioning — like how /ɪ/ is high front with a relaxed tongue, or /æ/ requires the jaw wide open with the tongue pushed forward.
+
+Continuing through the remaining short vowels: /ʌ/ is mid-low and central with a relaxed tongue, /ɒ/ is low back and rounded (though this is distinctly British RP — American English uses an unrounded /ɑː/ instead), and /ʊ/ is high back with loosely rounded lips and a lax tongue.
+
+Now moving into the long vowels, which are tense and held longer. /iː/ is high front with spread lips and a very pure sound, /ɑː/ is low back and unrounded with the jaw fully open, /ɔː/ is mid-high back and rounded, and /uː/ is high back and rounded like /ʊ/ but tenser and higher.
+
+/ɜː/ sits in the mid-central position with neutral lips, characteristic of RP English. There's an important distinction here — the short/long vowel pairs like /ɪ/–/iː/ and /ʊ/–/uː/ aren't just duration differences; they actually differ in quality too, with the tongue in different positions entirely.
+
+Now I'm moving into schwa, the most common vowel in English speech. It's strictly an unstressed vowel that emerges through vowel reduction, where unstressed syllables naturally shift toward that neutral "uh" sound. I'm looking at examples like *about*, *banana*, and *the* to show where schwa appears in everyday words.
+
+Generating markdown table... Generating diphthong reference table... I'm noting that the centring diphthongs are shifting in modern speech — particularly /ʊə/ which is merging into /ɔː/ in many British accents, making words like "poor" and "sure" sound more like long vowels. In General American, these centring diphthongs tend to become simple vowels followed by /r/, which is why they're often described as rhotic vowels in American English descriptions. Now I'm moving into spelling patterns and how they map to sounds.
+
+Generating vowel patterns table... Generating markdown table...
+
+Now I'm thinking through why English spelling is so irregular — it really comes down to historical accidents. The Great Vowel Shift happened after spelling conventions were already locked in, so pronunciations changed but the written forms didn't follow. Then you've got the Norman Conquest bringing French spelling patterns, classical languages contributing their own conventions, and the printing press cementing everything before the language finished evolving. When I run into weird spellings, tracing back where a word came from usually explains why it looks the way it does.
+
+Looking at how different languages handle these same sounds — French borrowings use *ch* for the /ʃ/ sound like in *machine*, while Greek and Latin words stick *ph* in for /f/ sounds, and Old English words just have their own chaotic vowel patterns that don't follow any clear rules. Now I'm examining the vowel differences between British and American English, particularly how they diverge on things like the TRAP-BATH split and the LOT vowel — RP uses a rounded back vowel while American English uses an unrounded one. Generating comparison table... I'm laying out the key phonetic terminology—distinguishing between monophthongs and diphthongs, short versus long vowels, and explaining how schwa functions as the most frequent vowel in unstressed syllables. I'm also defining the major accent varieties: RP as the traditional British standard, General American as the rhotic North American norm, and contrasting rhotic versus non-rhotic speech patterns.
+
+Now I'm continuing with the mechanisms that govern pronunciation across accents—linking-r in non-rhotic systems where /r/ resurfaces before vowels, the Great Vowel Shift that explains historical spelling-sound divergences, and the Magic-E rule that lengthens preceding vowels. I'm also distinguishing tense vowels, which require more muscular effort, from lax vowels, which are produced more relaxed.
+
+Moving into consonant phonemes now, building out the full reference table for English's 24 consonant sounds with their IPA symbols, example words, and articulatory features. Generating the consonant chart... Generating the consonant chart... Generating comparison table...
+
+Most function words like *the*, *this*, *that*, and *they* use the voiced /ð/, while content words typically use the voiceless /θ/ — though there are exceptions like *breathe* and *loathe* that are voiced. Now I'm moving on to /ŋ/, the velar nasal that never starts English words and is produced with the tongue against the soft palate, appearing in word-final positions and before /k/ in words ending with -nk. I see the distinction now — "singer" drops the /g/ because it's derived from "sing" plus the "-er" suffix, whereas "finger" retains it since the /ng/ is part of the root word itself. Now I'm moving into how English /r/ works, which varies significantly between General American and British English depending on whether it's pronounced in all positions or only before vowels.
+
+In non-rhotic accents like RP, /r/ can reappear before vowels through linking-r, and sometimes speakers even insert an /r/ between two vowels where none exists in the spelling — a phenomenon called intrusive-r. I'm also starting to look at /h/, which has some interesting silent cases in words like "hour," "honest," and "heir." I'm noting how /j/ appears in words with the /juː/ cluster, like *new*, *few*, *cute*, and *beauty*, though in General American English this /j/ sound often gets dropped entirely—so *new* becomes just /nuː/ rather than /njuː/. Then there's /w/, which stays silent in those old *wr-* words like *write* and *wrong*. Now I'm moving into consonant clusters more broadly.
+
+Generating markdown table... Now I'm looking at how consonant sounds can be spelled in multiple irregular ways across English — like how the /f/ sound appears as f, ff, ph, gh in different words, or how /k/ can be written as c, k, ck, ch, qu, or cc depending on context. I'm also noting that in connected speech, consonant clusters often get simplified through elision, where sounds drop out entirely like the /t/ disappearing in "next door" or "facts."
+
+Generating consonant spelling table... You can test aspiration by holding a piece of paper in front of your mouth while saying *pin* versus *spin* — the paper will flutter noticeably with the first word but stay relatively still with the second. I should also note that while aspiration doesn't distinguish meaning in English, it's phonemic in languages like Thai, Hindi, and Mandarin, where swapping aspirated and unaspirated stops creates entirely different words. Learners from French or Spanish backgrounds often struggle with this since their native languages don't use aspiration on stops at all, though their English is still intelligible.
+
+Generating markdown table... I'm looking at a table of linguistic terms and definitions related to English phonetics — linking-r, intrusive-r, consonant clusters, elision, yod-dropping, allophones, and minimal pairs. Now I'm moving into a new section on English pronunciation rules that covers suprasegmental features like stress, weak forms, connected speech, silent letters, and intonation. English uses stress-timing, where stressed syllables occur at regular intervals and unstressed syllables compress to fit the rhythm. Generating stress pattern tables... Generating markdown table... Generating markdown table... I'm continuing through a table of common English function words and their pronunciation patterns in formal versus casual speech, showing how they reduce in unstressed positions with specific examples. Now I'm moving into connected speech processes and how sounds change at word boundaries. Assimilation is when a sound shifts to match a neighboring sound, and I'm showing regressive assimilation where a sound is influenced by what comes after it — like how /n/ becomes /ŋ/ before a velar consonant in "in case," or /n/ becomes /m/ before a bilabial in "in bed."
+
+Generating markdown table... I'm looking at how consonants at the end of words link smoothly to vowels at the beginning of the next word, like how the /k/ in "pick" connects directly to the vowel sound in "it." I'm looking at how yod coalescence works when /t/, /d/, /s/, and /z/ sounds encounter the /j/ sound across word boundaries, merging into affricates or fricatives like in "did you" becoming /ˈdɪdʒu/ or "this year" shifting to /ðɪˈʃɪə/.
+
+Now I'm moving into silent letters in English, which stem from historical spelling conventions and borrowed words, and I'm examining the patterns for when letters like **b** and **c** go unpronouncedGenerating reference table... Continuing through the silent letter patterns — **gh** appears after vowels in words like *daughter*, *through*, and *eight*, while **h** is silent at the start of certain words like *hour*, *honest*, and *heir*. Then there's **k** before **n** in words like *knee*, *know*, and *knife*, and **l** before consonants like **f**, **m**, **k**, **d**, and **v** in words such as *calf*, *calm*, and *walk*.
+
+Generating pronunciation guide... I'm seeing more examples of silent letters in English words — like how the 'w' disappears in "answer" and "sword" even though it's written there. There's also this interesting historical note about silent 'gh' being a leftover from Middle English pronunciation that just vanished over time. Now I'm moving into intonation patterns and how pitch changes convey meaning in English speech. Generating intonation reference table... I'm working through the key linguistic definitions now—distinguishing between stress-timed and syllable-timed languages, primary versus secondary stress, and the various phonetic processes like assimilation, elision, and linking that occur in connected speech. I'm moving on to French vowels now, which are fewer than English but include some sounds English doesn't have at all—specifically front rounded vowels and nasal vowels that I need to cover. , *stylo* | Close front, unrounded; **pure** — no glide. Like English /i/ in *fleece* |
+| /y/ | u, û | *tu*, *vu*, *sur*, *jus*, *salut* | Close front, **rounded**; no English equivalent — imagine /i/ with rounded lips |
+| /ø/ | eu, œu (some words) | *peu*, *deux*, *peur*, *bleu*, *œuf* | Close-mid front, **rounded**; no English equivalent — like /e/ with rounded lips |
+| /œ/ | eu, œ (open syllable), œu | *peur*, *fleur*, *œuf*, *sœur*, *jeune* | Open-mid front, **rounded**; no English equivalent — like /ɛ/ with rounded lips |
+| /ɔ/ | o, au, eau | *mort*, *port*, *beau*, *eau*, *aussi* | Open-mid back, rounded; like English /ɔ/ in *thought* but more rounded |
+| /o/ | ô, au, eau (closed syllable) | *beau*, *eau*, *château*, *tôt*, *dos*, *mot* | Close-mid back, rounded; **pure** — no glide. Like English /oʊ/ without the /ʊ/ glide |
+| /u/ | ou, où, oû | *vous*, *tout*, *pour*, *où*, *coup* | Close back, rounded; like English /u/ in *goose* but more rounded |
+| /ə/ | e (schwa) | *le*, *de*, *ce*, *que* | Mid central, unrounded; the "neutral" vowel; like English schwa in *about* |
+
+Now I'm working through the oral vowels, mapping out how each one is articulated and spelled. The front rounded vowels like /y/, /ø/, and /œ/ are particularly important since English doesn't have these — they require that distinctive lip rounding combined with forward tongue position. I'm noting the key distinctions: which vowels are "pure" without glides, which ones are more open or closed, and how they compare to English equivalents where possible. I'm finishing up the vowel chart with the remaining rounded front vowels and the schwa, then noting that the /a/ versus /ɑ/ distinction is largely disappearing in contemporary French. Now I'm moving into nasal vowels, which are a distinct category in French phonology. Generating the nasal vowel reference table... The key insight is that doubled consonants after a vowel signal an oral vowel, not a nasal one—so *année* shifts from /ɑ̃/ to /a/ because the double n breaks the nasalization rule. Now I'm moving into front rounded vowels, which are particularly tricky for English speakers since we don't have them naturally. The technique is to position your tongue forward like you're saying /iː/, then round your lips as if saying /uː/, which produces the /y/ sound in words like *tu* and *vu*. Now I'm covering the /œ/ vowel sound that appears in closed syllables, contrasting it with the /ø/ sound I just explained—the key difference being whether the syllable is open or closed, which determines which rounded front vowel to use.
+
+Generating accent marks table... Generating markdown table... are **é** (always /e/) and **è/ê** (always /ɛ/). The difference between *le bebe* and *le bébé* would completely change the meaning! The circumflex on i, u tells you nothing about sound — it's just a historical spelling marker.
+
+---
+
+## E Muet — The Silent E
+
+The letter **e without an accent mark** represents either /ə/ (schwa) or is entirely silent. This is called the *e muet* (silent e) or *e caduc* (unstable e).
+
+### Rules for e muet
+
+| Position | Rule | Examples |
+|---|---|---|
+| **End of a word** | Almost always silent in natural speech | *une* /yn/, *table* /tabl/, *belle* /bɛl/, *homme* /ɔm/ |
+| **End of a syllable within a word** | Often dropped in fast speech | *samedi* /samdi/ (fast) vs /samːdi/ — the middle e can drop |
+| **After multiple consonants** | May need to be kept for pronunciation | *je te le* → /ʒtəl/ is too many consonants — some e's retained |
+| **Formal/slow speech** | E muet retained more often | Poetry, song, formal speech often preserve e muet for rhythm |
+
+### The "Three-consonant rule" (loi des trois consonnes)
+
+An e muet is kept (as /ə/) if dropping it would create an unpronounceable consonant cluster of three or more consonants — for instance, *vendredi* keeps its middle e to avoid an impossible consonant sequence.
+
+Now I'm looking at how e muet functions in poetry and song, where it counts as a syllable in classical verse even though it's often silent in everyday speech. Then I'm moving into the formal definitions of vowel types — distinguishing between oral vowels where air flows only through the mouth, nasal vowels where air flows through both nose and mouth, and front rounded vowels like French /y/.
+
+Defining the specific French rounded vowels... I'm moving on to French consonants and their pronunciation rules, building on the vowel and diacritical mark patterns I just covered. Generating consonant reference table... I'm continuing through the French consonant sounds, noting that /ʃ/ is the "sh" sound rather than the English "ch" sound, then moving into /ʒ/ which appears in words like *je* and *geste*, followed by the nasals /m/, /n/, and /ɲ/ (the palatal nasal in words like *montagne*), and finally /ŋ/ which only appears in borrowed English words like *parking*.
+
+Now I'm covering the remaining consonants: /l/ is always clear like in English, /ʁ/ is the distinctive uvular French r sound produced at the back of the throat, /w/ functions like English, /ɥ/ is a labiopalatal approximant with no English equivalent, and /j/ appears before vowels in words like *nuit* and *suis*.
+
+I'm highlighting that three consonants stand out as having no English equivalent and need focused practice: the uvular /ʁ/, the palatal nasal /ɲ/, and the labiopalatal /ɥ/.
+
+Now I'm diving into how to actually produce the French r — it's a uvular fricative or approximant made at the back of the throat, and I'm explaining the technique: relax your mouth and tongue, then gargle at the back of your throat while voicing the sound.
+
+Generating comparison table...
+
+Now I'm noting that learners often slip into a tongue-tip /r/ instead of the proper uvular sound, and while some French dialects use a uvular trill, the standard Parisian /ʁ/ is what they should aim for. I'm also moving on to explain that *gn* in French represents a single palatal nasal sound /ɲ/, similar to the *ny* in English words.
+
+Generating markdown table... Generating pronunciation table... Generating markdown table... Now I'm looking at how silent consonants reappear during liaison when the next word starts with a vowel or mute h, and I'm seeing the beginning of a table that categorizes different types of liaison rules with examples. I'm looking at how certain consonants transform when they surface during liaison — s and x become /z/, d becomes /t/, and f in "neuf" becomes /v/ when connecting to vowel-initial words. Now I'm moving on to elision, which is when certain short words drop their final vowel before a vowel or mute h sound, and that vowel gets replaced by an apostrophe in writing. The main cases are *le* and *la* becoming *l'*, *je* becoming *j'*, and *me* becoming *m'* in contexts like *il m'appelle*. Now I'm looking at how French distinguishes between mute h and aspirate h — both are silent phonetically, but they behave differently grammatically, with mute h triggering elision and liaison while aspirate h blocks them. Generating comparison table... Generating markdown table... I'm noting that double consonants in French affect how the preceding vowel sounds—they keep it oral and short rather than nasalized—even though the consonant itself is still just one sound. Now I'm looking at how -tion endings differ dramatically between French and English, with French pronouncing it as /sjɔ̃/ while English uses /ʃən/. I'm working through the key phonetic distinctions in French, particularly how certain consonants behave at word endings and in connected speech — like the uvular /ʁ/ sound, the palatal nasal /ɲ/, and the labiopalatal approximant /ɥ/ that don't have direct English equivalents. I'm also noting the CaReFuL rule for predicting which final consonants are actually pronounced, and how liaison works when those normally silent consonants come before vowel-initial words.
+
+Now I'm detailing the rules around when liaison must occur versus when it's forbidden, plus the distinction between elision (dropping a vowel before another vowel) and the two types of h in French — the silent h muet that triggers elision and liaison, versus the h aspiré that blocks both.
+
+I'm also noting that French stops like /p t k/ are never aspirated the way English ones are, and that French /t/ and /d/ are dental rather than alveolar. Double consonants in written French typically sound like single consonants, and the -tion ending has a distinctly French pronunciation. The cedilla forces an /s/ sound before back vowels, gu before e or i keeps the g hard, and I'm moving into how nasal vowels denasalize in certain contexts. I'm verifying the IPA transcriptions across the files—checking that *neuf* is correctly marked as /nœf/ for the cardinal number and noting the liaison variant, confirming *mer* as /mɛʁ/, and catching a typo where *culture* got corrupted in the text. I need to double-check the IPA transcription for *culture* — it should be /kyltʁ/ with a silent e, though some pronunciations include a schwa sound making it /kyltyʁ/. Let me verify this is correct and clean up the formatting issues in my files before finalizing them. I'm noticing some inconsistencies in how I've represented the pronunciation variants for *strength* and *length* — both can be pronounced with or without the /k/ sound depending on the speaker's accent, so I should clarify that *strength* is /strɛŋθ/ or /strɛŋkθ/, and *length* is /lɛŋθ/ or /lɛŋkθ/.
+
+For the /ʃ/ versus /ʒ/ minimal pair in the second file, I'm realizing that "shelf" and "vision" aren't actually a minimal pair since they differ in multiple phonemes, not just one. Finding clean minimal pairs for these two sounds in English is tricky, and I'm struggling to come up with good examples — *Alicia* versus *Alisha* might work, though the initial /ʒ/ sound doesn't appear in many native English words anyway.
+
+Looking back at what the user actually requested, they just asked for example pairs of each sound, not necessarily perfect minimal pairs. So I can keep the shelf/vision examples as illustrations of the two sounds without needing them to be minimal pairs.
+
+Now I'm ready to start creating the files. I'll verify the IPA transcriptions for key English words as I go—checking pronunciations like *thought*, *cough*, *bough*, and *comfortable* to make sure they're accurate before including them.
+
+Verifying French pronunciations...
+
+Now checking words with the aspirate h — *huit* is interesting because it starts with h aspiré, which prevents elision and liaison, and the pronunciation /ɥit/ has that distinctive /ɥ/ glide before the vowel. Moving on to *chrome* and *chaos*.
+
+I'm verifying a few more words like *cœur* and *nœud* to make sure the vowel sounds are right, and I'm satisfied with the accuracy now. Before I create all the files, I want to clarify something in the English pronunciation rules — the *ck* cluster is a bit confusing as written since the *c* itself isn't really silent, it's just that *ck* together represents the single /k/ sound. I'm verifying the IPA transcriptions for the vowel examples to make sure they're accurate, and checking that I'm using the correct callout formats—the user specified `💡 **Tip:**` and `[!note]` specifically. Now I'm comparing how these vowel sounds shift between Received Pronunciation and General American—like how "dance" uses a short vowel in American English but a longer one in British, or how "car" gets that rhotic R sound in American but stays non-rhotic in RP. I'm also working through the stress patterns, starting with examples like "secretary."
+
+Moving into French liaison rules, I'm mapping out how consonants link between words when the first word ends in a consonant and the second begins with a vowel—so "les amis" becomes a smooth flow with that Z sound connecting them, and the same pattern applies across different consonant types like the T in "grand ami" or the V sound in "neuf ans." Now I'm verifying the details in my liaison and aspirate H tables—checking that *deux* pairs correctly with /dø‿z/ for *deux enfants*, and confirming the distinction between aspirate H words like *haricot* (which block elision) versus mute H words like *habiter* (which allow it). Let me also double-check the phonetic transcription for *honneur*.
+
+I've got the content solid now, so I'm ready to start creating the files. I'll set up the directories first, then write out all seven files, making sure to catch a couple of fixes along the way—like correcting *neuf ans* to /nœ‿vɑ̃/ and finishing up the *culture* entry in the final file.
+
+Since the directory creation function handles parent directories automatically, I can just call it for the Topics folder and it'll set everything up. Then I'll batch the file creation calls—starting with the first four files, then the remaining three. I'm refining the formatting choices—using a vowel table instead of ASCII art for the IPA reference, moving key definitions to the end of each file, and placing navigation links at the top of the topics files. I'll stick with the emoji blockquote format for tips and notes since it renders well in Markdown. Now I'm ready to write out all the file content with these adjustments in place, starting with the IPA transcription details. I'm double-checking a few technical details before generating the files: making sure liaison and elision rules are included in the French pronunciation section, avoiding HTML entities throughout, and confirming that English phonemic transcription uses /r/ rather than the phonetic symbol. Now I'm ready to write out all seven files with their complete content. I'm verifying the IPA symbols I'm using—/ɝː/ for the American NURSE vowel is correct as the rhotacized central vowel, and /ɚ/ for the unstressed r-colored schwa. Now I'm ready to start creating the files in parallel batches.
+</thinking>
+
+I'll create the directories first, then write all 7 files in two parallel batches.
+
+**Tool Call: Create directory `Pyrite/Temp/Linguistics`**
+Status: Completed
+
+Created directory Pyrite/Temp/Linguistics
+
+**Tool Call: Create directory `Pyrite/Temp/Linguistics/Topics`**
+Status: Completed
+
+Created directory Pyrite/Temp/Linguistics/Topics
