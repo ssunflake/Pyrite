@@ -19,3 +19,15 @@ title: Index of the topics
 
 # Mathematics Notes Index
 - [[00. Maths Index.md|Mathematics Index]]
+
+# Linguistics Notes Index
+- [[00. Linguistics Index.md|Linguistics Index]]
+
+# English Notes Index
+- [[00. English Index.md|English Index]]
+
+# French Notes Index
+- [[00. French Index.md|French Index]]
+
+# Hindi Notes Index
+- [[00. Hindi Index.md|Hindi Index]]
